@@ -83,6 +83,11 @@ a:focus, a:hover, a:active {
   color: #ffffff;
 }
 
+#buttons {
+	margin-top: 15px;
+}
+
+
 #buttons img {
 	margin: 0;
 	padding: 0;
