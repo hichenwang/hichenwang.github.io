@@ -17,26 +17,6 @@
   padding-right: 3px;
 }
 
-#button {
-	margin: 0;
-}
-
-#button li {
-	margin: 0;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-}
-
-#button img {
-	margin: 0;
-	padding: 0;
-	width: 25px;
-	height: 25px;
-	display: block;
-}
-
 h1 {
   margin: 15px 0 20px 0;
   font-size: 40px;
@@ -101,4 +81,24 @@ a:focus, a:hover, a:active {
   text-decoration: none;
   background: #ffa474;
   color: #ffffff;
+}
+
+#button {
+	margin: 0;
+}
+
+#button li {
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+
+#button img {
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	display: block;
 }
