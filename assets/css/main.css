@@ -90,7 +90,7 @@ a:focus, a:hover, a:active {
 
 #buttons img {
 	margin: 0;
-	padding: 0;
+	padding-right: 5px;
 	width: 25px;
 	height: 25px;
 	display: inline-block;
