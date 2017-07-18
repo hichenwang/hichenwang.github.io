@@ -17,13 +17,24 @@
   padding-right: 3px;
 }
 
-#nav img {
+#button {
+	margin: 0;
+}
+
+#button li {
+	margin: 0;
+	padding: 0;
 	width: 25px;
 	height: 25px;
-	display: inline;
-	position: relative;
-	right: 362px;
-	top: 223px;
+	display: inline-block;
+}
+
+#button img {
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	display: block;
 }
 
 h1 {

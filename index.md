@@ -11,6 +11,7 @@ I am currently a data journalism student at the [Lede Program](http://ledeprogra
 
 I know some coding, some journalism, and some [business](http://www.rotman.utoronto.ca/Degrees/MastersPrograms/MBAPrograms/FullTimeMBA).
 
+{% include contact.html %}
 
 * ![Project 1]({{ site.url }}assets/project_1.png)[My master piece]({{ site.url }}a-very-cool-project)
 * ![Project 2]({{ site.url }}assets/placeholder.png)[Some other stuff]({{ site.url }}a-very-cool-project)
