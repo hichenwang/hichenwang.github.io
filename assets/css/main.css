@@ -90,3 +90,11 @@ a:focus, a:hover, a:active {
 	height: 25px;
 	display: inline-block;
 }
+
+#buttons a:link, #buttons a:visited {
+  padding: 0;
+}
+
+#buttons a:focus, #buttons a:hover, #buttons a:active {
+  background: #ffffff;
+}
