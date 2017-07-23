@@ -5,9 +5,7 @@ layout: photography
 
 ---
 
-# Mzy phot
-
-contebt bla
+# These are the photos taken by me.
 
 ![](cats-master-header.png)
 

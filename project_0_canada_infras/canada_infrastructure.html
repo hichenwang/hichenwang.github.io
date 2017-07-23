@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Infrastructure Investment in the Secondary Cities in Canada</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<!-- 
+THESE ARE CALLS TO DIFFERENT EXTERNAL FILES
+LISA HAS A CSS STYLESHEET THAT YOU NEED
+THE NEXT IS THE JAVASCRIPT LIBRARY FOR LEAFLET
+AND THE FINAL ONE IS THE LIBRARY FOR JQUERY, WHICH I USE FOR THE PULLDOWN MENU.
+ -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- 
+THESE ARE CSS STYLES WHAT YOU SHOULD FREELY PLAY WITH
+THE STYLES THAT BEGIN WITH # RELATE TO IDS, THE ONES THAT BEGIN WITH . RELATE TO CLASSES
+WHEN YOU GOT EVERYTHING WORKING YOU CAN PLAY WITH THESE AND ADD TO THESE 
+TO MAKE YOUR FONTS AND LAYOUTS NICE AND LOVELY
+ -->
+
+	<style>
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+	#map {position: absolute; top: 0px; left: 0px; width: 1300px; height: 715px; z-index:1;  }
+	#articlePlace {position: absolute; left: 700px; top: 0px; margin:50px; width: 480px; height: 610px; overflow: scroll;
+    overflow-x: hidden; z-index:5; background: white; opacity: 0.8} 
+    /* #select-menu{position: absolute; left: 80px; top: 30px;  z-index:10;}  */
+/* .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; } */
+.legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+h1 {font-size: 23px; padding: 0px; text-align: center; font-family: Georgia}
+h2 {font-size: 15px; padding: 0px; color: gray; text-align: center; font-family: Georgia; font-style: italic}
+h3 {font-size: 13px; padding: 0px; margin-left: 50px; margin-right: 50px; font-family: Georgia; text-align: center;}
+h4 {font-size: 10px; padding: 0px; margin-left: 50px; margin-right: 50px; font-family: helvetica;}
+h5 {font-size: 10px; padding: 0px; margin-left: 30px; margin-right: 30px; font-family: helvetica; color:grey; font-style: italic}
+p {font-size: 13px; padding: 0px; margin-left: 30px; margin-right: 30px; font-family: helvetica;}
+br {font-size: 12px; padding: 0px; margin-left: 50px; font-family: helvetica;}
+img {
+    display: block;
+    margin: auto;
+    width: 75%;  
+}
+</style>
+</head>
+
+<!-- THE BODY OF THE HTML BEGINS HERE -->
+
+<body>
+
+<!-- 
+HERE IS MY VERY UNBEAUTIFUL BUT FUNCTIONALLY AWESOME DROP-DOWN MENU
+THE ID select–menu IS USED BY THE JQUERY FUNCTION WAY DOWN AT THE BOTTOM
+ -->
+
+<!-- 
+<div id="dropdown">
+<select id="select-menu">
+            
+             <option value="0">All Groups</option>
+             <option value="1">Group 1</option>
+             <option value="2">Group 2</option>
+
+
+ </select>
+</div>
+ -->
+<!-- 
+THE TWO DIVS BELOW ARE SUPER IMPORTANT: THEY ARE WHERE THE MAP WILL GO, AND YOUR ARTICLE TEXT WILL GO
+YOU WILL CERTAINLY WANT TO STYLE THESE, BOTH THEIR PLACEMENT AND CONTENT 
+WHEN YOU'RE DONE WITH ALL THE FANCY FUNCTIONALITY
+ -->
+
+<div id='map'></div>
+<div id='articlePlace'> 
+<h1>Infrastructure Investment in the Secondary Cities of Canada</h1>
+<p>
+Canada has been suffered from underpopulation and losing competitiveness in the game of attracting highly-educated immigrants. 
+One of the key pillars to ensure an influential and prosperous future for Canada is building better cities, especially the secondary cities, by investing in infrastructure. 
+</p>
+<h4>
+16 selected secondary cities:
+</h4>
+<h4>1. St. John's (N.L.):  0.27</h4>
+<h4>2. Guelph (Ont.):  0.26</h4>
+<h4>3. Québec (Que.):  0.24</h4>
+<h4>4. Barrie (Ont.):  0.23</h4>
+<h4>5. Ottawa-Gatineau (Ont.-Que.):  0.21</h4>
+<h4>6. Calgary (Alta.):  0.16</h4>
+<h4>7. Winnipeg (Man.):  0.15</h4>
+<h4>8. Trois-Rivières (Que.):  0.15</h4>
+<h4>9. Edmonton (Alta.):  0.15</h4>
+<h4>10. Halifax (N.S.):  0.08</h4>
+<h4>11. Regina (Sask.):  0.08</h4>
+<h4>12. Kelowna (B.C.):  0.07</h4>
+<h4>13. Moncton (N.B.):  0.06</h4>
+<h4>14. Saskatoon (Sask.):  0.06</h4>
+<h4>15. Saint John (N.B.):  0.04</h4>
+    
+<h5>Selected the top 1-2 cities from each province from the sample of #11-33 cities by population density (unit: 1000 people/square kilometers). Source: Statistics Canada</h5>
+
+
+</div> 
+
+<!-- 
+THIS IS WHERE THE BROWSER LOADS IN YOUR GEO JASON INFORMATION
+MAKING IN A JAVASCRIPT FILE, RATHER THAN A GEO JASON FILE
+ALLOWS YOU TO LOAD IT LOCALLY WITHOUT DEALING WITH SETTING UP SERVERS ON YOUR MACHINE.
+ -->
+
+<script type="text/javascript" src="canada_infrastructure_1.js"></script>
+<script type="text/javascript" src="canada.js"></script>
+
+<!-- 
+HERE BEGINS ALL THE SCRIPT THAT SETS UP THE MAP 
+ALL THE COMMENTS FROM HERE WE'LL BE IN JAVASCRIPT COMMENTS //
+ -->
+
+<script type="text/javascript">
+
+// THIS INITIALIZES THE FIRST VARIABLE CALLED MAP
+// THERE IS NO SET VIEW HERE, BECAUSE WE ARE USING FITBOUNDS()
+// TO AUTOMATICALLY CENTER AND ZOOM ON OUR POINTS
+
+	var map = L.map('map', {
+    center: [55, -48],
+    zoom: 3
+});
+
+// THIS SETS THE BASE LAYER OF THE MAP -- USING BACKGROUND TILES
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		minZoom: 3,
+		maxZoom: 5,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.light'
+	}).addTo(map);
+
+   var map_canada = L.geoJSON(canada)
+    
+    
+    map_canada.addTo(map)
+
+// THESE LINES ADD THE LITTLE INFO WINDOW IN THE UPPER RIGHT CORNER 
+// (YOU CAN CHANGE WHERE GOES BY EDITING THE STYLES FOR #INFO)
+// NOTE THAT "L.CONTIROL()" -- MEANS THAT THIS IS A LEAFLET METHOD
+// FOR CREATING A CONTROL WINDOW.
+
+	var info = L.control();
+
+	info.onAdd = function (map) {
+		this._div = L.DomUtil.create('div', 'info');
+		this.update();
+		return this._div;
+	};
+
+	info.update = function (props) {
+		this._div.innerHTML = '' +  (props ?
+			'<br />' + props.lede
+			: '');
+	};
+
+
+// 	*** var house = L.marker([50.5, 30.5]).bindTooltip('Testing Myself').bindPopup('testing the popup')
+	
+	 // add my house to the map
+// 	house.addTo(map);
+	
+	info.addTo(map);
+	
+
+
+// HERE ARE YOUR STYLES FOR THE SHAPES--THERE'RE A LOT OF DIFFERENT CONTROLS
+// EVERYTHING THAT IS SET AS A VALUE MEANS THAT THAT'S STYLE IS FOR EVERY SINGLE POINT
+// THESE LINES:
+// 			radius: feature.properties.radius,
+// 			fillColor: feature.properties.color
+// SETS THE COLOR AND RADIUS BASED ON WHAT YOU PUT IN YOUR GEOJSON DOC "color:" and "radius:"
+// YOU COULD THEORETICALLY DO THAT FOR EVERY SINGLE ONE OF THE STYLES
+
+	function style(feature) {
+		return {
+			weight: 2,
+			opacity: 1,
+			color: 'white',
+			fillOpacity: 0.7,
+			radius: feature.properties.radius,
+			fillColor: feature.properties.color
+		};
+	}
+// THIS FUNCTION CONTROLS WHAT HAPPENS WHEN YOU HOVER OVER A SHAPE
+// IT CHANGES SOME OF THE STYLES (HIGHLIGHTING THAT SHAPE)
+// AND IT ALSO UPDATES THE TEXT INSIDE THE INFOBOX
+
+	function highlightFeature(e) {
+		var layer = e.target;
+
+		layer.setStyle({
+			weight: 5,
+			color: '#666',
+			fillOpacity: 1
+		});
+
+		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+			layer.bringToFront();
+		}
+
+// 		info.update(layer.feature.properties);
+	}
+
+
+// THIS FUNCTION CHANGES THE ARTICLE TEXT ON THE RIGHT SIDE OF THE PAGE
+// IT IS CALLED WHENEVER YOU CLICK ON A SHAPE
+
+	function updateArticle(e) {
+		var layer = e.target;
+		var props = layer.feature.properties;
+		var articleDIV = document.getElementById("articlePlace");
+		articleDIV.innerHTML = props.article
+	}
+
+// THIS PART IS A LITTLE COMPLICATED
+// IT IS CREATING A LAYER FOR YOUR MAP CALLED points
+// IT IS SETTING ALL OF THE ACTIONS THAT ARE GOING TO HAPPEN WHEN YOU HOVER AND CLICK ON YOUR POINTS
+// NOTE THE fitBounds() AT THE END -- THAT CENTERS AND ZOOMS THE MAP BASED ON YOUR POINTS
+
+	var points;
+
+	function resetHighlight(e) {
+		points.resetStyle(e.target);
+		info.update();
+	}
+
+	// function zoomToFeature(e) {
+// 		map.fitBounds(e.target.getBounds());
+// 	}
+
+	function onEachFeature(feature, layer) {
+		layer.bindTooltip(function() {
+			return feature.properties.lede
+		})
+		layer.on({
+			mouseover: highlightFeature,
+			mouseout: resetHighlight,
+			click: updateArticle,
+		});
+	}
+
+	points = L.geoJson(pointsData, {
+		style: style,
+    pointToLayer: function(feature, latlng) {
+
+        return new L.CircleMarker(latlng);
+
+    },
+    onEachFeature: onEachFeature
+	}).addTo(map);
+// map.fitBounds(points.getBounds(), {padding: [120,120]});
+
+</script>
+<script>
+// BELOW IS A JQUERY FUNCTION THAT THE TEXT CHANGES IN THE DROP-DOWN MENU
+// AND EXECUTES CHANGES ON THE MAP BASED ON THE GROUP ID OF YOUR SHAPES
+
+	$(document).ready(function () {
+	    $('#select-menu').change(function () {
+		var selectedGroup = $('#select-menu').val();
+		
+		points.eachLayer(function (layer) {
+			if (selectedGroup == 0)
+		    {
+		    	map.addLayer(layer);
+		    } else if (layer.feature.properties.group_id != selectedGroup) {
+			// If the layer's id is different from the selected one, remove it from the map
+			map.removeLayer(layer);
+		    }
+		    else {
+			// Otherwise add it do the map
+			map.addLayer(layer);
+		    }
+		});
+
+	});
+	});
+</script>
+
+
+</body>
+</html>
