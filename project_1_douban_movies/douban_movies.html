@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<title>Project's Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="style.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+<link href="http://www.macrelpauly.de/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+</head>
+
+<body>
+
+<div id="container">
+
+<h1>This is how it looks like when diesel engines stop filtering NO2 emissions … kind of</h1>
+
+<p class="teaser">Car manufacturers programmed their diesel engines to deactivate nitrogen dioxide (NO2) emission controls when the outside temperature drops. Do these &quot;thermal window defeat devices&quot; cause a measurable effect?</p>
+
+<p class="by">by <a href="http://www.marcelpauly.de/" target="_blank">Marcel Pauly</a> &nbsp;|&nbsp; July 21, 2017</p>
+
+<div class="xxl"><img src="scatter_borna.png" /></div>
+
+<p>In the course of the Dieselgate scandal it emerged that multiple car manufacturers programmed their diesel engines to deactivate nitrogen dioxide (NO2) emission controls when the outside temperature drops under a specific numerical value. They claim the reason for that is protecting the engines from damages. On some models the emission controls only work between 20 and 30 degrees Celsius (68-86 degrees Fahreheit). But the mean annual temperature in Germany is around nine degrees (49 degrees Fahrenheit).</p>
+
+<p>So it's only logical if the NO2 content in the air increases when it gets colder. You can witness this effect in Borna for example: The graph above shows measurements during the afternoon rush hour on workdays. Each dot represents one day in 2016. Its position depends on the temperature (horizontal) and the NO2 content in the air (vertical).</p>
+
+<p>So there seems to be a correlation: With higher temperatures there is less NO2 in the air and vice versa.</p>
+
+<h2>Only infrequent connection during afternoon rush hour</h2>
+
+<p> But when we look to the measurements from other cities we see far weaker correlations. In some cases there seems to be a contrary effect:</p>
+
+<div class="xxl"><img src="scatter_2016_afternoon.png" /></div>
+
+<p>The colder it gets the more NO2 is in the air? It's not that simple! This gets even clearer when we change the time we're looking at.</p>
+
+<h2>Almost no correlation during morning rush hour</h2>
+
+<p>In the morning hours there is no distinct pattern at all. In most cities the measurements seem to be arranged arbitraryly on the scatter plots below:</p>
+
+<div class="xxl"><img src="scatter_2016_morning.png" /></div>
+
+<p>This raises the question if the so called thermal window defeat devices had any measurable effect at all.</p>
+
+<p>The NO2 air pollution data was provided by the German Environment Agency (Umweltbundesamt) and temperature data came from the German Meteorological Office (Deutscher Wetterdienst). Please find all the data and the Python script that analysed it in this project's <a href="https://github.com/marcelpauly/data-studio-projects/tree/master/code/NOx_air_pollution" target="_blank">GitHub repository</a>. And have a look at <a href="https://marcelpauly.github.io/data-studio-projects/" target="_blank">my other projects</a>.</p>
+
+</div>
+
+</body>
+</html>
