@@ -19,9 +19,9 @@
 
 #buttons {
 	position: relative;
-	top: 250px;
-	right: 300px;
-	width: 500px;
+	top: 30px;
+	right: 50px;
+	width: 100%
 	height: 25px;
 	display: inline;
 }
