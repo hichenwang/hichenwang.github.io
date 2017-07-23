@@ -1,10 +1,10 @@
 ---
 
-title: A Very Cool Project
-layout: project
+title: Photography
+layout: photography
 
 ---
 
-# This is my project about something
+# PHOTOGRAPHY
 
-![](cats-master-header.png)
+![]({{ photography.url }}pics/R0020005.jpg)
