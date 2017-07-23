@@ -13,4 +13,4 @@ I know some coding, some journalism, and some [business](http://www.rotman.utoro
 
 
 * ![Project 1]({{ site.url }}assets/project_1.png)[##Infrastructure In the Secondary Cities in Canada]({{ site.url }}project_0_canada_infras/canada_infrastructure.html)
-* ![Project 2]({{ site.url }}assets/placeholder.png)[Interesting Facts from the Comparison of IMDb and Douban Movie Ratings]({{ site.url }}project_1_douban_movies)
+* ![Project 2]({{ site.url }}assets/placeholder.png)[Interesting Facts from the Comparison of IMDb and Douban Movie Ratings]({{ site.url }}project_1_douban_movies/douban_movies.html)
