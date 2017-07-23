@@ -20,7 +20,7 @@
 #buttons {
 	position: relative;
 	top: 250px;
-	right: 1000px;
+	right: 300px;
 	width: 500px;
 	height: 25px;
 	display: inline;
@@ -29,7 +29,7 @@
 #buttons img{
 	width: 25px;
     height: 25px;
-/* 	display: block; */
+	display: block;
 	margin: 2px 0 0 0px;
 }
 
