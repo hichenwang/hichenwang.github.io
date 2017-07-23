@@ -13,7 +13,7 @@ I know some coding, some journalism, and some [business](http://www.rotman.utoro
 
 {% include contact.html %}
 
-* ![Project 1]({{ site.url }}assets/project_1.png)[My master piece]({{ site.url }}a-very-cool-project)
+* ![Project 1]({{ site.url }}assets/project_1.png)[My master piece]({{ site.url }}project_0_canada_infras)
 * ![Project 2]({{ site.url }}assets/placeholder.png)[Some other stuff]({{ site.url }}a-very-cool-project)
 * ![Project 3]({{ site.url }}assets/placeholder.png)[My master piece]({{ site.url }}a-very-cool-project)
 * ![Project 4]({{ site.url }}assets/placeholder.png)[Some other stuff]({{ site.url }}a-very-cool-project)
