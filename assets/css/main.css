@@ -29,8 +29,8 @@
 #buttons img{
 	width: 25px;
     height: 25px;
-	display: block;
-	margin: 5px 0 0 0px;
+/* 	display: block; */
+	margin: 2px 0 0 0px;
 }
 
 h1 {
