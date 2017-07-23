@@ -1,5 +1,5 @@
 .container {
-  width: 900px;
+  width: 750px;
   color: #333;
   margin: 0 auto;
   padding-bottom: 60px;
@@ -32,13 +32,13 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 32px
 }
 
 img {
     width: 100%;
 	display: block;
-	margin: 25px 0 0 0px;
+	margin: 15px 0 0 0px;
 }
 
 p {
