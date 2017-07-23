@@ -18,12 +18,19 @@
 }
 
 #buttons {
+	position: relative;
+	top: 10px;
+	right: 10px;
 	width: 10px;
 	height: 10px;
 	display: inline;
-	position: relative;
-	right: 10px;
-	top: 10px;
+}
+
+#buttons img{
+	width: 25px;
+    height: 25px;
+	display: block;
+	margin: 5px 0 0 0px;
 }
 
 h1 {
