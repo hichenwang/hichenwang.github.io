@@ -17,6 +17,15 @@
   padding-right: 3px;
 }
 
+#nav img {
+	width: 25px;
+	height: 25px;
+	display: inline;
+	position: relative;
+	right: 362px;
+	top: 223px;
+}
+
 h1 {
   margin: 15px 0 20px 0;
   font-size: 40px;
@@ -81,25 +90,4 @@ a:focus, a:hover, a:active {
   text-decoration: none;
   background: #ffa474;
   color: #ffffff;
-}
-
-#buttons {
-	margin-top: 15px;
-}
-
-
-#buttons img {
-	margin: 0;
-	padding-right: 5px;
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-}
-
-#buttons a:link, #buttons a:visited {
-  padding: 0;
-}
-
-#buttons a:focus, #buttons a:hover, #buttons a:active {
-  background: #ffffff;
 }
