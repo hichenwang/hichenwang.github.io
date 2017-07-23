@@ -5,7 +5,7 @@ layout: photography
 
 ---
 
-# *PHOTOGRAPHY*
+# **PHOTOGRAPHY**
 
 ![]({{ photography.url }}pics/R0020005.jpg)
 ![]({{ photography.url }}pics/R0020108.jpg)
