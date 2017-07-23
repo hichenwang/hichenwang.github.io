@@ -42,8 +42,7 @@ p:first-of-type {
 }
 
 img {
-    width: 700px;
-    height: 464px;
+    width: 100%;
 	display: block;
 	margin: 15px 0 0 0px;
 }
