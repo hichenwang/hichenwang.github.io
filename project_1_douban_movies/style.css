@@ -34,6 +34,12 @@ h1 {
   text-align: center;
 }
 
+h1.title {
+  font-size: 4.6em;
+  font-weight: 300;
+  text-align: center;
+}
+
 h2 {
   font-size: 2.4em;
   font-weight: 700;
@@ -50,11 +56,10 @@ p.teaser {
 
 p.by {
   padding-bottom: 30px;
-  margin-bottom: 100px;
   border-bottom: 1px dotted #ddd;
   text-align: center;
   font-size: 1.6em;
-  color: #999;
+  color: #333;
 }
 
 .xxl img {
