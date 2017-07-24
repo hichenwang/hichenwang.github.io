@@ -31,13 +31,7 @@ h1, .xxl, p.teaser, p.by {
 h1 {
   font-size: 4.6em;
   font-weight: 300;
-  text-align: center;
-}
-
-h1.title {
-  font-size: 4.6em;
-  font-weight: 300;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -57,13 +51,15 @@ p.teaser {
 p.by {
   padding-bottom: 30px;
   border-bottom: 1px dotted #ddd;
-  text-align: center;
+  text-align: left;
   font-size: 1.6em;
-  color: #333;
+  color: #326891;
+  font-family:georgia;
 }
 
 .xxl img {
   width: 80%;
+  position:absolute;
 }
 
 a:link, a:visited {
