@@ -32,6 +32,7 @@ h1 {
   font-size: 4.6em;
   font-weight: 300;
   text-align: left;
+  font-family: 'Bree Serif', serif;
 }
 
 h2 {
@@ -54,12 +55,12 @@ p.by {
   text-align: left;
   font-size: 1.6em;
   color: #326891;
-  font-family:georgia;
+  font-family:georgia italic;
+  width:80%;
 }
 
 .xxl img {
   width: 80%;
-  position:absolute;
 }
 
 a:link, a:visited {
