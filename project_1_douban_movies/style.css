@@ -61,7 +61,8 @@ p.by {
 
 .content img {
   width: 80%;
-  text-align:center;
+  display: block;
+  margin: 0px auto;
 }
 
 a:link, a:visited {
