@@ -12,5 +12,5 @@ I am currently a data journalism student at the [Lede Program](http://ledeprogra
 I know some coding, some journalism, and some [business](http://www.rotman.utoronto.ca/Degrees/MastersPrograms/MBAPrograms/FullTimeMBA). 
 
 
-* ![Project 1]({{ site.url }}assets/project_photo/project_0.png)[Infrastructure In the Secondary Cities of Canada]({{ site.url }}project_0_canada_infras/canada_infrastructure.html)
 * ![Project 2]({{ site.url }}assets/project_photo/project_1.png)[Interesting Facts from the Comparison of IMDb and Douban Movie Ratings]({{ site.url }}project_1_douban_movies/douban_movies.html)
+* ![Project 1]({{ site.url }}assets/project_photo/project_0.png)[Infrastructure In the Secondary Cities of Canada]({{ site.url }}project_0_canada_infras/canada_infrastructure.html)
