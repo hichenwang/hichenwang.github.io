@@ -83,7 +83,7 @@ li {
 }
 
 li:nth-child(even) {
-	margin-right: 10px;
+	margin-right: 50px;
 }
 
 li img {
