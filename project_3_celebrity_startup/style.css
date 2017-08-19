@@ -82,19 +82,6 @@ p.asterisk {
   margin: 70px 100px 70px 0;
 }
 
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    width: 30%;
-}
-
-/* 
-.content img: first-child { 
-    border-bottom: 1.2px dotted #ddd;
-}
- */
-
 a:link, a:visited {
   color: #2789D4;
   text-decoration: none;
@@ -114,7 +101,6 @@ strong {
     width: 750px;
     margin: 100px auto;
 }
-
 
 th {
     padding: 5px;

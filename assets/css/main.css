@@ -33,6 +33,11 @@
 	margin: 2px 0 0 0px;
 }
 
+#buttons a:focus, a:hover, a:active {
+  text-decoration: none;
+  background: #ffffff;
+}
+
 h1 {
   margin: 0 0 0;
   font-size: 40px;
