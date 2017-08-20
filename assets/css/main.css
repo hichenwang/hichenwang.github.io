@@ -125,11 +125,13 @@ li img {
   height: 210px;
 }
 
+/* 
 li img {
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
 }
+ */
 
 a:link, a:visited {
   text-decoration: none;
