@@ -72,6 +72,7 @@ p {
   margin: 0.35em;
 }
 
+/* 
 ul {
 	width: 750px;
 	margin: 20px 0 0 0;
@@ -91,12 +92,32 @@ li {
 li:nth-child(even) {
 	margin-right: 50px;
 }
+ */
 
 
 li img {
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
+}
+
+ul {
+    width: 750px;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    width: 350px;
+    margin: 50px 42px 0 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+li:nth-child(even) {
+    margin-right: 0;
 }
 
 a:link, a:visited {
