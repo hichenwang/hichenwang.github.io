@@ -115,12 +115,12 @@ li:nth-child(even) {
 
 li img {
   position: absolute;
-  top: 0;
+  /* 
+top: 0;
   left: 0;
+ */
   display: block;
   margin: 0;
-  border: 0;
-  border-radius: 0;
   width: 320px;
   height: 210px;
   border: 1px solid #ccc;
