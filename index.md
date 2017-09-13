@@ -13,6 +13,10 @@ I know some coding, some journalism, and some [business](http://www.rotman.utoro
 
 <div class="clear"></div>
 
+<br></br>
+<br></br>
+<br></br>
+
 * ![Project 4]({{ site.url }}assets/project_photo/project_3.png)[Celebrities Lineup Invest in the “Perfect Mattress” Company, Casper. Do They Always Make Investments Together?]({{ site.url }}project_3_celebrity_startup/celebrity_startup.html)
 ### _Tools: Python, Abode Illustrator, Abode Photoshop_ ###
 * ![Project 3]({{ site.url }}assets/project_photo/project_2.png)[How Long Would You Need to Wait for a Liver Transplantation? It Could be 1136 Days.]({{ site.url }}project_2_liver_trans/liver_trans_new.html)
