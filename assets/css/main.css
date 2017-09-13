@@ -28,15 +28,15 @@
 
 #buttons img{
 	width: 25px;
-    height: 25px;
+  height: 25px;
 	display: inline;
 	margin: 2px 0 0 0px;
 }
 
-#buttons a:focus, a:hover, a:active {
+/*#buttons a:focus, a:hover, a:active {
   text-decoration: none;
   background: #ffffff;
-}
+}*/
 
 h1 {
   margin: 0 0 0;
@@ -120,19 +120,18 @@ li:nth-child(even) {
     margin-right: 0;
 }
 
+a:focus, a:hover, a:active {
+  text-decoration: none;
+  background: #000000;
+  color: #c5b358;
+}
+
 a:link, a:visited {
   text-decoration: none;
   background: #ffffff;
   padding: 2px 4px;
   color: #000000;
 }
-
-a:focus, a:hover, a:active {
-  text-decoration: none;
-  background: #000000;
-  color: #ffffff;
-}
-
 
 #li a:link, a:visited {
 	position: relative;
@@ -141,4 +140,5 @@ a:focus, a:hover, a:active {
 	width: 100%
 	height: 10px;
 	display: inline;
+  color:#c5b358;
 }
