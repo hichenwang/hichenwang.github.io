@@ -11,6 +11,7 @@ I am currently a data journalism student at the [Lede Program](http://ledeprogra
 
 I know some coding, some journalism, and some [business](http://www.rotman.utoronto.ca/Degrees/MastersPrograms/MBAPrograms/FullTimeMBA). 
 
+<div class="clear"></div>
 
 * ![Project 4]({{ site.url }}assets/project_photo/project_3.png)[Celebrities Lineup Invest in the “Perfect Mattress” Company, Casper. Do They Always Make Investments Together?]({{ site.url }}project_3_celebrity_startup/celebrity_startup.html)
 ### _Tools: Python, Abode Illustrator, Abode Photoshop_ ###

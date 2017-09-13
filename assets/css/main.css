@@ -94,6 +94,10 @@ li:nth-child(even) {
 }
  */
 
+.clear {
+  display: block;
+  clear: both;
+}
 
 li img {
 	width: 348px;
