@@ -124,12 +124,12 @@ a:link, a:visited {
   text-decoration: none;
   background: #ffffff;
   padding: 2px 4px;
-  color: #ffa474;
+  color: #000000;
 }
 
 a:focus, a:hover, a:active {
   text-decoration: none;
-  background: #ffa474;
+  background: #000000;
   color: #ffffff;
 }
 
