@@ -96,7 +96,7 @@ li:nth-child(even) {
 
 .clear {
   display: block;
-  clear: both;
+  clear
 }
 
 li img {
