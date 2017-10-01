@@ -27,14 +27,7 @@ body {
   clear
 }
 
-a:link, a:visited {
-  text-decoration: none;
-  background: #ffffff;
-  padding: 2px 4px;
-  color: #000000;
-}
-
-#profile_pic{
+#profile_pic {
     width: 130px;
     height: 130px;
     margin-top: 40px;
@@ -56,6 +49,12 @@ a:link, a:visited {
 .intro_text {
     font-size: 15px;
     line-height: 25px;
+
+
+.intro_text a:hover{
+    background-color: #F85A3E;
+    color:white;
+    text-decoration: none;
 }
 
 a {
@@ -68,19 +67,12 @@ a:hover {
     text-decoration: underline;
 }
 
-.intro_text a:hover{
-    background-color: #F85A3E;
-    color:white;
-    text-decoration: none;
-}
-
 #buttons {
 	top: 195px;
 	right: 5px;
 	width: 100%;
 	height: 25px;
   text-align: center;
-	/*display: inline;*/
 }
 
 #buttons img{
@@ -94,13 +86,6 @@ a:hover {
 h1 {
   margin: 0 0 0;
   font-size: 40px;
-}
-
-img {
-    width: 205px;
-    height: 205px;
-    display: block;
-    margin: 15px 0 0 0px;
 }
 
 p {
@@ -120,7 +105,7 @@ p {
 	border: 1px solid #ccc;
 }
 
-.page-header{
+.page-header {
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     font-weight: 700;
@@ -146,7 +131,7 @@ li:nth-child(even) {
     margin-right: 0;
 }
 
-.tools p {
+.tools {
   font-size: 15px;
   line-height: 1.5;
   margin: 0.35em;
