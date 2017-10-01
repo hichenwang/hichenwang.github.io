@@ -17,13 +17,54 @@
   padding-right: 3px;
 }
 
+.intro {
+  display: block;
+  clear
+}
+
+#profile_pic{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    position: absolute;
+    left:50%;
+    margin-left: -50px;
+}
+
+.text-center {
+    text-align: center;
+    float: none;
+}
+
+.header{
+    margin-top: 150px;
+}
+
+.intro_text{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.intro_text a{
+    background-color: #F77962;
+    color:white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.intro_text a:hover{
+    background-color: #F85A3E;
+    color:white;
+    text-decoration: none;
+}
+
 #buttons {
-	position: relative;
+	position: absolute;
 	top: 195px;
 	right: 5px;
 	width: 100%
 	height: 25px;
-	display: inline;
+	/*display: inline;*/
 }
 
 #buttons img{
@@ -93,14 +134,10 @@ li:nth-child(even) {
 	margin-right: 50px;
 }
  */
-.intro {
-  display: block;
-  clear
-}
 
-.projects {
-  display: block;
-  clear
+#portfolio {
+    max-width: none;
+    margin-top: 50px;
 }
 
 li img {
