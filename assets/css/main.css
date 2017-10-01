@@ -107,7 +107,7 @@ p {
     margin-top: 50px;
 }
 
-.portfolio_pic {
+.portfolio_pic img{
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
