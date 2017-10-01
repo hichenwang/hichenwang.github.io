@@ -3,6 +3,8 @@
 layout: default
 
 ---
+<div class="intro"></div>
+
 ![Chen Wang]({{ site.url }}assets/headshot.jpg)
 
 # Hi, I'm Chen Wang.
@@ -11,7 +13,7 @@ I am currently a data journalism student at the [Lede Program](http://ledeprogra
 
 I know some coding, some journalism, and some [business](http://www.rotman.utoronto.ca/Degrees/MastersPrograms/MBAPrograms/FullTimeMBA). 
 
-<div class="clear"></div>
+<div class="projects"></div>
 
 <br>
 <br>
