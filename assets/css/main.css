@@ -94,11 +94,11 @@ h3 {
   font-family:georgia;
 }
 
-p:first-of-type {
+/*p:first-of-type {
     width: 200px;
     float: left;
     margin: 0px 30px 0 0;
-}
+}*/
 
 img {
     width: 205px;
