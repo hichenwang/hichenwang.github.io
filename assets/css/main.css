@@ -28,10 +28,10 @@ body {
 }
 
 #profile_pic{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     margin-top: 40px;
-    position: absolute;
+    position: relative;
     left:50%;
     margin-left: -50px;
     border-radius: 50%;
@@ -150,6 +150,13 @@ li:nth-child(even) {
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
+}
+
+.page-header{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: none;
 }
 
 ul {
