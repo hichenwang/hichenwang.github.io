@@ -27,6 +27,13 @@ body {
   clear
 }
 
+a{
+    background-color: #F77962;
+    color:white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 #profile_pic{
     width: 130px;
     height: 130px;
@@ -51,7 +58,7 @@ body {
     line-height: 25px;
 }
 
-.intro_text a{
+a{
     background-color: #F77962;
     color:white;
     padding-left: 3px;
