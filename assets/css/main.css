@@ -43,7 +43,7 @@ body {
 }
 
 .header{
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .intro_text{
@@ -146,7 +146,7 @@ li:nth-child(even) {
     margin-top: 50px;
 }
 
-li img {
+#portfolio img {
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
