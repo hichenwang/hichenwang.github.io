@@ -27,7 +27,7 @@ body {
   clear
 }
 
-#profile_pic {
+#profile_pic{
     width: 130px;
     height: 130px;
     margin-top: 40px;
@@ -73,6 +73,7 @@ a:hover {
 	width: 100%;
 	height: 25px;
   text-align: center;
+	/*display: inline;*/
 }
 
 #buttons img{
@@ -88,6 +89,13 @@ h1 {
   font-size: 40px;
 }
 
+img {
+    width: 205px;
+    height: 205px;
+    display: block;
+    margin: 15px 0 0 0px;
+}
+
 p {
   font-size: 19px;
   line-height: 1.5;
@@ -99,7 +107,7 @@ p {
     margin-top: 50px;
 }
 
-#portfolio img {
+.portfolio_pic {
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
