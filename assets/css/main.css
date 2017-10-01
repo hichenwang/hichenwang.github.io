@@ -40,7 +40,7 @@ a:link, a:visited {
     margin-top: 40px;
     position: relative;
     left:50%;
-    margin-left: -50px;
+    margin-left: -70px;
     border-radius: 50%;
 }
 
@@ -53,9 +53,19 @@ a:link, a:visited {
     margin-top: 50px;
 }
 
-.intro_text a{
+.intro_text {
     font-size: 15px;
     line-height: 25px;
+}
+
+a {
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ffffff;
+    text-decoration: underline;
 }
 
 .intro_text a:hover{
