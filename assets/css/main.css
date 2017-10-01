@@ -58,13 +58,6 @@ a{
     line-height: 25px;
 }
 
-a{
-    background-color: #F77962;
-    color:white;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
 .intro_text a:hover{
     background-color: #F85A3E;
     color:white;
@@ -182,6 +175,13 @@ li {
 
 li:nth-child(even) {
     margin-right: 0;
+}
+
+.tools p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0.35em;
+  font-family: georgia italic;
 }
 
 /*a:focus, a:hover, a:active {
