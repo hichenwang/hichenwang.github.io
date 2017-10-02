@@ -98,6 +98,10 @@ p {
   margin: 0.35em;
 }
 
+p.italic {
+  font-style: italic;
+}
+
 #portfolio {
     max-width: none;
     margin-top: 50px;
