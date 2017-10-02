@@ -63,6 +63,7 @@ a {
 
 a:hover, a:active{
     background-color: #b4e7f8;
+    color: black;
     text-decoration: none;
     border-bottom: 2px solid #b4e7f8;
 }
