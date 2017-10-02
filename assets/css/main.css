@@ -32,7 +32,7 @@ body {
   clear
 }
 
-#profile_pic{
+#profile_pic {
     width: 130px;
     height: 130px;
     margin-top: 40px;
@@ -56,20 +56,15 @@ body {
     line-height: 25px;
 }
 
-.intro_text a:hover{
-    background-color: #F85A3E;
-    color:white;
-    text-decoration: none;
-}
-
 a {
     background-color: #ffffff;
-    text-decoration: none;
+    /*text-decoration: none;*/
+    border-bottom: 2px solid #b4e7f8;
 }
 
 a:hover {
-    background-color: #ffffff;
-    text-decoration: underline;
+    background-color: #b4e7f8;
+    border-bottom: 2px solid #b4e7f8;
 }
 
 #buttons {
