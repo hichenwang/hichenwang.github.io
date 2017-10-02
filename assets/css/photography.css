@@ -1,4 +1,9 @@
-.container {
+body {
+    height: 100%;
+    width:100%;
+}
+
+#container {
   width: 750px;
   color: #333;
   margin: 0 auto;
@@ -17,12 +22,15 @@
   padding-right: 3px;
 }
 
+#nav a{
+  padding-right: 5px;
+}
+
 h1 {
   margin: 15px 0 40x 0;
   font-size: 40px;
   text-align:center;
 }
-
 
 ul {
 	list-style: none;
@@ -30,7 +38,7 @@ ul {
 	padding: 0;
 }
 
-ul img {
+img {
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
