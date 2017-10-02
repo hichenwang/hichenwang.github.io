@@ -84,7 +84,7 @@ a:hover, a:active{
   padding-right: 5px;
 }
 
-#buttons a {
+#buttons a:link, a:hover, a:active{
   background: #ffffff;
   text-decoration: none;
 }
