@@ -85,7 +85,7 @@ a:hover, a:active{
 
 #buttons a {
   background: #ffffff;
-
+  text-decoration: none;
 }
 
 h1 {
