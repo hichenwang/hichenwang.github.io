@@ -58,12 +58,12 @@ body {
 
 a {
     background-color: #ffffff;
-    /*text-decoration: none;*/
     border-bottom: 2px solid #b4e7f8;
 }
 
 a:hover {
     background-color: #b4e7f8;
+    text-decoration: none;
     border-bottom: 2px solid #b4e7f8;
 }
 
