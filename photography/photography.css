@@ -26,6 +26,15 @@ body {
   padding-right: 5px;
 }
 
+.text-center {
+    text-align: center;
+    float: none;
+}
+
+.header{
+    margin-top: 50px;
+}
+
 h1 {
   margin: 15px 0 40x 0;
   font-size: 40px;
