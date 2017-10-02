@@ -26,6 +26,20 @@ body {
   padding-right: 5px;
 }
 
+.header {
+  margin-top: 10px;
+}
+
+a {
+    background-color: #ffffff;
+    border-bottom: 2px solid #b4e7f8;
+}
+
+a:hover, a:active{
+    background-color: #b4e7f8;
+    border-bottom: 2px solid #b4e7f8;
+}
+
 .text-center {
     text-align: center;
     float: none;
