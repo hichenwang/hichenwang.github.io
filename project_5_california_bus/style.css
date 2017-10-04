@@ -43,9 +43,9 @@ p.by {
 }
 
 img {
-  width: 95%;
+  width: 100%;
   display: block;
-  margin: 70px 100px 70px 0;
+  margin: 50px 10px 10px 20px;
 }
 
 a:link, a:visited {
