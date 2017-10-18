@@ -57,12 +57,12 @@ body {
 
 a {
     background-color: #ffffff;
-    border-bottom: 2px solid #b4e7f8 !important;;
+    border-bottom: 2px solid #b4e7f8 !important;
 }
 
 a:hover, a:active{
     background-color: #b4e7f8;
-    border-bottom: 2px solid #b4e7f8 !important;;
+    border-bottom: 2px solid #b4e7f8 !important;
 }
 
 #buttons {

@@ -1,0 +1,85 @@
+body {
+  background: #fff;
+  font: 400 0.625em "Open Sans", sans-serif;
+  color: #333;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-print-color-adjust: exact;
+}
+
+.container {
+max-width: 46rem;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.8em;
+  line-height: 2em;
+}
+
+p.teaser {
+  font-weight: 700;
+}
+
+p.by {
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #ddd;
+  text-align: center;
+  font-size: 1.3em;
+  color: #326891;
+  font-family: georgia italic;
+  width: 100%;
+  padding: 5px 0 20px;
+}
+
+.d3-tip {
+        line-height: 1;
+        font-weight: bold;
+        padding: 12px;
+        background: #fff;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #9E4B6C;
+        color: #9E4B6C;
+        border-radius: 2px;
+        pointer-events: none;
+        text-align: center;
+        line-height: 1.5em;
+      }
+
+img {
+  width: 95%;
+  display: block;
+  margin: 70px 100px 70px 0;
+}
+
+a:link, a:visited {
+  color: #2789D4;
+  text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 700;
+}
+
+svg { 
+        display: block;
+        margin: auto;
+        text-align: center;
+      }
+
+h1 { margin-bottom: 2rem; }
