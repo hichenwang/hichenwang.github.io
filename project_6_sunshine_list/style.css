@@ -7,24 +7,43 @@ body {
   -webkit-print-color-adjust: exact;
 }
 
-.container {
-max-width: 46rem;
+#container {
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+#main {
+  margin: auto;
+  padding: 30px 0;
+  max-width: 80%;
+}
+
+#main p {
+  max-width: 70%;
+  margin: auto;
+  font-size: 1.8em;
+  line-height: 2em;
+  padding-bottom: 25px;
+}
+
+svg { 
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
 }
 
 h1 {
   font-size: 4em;
   text-align: center;
   font-family: 'Bree Serif', serif;
+  margin-bottom: 2rem;
 }
 
 h2 {
   font-size: 2.4em;
   font-weight: 700;
-}
-
-p {
-  font-size: 1.8em;
-  line-height: 2em;
 }
 
 p.teaser {
@@ -43,19 +62,41 @@ p.by {
 }
 
 .d3-tip {
-        line-height: 1;
-        font-weight: bold;
-        padding: 12px;
-        background: #fff;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #9E4B6C;
-        color: #9E4B6C;
-        border-radius: 2px;
-        pointer-events: none;
-        text-align: center;
-        line-height: 1.5em;
-      }
+  padding: 12px;
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9E4B6C;
+  color: #9E4B6C;
+  border-radius: 2px;
+  pointer-events: none;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.annotation {
+  font-size: 11px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  fill: #9E4B6C;
+  font-weight: bold;
+}
+
+.annotation_circle {
+  stroke-dasharray: 2;
+  stroke-width: 1.2;
+  fill: none;
+  stroke: #9E4B6C;
+}
+
+.annotation_line {
+  stroke-width: 1;
+  stroke: #9E4B6C;
+}
+
+.arrowHead {
+  fill: #9E4B6C;
+}
+
 
 img {
   width: 95%;
@@ -76,10 +117,5 @@ strong {
   font-weight: 700;
 }
 
-svg { 
-        display: block;
-        margin: auto;
-        text-align: center;
-      }
 
-h1 { margin-bottom: 2rem; }
+
