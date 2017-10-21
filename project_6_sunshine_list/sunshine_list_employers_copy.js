@@ -5,7 +5,7 @@
       width = 1000 - margin.left - margin.right;
   
   // Grab the SVG from the page, set the height and width
-  var svg = d3.select("#chart3")
+  var svg = d3.select("#chart1")
       .append("svg")
       .attr("height", height + margin.top + margin.bottom)
       .attr("width", width + margin.left + margin.right)
@@ -140,6 +140,7 @@
          d3.select("#one-million")
            .on('click', function() {
             svg.selectAll("rect")
+              .raise()
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -164,12 +165,12 @@
                   return 'lightgrey'
                 }
               })
-              .raise()
             })
 
           d3.select("#ten-million")
           .on('click', function() {
             svg.selectAll("rect")
+              .raise()
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -194,12 +195,12 @@
                   return 'lightgrey'
                 }
               })
-              .raise()
             })
 
           d3.select("#fifty-million")
           .on('click', function() {
             svg.selectAll("rect")
+              .raise()
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -224,12 +225,12 @@
                   return 'lightgrey'
                 }
               })
-              .raise()
             })
 
           d3.select("#one-hundred-million")
             .on('click', function() {
             svg.selectAll("rect")
+              .raise()
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -254,12 +255,12 @@
                   return 'lightgrey'
                 }
               })
-              .raise()
             })
 
           d3.select("#one-billion")
             .on('click', function() {
             svg.selectAll("rect")
+              .raise()
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -284,7 +285,6 @@
                   return 'lightgrey'
                 }
               })
-              .raise()
             })
 
             d3.select("#all")

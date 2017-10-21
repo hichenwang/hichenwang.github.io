@@ -4,7 +4,7 @@
     width = 1000 - margin.left - margin.right;
 
 
-  var container = d3.select("#chart1")
+  var container = d3.select("#chart2")
       .append("svg")
       .attr("height", height + margin.top + margin.bottom)
       .attr("width", width + margin.left + margin.right)
@@ -59,7 +59,7 @@
       var yLayoutScale = d3.scaleBand()
         .domain(sectors)
         .range([0,height])
-        .paddingInner(0.3)
+        .paddingInner(0.4)
 
       var heightScale = d3.scaleLinear()
         .range([yLayoutScale.bandwidth(), 0])
@@ -162,24 +162,24 @@
 
      container.append("text")
        .attr('class', 'annotation')
-       .attr("x", widthScale(1155000) - 85)
-       .attr("y", 1405)
-       .text("This is a person being paid too much")
+       .attr("x", widthScale(1155000)-70)
+       .attr("y", 1280)
+       .text("Highest Pay: C$1,155,000")
 
        console.log(widthScale(1155000))
 
      container.append("circle")
        .attr('class', 'annotation_circle')
        .attr("cx", widthScale(1155000)+2)
-       .attr("cy", 1520)
+       .attr("cy", 1430)
        .attr('r', 12)
 
      container.append("line")
        .attr('class', 'annotation_line')
-       .attr('x1', widthScale(1155000))
-       .attr('x2', widthScale(1155000))
-       .attr('y1', 1418)
-       .attr('y2', 1498)
+       .attr('x1', widthScale(1155000) +2)
+       .attr('x2', widthScale(1155000) +2)
+       .attr('y1', 1290)
+       .attr('y2', 1410)
        .attr('marker-end', "url(#triangle)")
 
      defs = container.append("defs")
@@ -195,5 +195,6 @@
          .append("path")
          .attr("d", "M 0 0 L 10 5 L 0 10 z")
          .attr("class","arrowHead")
+
 
 })();

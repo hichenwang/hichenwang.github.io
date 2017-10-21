@@ -9,23 +9,24 @@
   <body>
   <div id="container">
 
-    <h1>Sunshine List 2016</h1>
+    <div id="title">
 
-    <p class="by" align="center">by CHEN WANG</a> &nbsp;|&nbsp; October 18, 2017</p>
+    <h1>From 0.1 Million to 1,115 Million:<br>How Much did Public Institutes Pay Their Employees on the Sunshine List 2016?</h1>
 
-  </div>
+    <p class="by" align="center">by Chen Wang</a> &nbsp;|&nbsp; October 21, 2017</p>
+
+    </div>
+
 
   <div id="main">
 
-    <p>Another year, another Sunshine List.</p>
+    <p class="story">The province of Ontario annually publishes a list of public employees who earn $100,000 and above.</p>
 
-    <p>The yearly data dump, a list of all Ontario public sector employees making $100,000 or more per year, entered its 20th year and hit a new record, growing to 123,410 names.</p>
+    <p class="story">The yearly data dump, a list of all Ontario public sector employees making $100,000 or more per year, entered its 20th year and hit a new record, growing to 123,410 names.</p>
 
-    <p>Topping the list was Jeff Lyash, CEO of Ontario Power Generation, with a combined salary and taxable benefits clocking in at $1,165,701.85, one of only two people on it earning more than a million dollars.</p>
+    <p class="story">Topping the list was Jeff Lyash, CEO of Ontario Power Generation, with a combined salary and taxable benefits clocking in at $1,165,701.85, one of only two people on it earning more than a million dollars.</p>
 
-    <div id="chart1"></div>
-    <!-- <div id="chart2"></div> -->
-    <p><strong>How much did the institutes pay their employees in 2016?</strong>
+    <p class="chart_title"><strong>How much did the institutes pay their employees earning more than 100,000 in 2016?</strong>
     <br>
     <button id="all">All</button>
     <button id="one-million">C$ 0.1 ~ 1 million</button>
@@ -34,12 +35,27 @@
     <button id="one-hundred-million">C$ 50 ~ 100 million</button>
     <button id="one-billion"> > C$ 100 million</button>
     </p>
-    <div id="chart3"></div>
+
+    <div id="chart1"></div>
+
+    <div id="chart2"></div>
+
+    <div id="methodologies"></div>
+    <p class="asterisk" align="left"><strong>Methodologies:</strong></p>
+    <p class="asterisk" align="left">Data source: <a href="https://www.fin.gov.on.ca/en/publications/salarydisclosure/pssd/" target="_blank">Ontario Ministry of Finance.</a>
+    <p class="asterisk" align="left"><a href="http://www.sunshinelist.ca/" target="_blank">Sunshinlist.com</a> was also used to verify data, especially duplicates and mismatches.</p>
+
+    <p class="asterisk" align="left">1. OpenRefine was used to clean and cluster duplicates and unaligned names of the names of same companies, people, and job titles. Duplicates and mismatches still potentially exist in the cleaned dataset.</p>
+    <p class="asterisk" align="left">2. ScaleLog was used to smooth out the difference among people's salary to make it possible to apply color coding.</p>
+    <p class="asterisk" align="left">3. Indivisual's salary has been rounded (int(round(salary_2016/5000)*5000)) and grouped for the sake of a better organized distribution chart.</p>
+    <p class="asterisk" align="left">4. The analysis of the changes of salaries over years didn't include the influence of inflation. Indiviual was possibly the employee of differenet institutes in different years or even in the same year.</p>
+
+  </p>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
   <script src="d3-tip.js"></script>
   <script src="sunshine_list_employers_copy.js"></script>
-  <script src="sunshine_list_employers.js"></script>
+  <!-- <script src="sunshine_list_employers.js"></script> -->
   <script src="sunshine_list_people.js"></script>
 
 </html>
