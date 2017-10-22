@@ -6,57 +6,528 @@
   <link href="style.css" rel="stylesheet" media="screen" type="text/css" />
 </head>
 
-  <body>
-  <div id="container">
+<body>
+<div id="container">
 
     <div id="title">
 
-    <h1>From 0.1 Million to 1,115 Million:<br>How Much did Public Institutes Pay Their Employees on the Sunshine List 2016?</h1>
+    <h1>The 2016 'Sunshine List': How Much did Ontario Public Sectors Pay Their Employees?</h1>
 
     <p class="by" align="center">by Chen Wang</a> &nbsp;|&nbsp; October 21, 2017</p>
 
     </div>
 
+</div>
 
-  <div id="main">
 
-    <p class="story">The province of Ontario annually publishes a list of public employees who earn $100,000 and above.</p>
+<div id="main">
 
-    <p class="story">The yearly data dump, a list of all Ontario public sector employees making $100,000 or more per year, entered its 20th year and hit a new record, growing to 123,410 names.</p>
+        <p class="story">2016 was the 20th year of sunshine list. Every year, the province of Ontario publishes a list of public employees who received in excess of $100,000 per year. This policy is valid for all agencies that receive public funding from the province. Information to be disclosed includes names, positions, and total salaries (salary paid and taxable benefits).</p>
 
-    <p class="story">Topping the list was Jeff Lyash, CEO of Ontario Power Generation, with a combined salary and taxable benefits clocking in at $1,165,701.85, one of only two people on it earning more than a million dollars.</p>
+        <p class="story">This list captures a growing number of public servants from municipalities, school boards, hospitals, universities, colleges, and many charities, which hit a new record of 123,410 names in 2016.</p>
 
-    <p class="chart_title"><strong>How much did the institutes pay their employees earning more than 100,000 in 2016?</strong>
-    <br>
-    <button id="all">All</button>
-    <button id="one-million">C$ 0.1 ~ 1 million</button>
-    <button id="ten-million">C$ 1 ~ 10 million</button>
-    <button id="fifty-million">C$ 10 ~ 50 million</button>
-    <button id="one-hundred-million">C$ 50 ~ 100 million</button>
-    <button id="one-billion"> > C$ 100 million</button>
-    </p>
+        <p class="story">The total amount of money being paid by each agency varied from C$100,088.29 to C$1,115,975,030, the Ontario Power Generation.</p>
 
-    <div id="chart1"></div>
+      <div class="lede">
+        <p class="chart_title"><strong>How much did the agencies pay their employees<br>earning more than 100,000 in 2016?</strong></p>
+        <br>
+        <button id="all">All</button>
+        <button id="one-million">C$ 0.1 ~ 1 million</button>
+        <button id="ten-million">C$ 1 ~ 10 million</button>
+        <button id="fifty-million">C$ 10 ~ 50 million</button>
+        <button id="one-hundred-million">C$ 50 ~ 100 million</button>
+        <button id="one-billion"> > C$ 100 million</button>
+      </div>
 
-    <div id="chart2"></div>
+      <div id="chart1"></div>
 
-    <div id="methodologies"></div>
-    <p class="asterisk" align="left"><strong>Methodologies:</strong></p>
-    <p class="asterisk" align="left">Data source: <a href="https://www.fin.gov.on.ca/en/publications/salarydisclosure/pssd/" target="_blank">Ontario Ministry of Finance.</a>
-    <p class="asterisk" align="left"><a href="http://www.sunshinelist.ca/" target="_blank">Sunshinlist.com</a> was also used to verify data, especially duplicates and mismatches.</p>
+          <p class="chart_title"><strong>Who were the highest paid people of each sector?</strong>
+          <p class="story">The highest paid person was from the largest payer. Jeff Lyash, Chief Executive Officer of the Ontario Power Generation, received a combined salary of C$1,165,701.85 in 2016.</p>
 
-    <p class="asterisk" align="left">1. OpenRefine was used to clean and cluster duplicates and unaligned names of the names of same companies, people, and job titles. Duplicates and mismatches still potentially exist in the cleaned dataset.</p>
-    <p class="asterisk" align="left">2. ScaleLog was used to smooth out the difference among people's salary to make it possible to apply color coding.</p>
-    <p class="asterisk" align="left">3. Indivisual's salary has been rounded (int(round(salary_2016/5000)*5000)) and grouped for the sake of a better organized distribution chart.</p>
-    <p class="asterisk" align="left">4. The analysis of the changes of salaries over years didn't include the influence of inflation. Indiviual was possibly the employee of differenet institutes in different years or even in the same year.</p>
+           <p class="story">Other notable top salaries include: William Moriarty, president and CEO of the University of Toronto Asset Management Corporation: $1,045,582. Jill Pepall, executive VP, Ontario Pension Board: $835,389.</p>
 
-  </p>
+      <div id="chart2">
+
+        <div id='Government-of-Ontario-Judiciary'></div>
+          <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Judge<br>
+                      Judge and Peace<br>
+                      Case Management Master
+                    </td>
+                    <td>
+                      <strong>Number of People:</strong><br>613<br><br>
+                      <strong>Average:</strong><br>C$208,558.73<br><br>
+                      <strong>Most Common Salary: </strong><br>C$130,118.68<br>207 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Donald Short<br>
+                        Louann Pope<br>
+                        Robert A. J. Muir<br>
+                        Barbara McAfee<br>
+                        May Jean<br>
+                        Thomas Hawkins<br>
+                        Andrew Andrew<br>
+                        Ronna Brott<br>
+                        Carol Albert<br>
+                        Albert Abrams<br>
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$376,791.56<br><br>
+                      <strong>Employer: </strong><br>Superior Court of Justice<br><br>
+                      <strong>Job Title: </strong><br>Case Management Master<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+        <div id='Government-of-Ontario-Ministries'></div>
+            <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Law Enforcement Officer<br>
+                      Assistant Crown Attorney<br>
+                      Investigator<br>
+                      Counsel<br>
+                      Team Leader
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>14096<br><br>
+                      <strong>Average:</strong><br>C$124,745.47<br><br>
+                      <strong>Most Common Salary: </strong><br>C$205,911.52<br>515 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Kumar Gupta
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$494,894.22<br><br>
+                      <strong>Employer: </strong><br>Community Safety and Correctional Services<br><br>
+                      <strong>Job Title: </strong><br>Coroner<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+        <div id='Government-of-Ontario-Legislative-Assembly-and-Offices'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Member of Provincial Parliament<br>
+                      Audit Director<br>
+                      Audit Supervisor<br>
+                      Adjudicator<br>
+                      Audit Manager
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>268<br><br>
+                      <strong>Average:</strong><br>C$116,781.51<br><br>
+                      <strong>Most Common Salary: </strong><br>C$205,911.52<br>515 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Bonnie Bonnie
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$314,205.55<br><br>
+                      <strong>Employer: </strong><br>Office of the Auditor General<br><br>
+                      <strong>Job Title: </strong><br>Auditor General of Ontario<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+        <div id='Ontario-Power-Generation'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Nuclear Operator<br>
+                      Senior Technical Engineer/Officer<br>
+                      Electrical and Control Technician<br>
+                      Mechanical Technician<br>
+                      First Line Manager, Control/Mechanical
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>7730<br><br>
+                      <strong>Average:</strong><br>C$144,369.34<br><br>
+                      <strong>Most Common Salary: </strong><br>C$121,843.36<br>9 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Jeffrey Lyash<br>(highest of the list)
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$1,165,701.85<br><br>
+                      <strong>Employer: </strong><br>Ontario Power Generation<br><br>
+                      <strong>Job Title: </strong><br>President and Chief Executive Officer<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+        <div id='Municipalities-and-Services'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Police Constable<br>
+                      Constable<br>
+                      Sergeant<br>
+                      Firefighter<br>
+                      Plainclothes Police Constable<br>
+                      Detective
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>35724<br><br>
+                      <strong>Average:</strong><br>C$119,343.95<br><br>
+                      <strong>Most Common Salary: </strong><br>C$100,702.26<br>49 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Marc Pourvahidi
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$448,734.40<br><br>
+                      <strong>Employer: </strong><br>Town of Whitchurch-Stouffville<br><br>
+                      <strong>Job Title: </strong><br>Chief Administrative Officer<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+        <div id='Universities'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Associate Professor<br>
+                      Professor<br>
+                      Assistant Professor<br>
+                      Faculty Member<br>
+                      Full Professor
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>17952<br><br>
+                      <strong>Average:</strong><br>C$150,870.03<br><br>
+                      <strong>Most Common Salary: </strong><br>C$181,242.56<br>86 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        William Moriarty
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$1,046,194.34  <br><br>
+                      <strong>Employer: </strong><br>University of Toronto<br><br>
+                      <strong>Job Title: </strong><br>President and Chief Executive Officer<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+        <div id='Colleges'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Professor<br>
+                      Coordinator<br>
+                      Counsellor<br>
+                      Associate Dean<br>
+                      Chair<br>
+                      Librarian
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>5375<br><br>
+                      <strong>Average:</strong><br>C$114,177.30<br><br>
+                      <strong>Most Common Salary: </strong><br>C$105,720.00<br>98 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Christopher Whitaker
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$493,786.32<br><br>
+                      <strong>Employer: </strong><br>Humber College<br><br>
+                      <strong>Job Title: </strong><br>President<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+        <div id='School-Boards'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Secondary Teacher<br>
+                      Elementary Principal<br>
+                      Elementary Teacher<br>
+                      Principal<br>
+                      Vice principal
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>18528<br><br>
+                      <strong>Average:</strong><br>C$115,017.99<br><br>
+                      <strong>Most Common Salary: </strong><br>C$101,389.39<br>120 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        John Malloy<br>
+                        Donna Quan
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$290,299.52<br><br>
+                      <strong>Employer: </strong><br>Toronto District School Board<br><br>
+                      <strong>Job Title: </strong><br>Director Of Education<br>Special Advisor, Supervisory Officers<br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+        
+        <div id='Crown-Agencies'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Manager, Operations<br>
+                      Appeals Resolution Officer<br>
+                      Senior Legal Counsel Principale<br>
+                      Legal Counsel<br>
+                      Project Manager<br>
+                      Duty Counsel, Criminal
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>4742<br><br>
+                      <strong>Average:</strong><br>C$135,141.10<br><br>
+                      <strong>Most Common Salary: </strong><br>C$131,213.22<br>32 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Jill Pepall
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$836,116.70<br><br>
+                      <strong>Employer: </strong><br>Ontario Pension Board<br><br>
+                      <strong>Job Title: </strong><br>Executive Vice President<br>and Chief Investment Officer<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+        <div id='Hospitals-and-Boards-of-Public-Health'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Registered Nurse<br>
+                      Pharmacist<br>
+                      Nurse Practitioner<br>
+                      Manager<br>
+                      Director<br>
+                      Psychologist
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>13361<br><br>
+                      <strong>Average:</strong><br>C$129,141.34<br><br>
+                      <strong>Most Common Salary: </strong><br>C$109,422.60<br>41 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Peter Pisters
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$831,717.40<br><br>
+                      <strong>Employer: </strong><br>University Health Network<br><br>
+                      <strong>Job Title: </strong><br>President and Chief Executive Officer<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+        <div id='Other-Public-Sector-Employers'></div>
+        <table align="center">
+            <thead>
+                <tr>
+                  <th rowspan="2">Common Job Titles</th>
+                  <th rowspan="2">Summary</th>
+                  <th colspan="2">Highest Paid Person</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                      Executive Director<br>
+                      Physician<br>
+                      Nurse Practitioner<br>
+                      Property Valuation Specialist<br>
+                      Supervisor<br>
+                      Critical Care Paramedic
+                    </td>
+                    <td>  
+                      <strong>Number of People:</strong><br>6047<br><br>
+                      <strong>Average:</strong><br>C$134,796.80<br><br>
+                      <strong>Most Common Salary: </strong><br>C$108,274.42<br>29 people
+                    </td>
+                    <td>
+                      <strong>Name:</strong><br>
+                        Bruce Campbell
+                    </td>
+                    <td>
+                      <strong>Salary:</strong><br>C$622,892.58<br><br>
+                      <strong>Employer: </strong><br>Independent Electricity System Operator<br><br>
+                      <strong>Job Title: </strong><br>President and CEO<br><br>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+      </div>
+
+      <div id="methodologies">
+        <p class="asterisk" align="left"><strong>Methodologies:</strong></p>
+        <p class="asterisk" align="left">Data source: <a href="https://www.fin.gov.on.ca/en/publications/salarydisclosure/pssd/" target="_blank">Ontario Ministry of Finance.</a>
+        <p class="asterisk" align="left"><a href="http://www.sunshinelist.ca/" target="_blank">Sunshinlist.com</a> was also used to verify data, especially duplicates and mismatches.</p>
+
+        <p class="asterisk" align="left">1. OpenRefine was used to clean and cluster duplicates and unaligned names of the names of same companies, people, and job titles. Duplicates and mismatches still potentially exist in the cleaned dataset.</p>
+        <p class="asterisk" align="left">2. ScaleLog was used to smooth out the difference among people's salary to make it possible to apply color coding.</p>
+        <p class="asterisk" align="left">3. Indivisual's salary has been rounded (int(round(salary_2016/5000)*5000)) and grouped for the sake of a better organized distribution chart.</p>
+        <p class="asterisk" align="left">4. The analysis of the changes of salaries over years didn't include the influence of inflation. Indiviual was possibly the employee of differenet institutes in different years or even in the same year.</p>
+      </div>
+
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
   <script src="d3-tip.js"></script>
   <script src="sunshine_list_employers_copy.js"></script>
   <!-- <script src="sunshine_list_employers.js"></script> -->
-  <script src="sunshine_list_people.js"></script>
+  <!-- <script src="sunshine_list_people.js"></script> -->
+  <script src="sunshine_list_people_copy.js"></script>
 
 </html>
 
