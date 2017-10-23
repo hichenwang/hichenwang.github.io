@@ -1,6 +1,6 @@
 (function () {
 
-  var margin = { top: 30, left: 200, right: 30, bottom: 30},
+  var margin = { top: 30, left: 200, right: 30, bottom: 50},
       height = 500 - margin.top - margin.bottom,
       width = 1000 - margin.left - margin.right;
   
@@ -135,7 +135,17 @@
                      })
 
          var smallcolorScale = d3.scaleLinear()
-           .range(['white', '#9E4B6C'])         
+           .range(['white', '#9E4B6C']) 
+
+
+        svg.append("text")
+            .attr("class", "x label")
+            .attr("text-anchor", "end")
+            .attr("x", width/2)
+            .attr("y", height+30)
+            .text("Salary Change from 2015 to 2016")
+            .attr("font-size", "10px");        
+
 
          d3.select("#one-million")
            .on('click', function() {
