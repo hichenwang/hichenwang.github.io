@@ -78,6 +78,14 @@ p.chart_title {
   text-align: center !important;
 }
 
+p.explain {
+  padding: 0px;
+  font-size: 1.2em;
+  text-align: center !important;
+  color: black;
+  font-style: italic;
+}
+
 p.teaser {
   font-weight: 700;
 }
@@ -161,6 +169,10 @@ a:focus, a:hover, a:active {
 
 strong {
   font-weight: 700;
+}
+
+strong.hover {
+  color: #9E4B6C;
 }
 
 #methodologies {

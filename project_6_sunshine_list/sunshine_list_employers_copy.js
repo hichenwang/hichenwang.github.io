@@ -17,6 +17,7 @@
   var xPositionScale = d3.scaleLinear()
     .range([0, width])
 
+
   var yPositionScale = d3.scalePoint()
   	.domain([ 
       'Other Public Sector Employers',
@@ -139,11 +140,11 @@
 
 
         svg.append("text")
-            .attr("class", "x label")
+            .attr("class", "x-label")
             .attr("text-anchor", "end")
-            .attr("x", width/2)
+            .attr("x", width/2 + 50)
             .attr("y", height+30)
-            .text("Salary Change from 2015 to 2016")
+            .text("Change of Salary Pool from 2015 to 2016 (%, per agency)")
             .attr("font-size", "10px");        
 
 
