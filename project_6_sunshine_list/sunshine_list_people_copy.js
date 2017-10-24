@@ -24,16 +24,16 @@
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        var formatPercent = d3.format(",");
-        return "<strong>" + "C$" + formatPercent(+d.rounded_salary_2016) + "</strong>"
-        + "<br>" +  "<span style='color:black'>" + +d.count + " people"
+        var formatThousand = d3.format(",");
+        return "<strong>" + "C$" + formatThousand(+d.rounded_salary_2016) + "</strong>"
+        + "<br>" +  "<span style='color:black'>" + +d.count_percent + " people"
          // + formatPercent(d.percentage) + '%'
       })
 
   container.call(tip)
 
   d3.queue()
-    .defer(d3.csv, 'group_by_salary_barcharts.csv')
+    .defer(d3.csv, 'group_by_salary_barcharts_count_percent.csv')
     .await(ready)
 
   function ready(error, datapoints) { 
@@ -59,7 +59,7 @@
       var datapoints = d.values
 
       var percentages = datapoints.map(function(d) { 
-                        return d.percentage
+                        return d.count_percent
                       })
 
       var yAxis = d3.axisLeft(heightScale)
@@ -83,16 +83,16 @@
          .attr('stroke', 'lightgrey')
 
       svg.selectAll('rect')
-         .data(datapoints)
+        .data(datapoints)
         .enter().append('rect')
         .attr('x', function(d){
           return widthScale(d.rounded_salary_2016)
         })
         .attr('y', function(d){
-          return heightScale(d.percentage)
+          return heightScale(d.count_percent)
         })
         .attr('height', function(d){
-          return height - heightScale(d.percentage)
+          return height - heightScale(d.count_percent)
         })
         .attr('width', 3.5)
         .attr('fill', '#9E4B6C')
