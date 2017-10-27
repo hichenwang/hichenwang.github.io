@@ -35,7 +35,7 @@ body {
 }
 
 #chart1 svg{
-  margin: 30px 0 70px;
+  margin: 15px 0 70px;
 }
 
 #chart2 {
@@ -212,6 +212,9 @@ td:first-child {
     border-right: 1.2px dotted #9E4B6C;
 }
 
+.x-axis .tick line{ 
+  visibility:hidden;
+}
 
 
 

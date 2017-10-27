@@ -1,13 +1,13 @@
 (function () {
 
-  var margin = { top: 30, left: 200, right: 30, bottom: 50},
-      height = 500 - margin.top - margin.bottom,
-      width = 1000 - margin.left - margin.right;
+  var margin = { top: 60, left: 200, right: 30, bottom: 50}
+      height = 500 - margin.top - margin.bottom
+      width = 1000 - margin.left - margin.right
   
   // Grab the SVG from the page, set the height and width
   var svg = d3.select("#chart1")
       .append("svg")
-      .attr("height", height + margin.top + margin.bottom)
+      .attr("height", height + margin.bottom + margin.top)
       .attr("width", width + margin.left + margin.right)
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
@@ -38,8 +38,48 @@
   var colorScale = d3.scaleLog()
     .range(['white', '#9E4B6C'])
 
-  // var colorredScale = d3.scaleLog()
-  //   .range(['white', 'red'])
+  //Append a defs (for definition) element to your SVG
+  var defs = svg.append("defs");
+
+  //Append a linearGradient element to the defs and give it a unique id
+  var linearGradient = defs.append("linearGradient")
+      .attr("id", "linear-gradient")
+
+  linearGradient
+    .attr("x1", "0%")
+    .attr("y1", "0%")
+    .attr("x2", "100%")
+    .attr("y2", "0%")
+
+  //Set the color for the start (0%)
+  linearGradient.append("stop") 
+      .attr("offset", "0%")   
+      .attr("stop-color", "white")
+
+  //Set the color for the end (100%)
+  linearGradient.append("stop") 
+      .attr("offset", "100%")   
+      .attr("stop-color", "#9E4B6C")
+
+  svg.append("rect")
+     .attr('x', width/2 - 195)
+     .attr('y', -60)
+     .attr("width", 170)
+     .attr("height", 15)
+     .style("fill", "url(#linear-gradient)")
+
+  svg.append("text")
+            .attr("x", width/2)
+            .attr("y", -50)
+            .text("Large Salary Pool")
+            .attr("font-size", "8px")
+
+  svg.append("text")
+            .attr("x", width/2 -285)
+            .attr("y", -50)
+            .text("Small Salary Pool")
+            .attr("font-size", "8px")
+
 
   var tip = d3.tip()
       .attr('class', 'd3-tip')
@@ -101,9 +141,6 @@
                  .attr("stroke-dasharray", 1.5)
                  .attr('stroke', 'lightgrey')
 
-      console.log(salaryMax)
-      console.log(salaryMin)
-      
       svg.selectAll("rect")
           .data(datapoints)
           .enter().append("rect")
@@ -145,13 +182,16 @@
             .attr("x", width/2 + 50)
             .attr("y", height+30)
             .text("Change of Salary Pool from 2015 to 2016 (%, per agency)")
-            .attr("font-size", "10px");        
-
+            .attr("font-size", "10px")
 
          d3.select("#one-million")
            .on('click', function() {
             svg.selectAll("rect")
-              .raise()
+                .filter(function(d) {
+                  return +d.salary_total_x >= salaryMin && +d.salary_total_x <= 1000000
+                })
+                .raise()
+            svg.selectAll("rect")
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -176,10 +216,21 @@
                   return 'lightgrey'
                 }
               })
+
+              svg.selectAll("rect")
+                .filter(function(d) {
+                  return +d.salary_total_x >= salaryMin && +d.salary_total_x <= 1000000
+                })
+                .raise()
             })
 
           d3.select("#ten-million")
           .on('click', function() {
+            svg.selectAll("rect")
+                .filter(function(d) {
+                  return +d.salary_total_x >= 1000000 && +d.salary_total_x <= 10000000
+                })
+                .raise()
             svg.selectAll("rect")
               .raise()
               .transition()
@@ -211,7 +262,16 @@
           d3.select("#fifty-million")
           .on('click', function() {
             svg.selectAll("rect")
-              .raise()
+                .filter(function(d) {
+                  return +d.salary_total_x >= 10000000 && +d.salary_total_x <= 50000000
+                })
+                .raise()
+            svg.selectAll("rect")
+                .filter(function(d) {
+                  return +d.salary_total_x >= 10000000 && +d.salary_total_x <= 50000000
+                })
+                .raise()
+            svg.selectAll("rect")
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -240,38 +300,47 @@
 
           d3.select("#one-hundred-million")
             .on('click', function() {
-            svg.selectAll("rect")
-              .raise()
-              .transition()
-              .duration(500)
-              .attr("fill", function(d) {
-                if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
-                  smallcolorScale.domain([50000000,100000000])
-                  return smallcolorScale(d.salary_total_x)
-                } else {
-                  return 'lightgrey'
-                }
+              svg.selectAll("rect")
+                .filter(function(d) {
+                  return +d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000
+                })
+                .raise()
+              svg.selectAll("rect")
+                .raise()
+                .transition()
+                .duration(500)
+                .attr("fill", function(d) {
+                  if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
+                    smallcolorScale.domain([50000000,100000000])
+                    return smallcolorScale(d.salary_total_x)
+                  } else {
+                    return 'lightgrey'
+                  }
+                })
+                .attr("opacity", function(d) {
+                  if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
+                    return 1
+                  } else {
+                    return 0.2
+                  }
+                })
+                .attr("stroke", function(d) {
+                  if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
+                    return '#9E4B6C'
+                  } else {
+                    return 'lightgrey'
+                  }
+                })
               })
-              .attr("opacity", function(d) {
-                if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
-                  return 1
-                } else {
-                  return 0.2
-                }
-              })
-              .attr("stroke", function(d) {
-                if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
-                  return '#9E4B6C'
-                } else {
-                  return 'lightgrey'
-                }
-              })
-            })
 
           d3.select("#one-billion")
             .on('click', function() {
-            svg.selectAll("rect")
-              .raise()
+              svg.selectAll("rect")
+                .filter(function(d) {
+                  return +d.salary_total_x >= 100000000
+                })
+                .raise()
+              svg.selectAll("rect")
               .transition()
               .duration(500)
               .attr("fill", function(d) {
@@ -296,6 +365,8 @@
                   return 'lightgrey'
                 }
               })
+
+              
             })
 
             d3.select("#all")

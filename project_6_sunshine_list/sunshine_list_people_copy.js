@@ -26,11 +26,10 @@
       .html(function(d) {
         var formatThousand = d3.format(",");
         return "<strong>" + "C$" + formatThousand(+d.rounded_salary_2016) + "</strong>"
-        + "<br>" +  "<span style='color:black'>" + +d.count_percent + " people"
+        + "<br>" +  "<span style='color:black'>" + formatThousand(+d.count) + " people"
          // + formatPercent(d.percentage) + '%'
       })
 
-  container.call(tip)
 
   d3.queue()
     .defer(d3.csv, 'group_by_salary_barcharts_count_percent.csv')
@@ -55,6 +54,8 @@
              .attr("width", width + margin.left + margin.right)
              .append("g")
              .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+          
+          svg.call(tip)
 
       var datapoints = d.values
 
