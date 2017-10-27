@@ -35,7 +35,7 @@ body {
 }
 
 #chart1 svg{
-  margin: 15px 0 70px;
+  margin: 0px 0 70px;
 }
 
 #chart2 {
@@ -150,6 +150,7 @@ button:active, button:focus {
   color: white;
   outline: none;
   border-radius: 4px;
+  border-width: 0.1px;
 }
 
 img {
@@ -216,5 +217,7 @@ td:first-child {
   visibility:hidden;
 }
 
-
+.radient_bar {
+  opacity: 1 !important;
+}
 
