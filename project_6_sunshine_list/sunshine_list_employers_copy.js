@@ -42,44 +42,44 @@
   var defs = svg.append("defs");
 
   //Append a linearGradient element to the defs and give it a unique id
-  // var linearGradient = defs.append("linearGradient")
-  //     .attr("id", "linear-gradient")
+  var linearGradient = defs.append("linearGradient")
+      .attr("id", "linear-gradient")
 
-  // linearGradient
-  //   .attr("x1", "0%")
-  //   .attr("y1", "0%")
-  //   .attr("x2", "100%")
-  //   .attr("y2", "0%")
+  linearGradient
+    .attr("x1", "0%")
+    .attr("y1", "0%")
+    .attr("x2", "100%")
+    .attr("y2", "0%")
 
-  // //Set the color for the start (0%)
-  // linearGradient.append("stop") 
-  //     .attr("offset", "0%")   
-  //     .attr("stop-color", "white")
+  //Set the color for the start (0%)
+  linearGradient.append("stop") 
+      .attr("offset", "0%")   
+      .attr("stop-color", "white")
 
-  // //Set the color for the end (100%)
-  // linearGradient.append("stop") 
-  //     .attr("offset", "100%")   
-  //     .attr("stop-color", "#9E4B6C")
+  //Set the color for the end (100%)
+  linearGradient.append("stop") 
+      .attr("offset", "100%")   
+      .attr("stop-color", "#9E4B6C")
 
-  // svg.append("rect")
-  //        .attr('class', 'radient_bar')
-  //        .attr('x', width/2 - 195)
-  //        .attr('y', -60)
-  //        .attr("width", 170)
-  //        .attr("height", 15)
-  //        .style("fill", "url(#linear-gradient)")
+  svg.append("rect")
+     .attr('class', 'radient_bar')
+     .attr('x', width/2 - 175)
+     .attr('y', -60)
+     .attr("width", 170)
+     .attr("height", 15)
+     .style("fill", "url(#linear-gradient)")
 
-  // svg.append("text")
-  //           .attr("x", width/2)
-  //           .attr("y", -50)
-  //           .text("Large Salary Pool")
-  //           .attr("font-size", "8px")
+   svg.append("text")
+            .attr("x", width/2 -260)
+            .attr("y", -50)
+            .text("Small Salary Pool")
+            .attr("font-size", "8px")
 
-  // svg.append("text")
-  //           .attr("x", width/2 -285)
-  //           .attr("y", -50)
-  //           .text("Small Salary Pool")
-  //           .attr("font-size", "8px")
+  svg.append("text")
+            .attr("x", width/2 +10)
+            .attr("y", -50)
+            .text("Large Salary Pool")
+            .attr("font-size", "8px")
 
 
   var tip = d3.tip()
@@ -157,24 +157,21 @@
         .attr('fill', function(d) {
             return colorScale(d.salary_total_x)
         })
-          // .attr('fill', '#9E4B6C')
-          // .attr('opacity', 0.2)
-         .on('mouseover', function(d) {
-               d3.select(this)
-                 .transition()
-                 .duration(300)
-                 tip.show(d)     
+        .on('mouseover', function(d) {
+             d3.select(this)
+               .transition()
+               .duration(300)
+               tip.show(d)     
+           })
+        .on('mouseout', function(d) {
+             d3.select(this)
+               .transition()
+               .duration(300)
+               tip.hide(d)
              })
-             .on('mouseout', function(d) {
-               d3.select(this)
-                 .transition()
-                 .duration(300)
-                 tip.hide(d)
-               })
 
-         var smallcolorScale = d3.scaleLinear()
+        var smallcolorScale = d3.scaleLinear()
            .range(['white', '#9E4B6C']) 
-
 
         svg.append("text")
             .attr("class", "x-label")
@@ -194,22 +191,15 @@
                         smallcolorScale.domain([salaryMin,1000000])
                         return smallcolorScale(d.salary_total_x)
                       } else {
-                        return 'lightgrey'
+                        return '#F6F6F6'
                       }
                   })
                   .attr("stroke", function(d) {
                   if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
                     return '#9E4B6C'
                   } else {
-                    return 'lightgrey'
+                    return '#F6F6F6'
                   }
-                })
-                .attr("opacity", function(d) {
-                      if (+d.salary_total_x >= salaryMin && +d.salary_total_x <= 1000000) {
-                      return 1
-                    } else {
-                      return 0.2
-                    }
                 })
                 svg.selectAll("rect")
                   .filter(function(d) {
@@ -234,21 +224,14 @@
                   smallcolorScale.domain([1000000,10000000])
                   return smallcolorScale(d.salary_total_x)
                 } else {
-                  return 'lightgrey'
-                }
-              })
-              .attr("opacity", function(d) {
-                if(+d.salary_total_x >= 1000000 && +d.salary_total_x <= 10000000) {
-                  return 1
-                } else {
-                  return 0.2
+                  return '#F6F6F6'
                 }
               })
               .attr("stroke", function(d) {
                 if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
                   return '#9E4B6C'
                 } else {
-                  return 'lightgrey'
+                  return '#F6F6F6'
                 }
               })
             })
@@ -273,21 +256,14 @@
                   smallcolorScale.domain([10000000,50000000])
                   return smallcolorScale(d.salary_total_x)
                 } else {
-                  return 'lightgrey'
-                }
-              })
-              .attr("opacity", function(d) {
-                if(+d.salary_total_x >= 10000000 && +d.salary_total_x <= 50000000) {
-                  return 1
-                } else {
-                  return 0.2
+                  return '#F6F6F6'
                 }
               })
               .attr("stroke", function(d) {
                 if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
                   return '#9E4B6C'
                 } else {
-                  return 'lightgrey'
+                  return '#F6F6F6'
                 }
               })
             })
@@ -308,21 +284,14 @@
                     smallcolorScale.domain([50000000,100000000])
                     return smallcolorScale(d.salary_total_x)
                   } else {
-                    return 'lightgrey'
-                  }
-                })
-                .attr("opacity", function(d) {
-                  if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
-                    return 1
-                  } else {
-                    return 0.2
+                    return '#F6F6F6'
                   }
                 })
                 .attr("stroke", function(d) {
                   if(+d.salary_total_x >= 50000000 && +d.salary_total_x <= 100000000) {
                     return '#9E4B6C'
                   } else {
-                    return 'lightgrey'
+                    return '#F6F6F6'
                   }
                 })
               })
@@ -342,21 +311,14 @@
                   smallcolorScale.domain([100000000,salaryMax])
                   return smallcolorScale(d.salary_total_x)
                 } else {
-                  return 'lightgrey'
-                }
-              })
-              .attr("opacity", function(d) {
-                if(+d.salary_total_x >= 100000000) {
-                  return 1
-                } else {
-                  return 0.2
+                  return '#F6F6F6'
                 }
               })
               .attr("stroke", function(d) {
                 if(+d.salary_total_x >= 100000000) {
                   return '#9E4B6C'
                 } else {
-                  return 'lightgrey'
+                  return '#F6F6F6'
                 }
               })             
             })
@@ -366,11 +328,10 @@
             svg.selectAll("rect")
               .transition()
               .duration(500)
-              .attr('stroke', '#9E4B6C')
               .attr('fill', function(d) {
+                  smallcolorScale.domain([salaryMin, salaryMax])
                   return colorScale(d.salary_total_x)
               })
-              .attr('opacity', 1)
             })
 
   }
