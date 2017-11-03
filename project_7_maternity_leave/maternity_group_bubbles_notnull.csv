@@ -1,0 +1,1535 @@
+,Unnamed: 0,name,industry,maternity_paid,maternity_unpaid,paternity_paid,paternity_unpaid,industry_copy,maternity_group
+0,0,Netflix,Technology: Consumer Internet,52.0,0.0,52.0,0.0,Technology,30-52 weeks
+1,1,Bill and Melinda Gates Foundation,Philanthropy,52.0,,52.0,2.0,Philanthropy,30-52 weeks
+2,2,"Applebee's International, Inc.",Hospitality: Restaurants,52.0,,,,Hospitality,30-52 weeks
+3,3,Army (British),Government: Federal,39.0,13.0,2.0,,Government,30-52 weeks
+4,4,"Automattic, Inc.",Technology: Consumer Internet,32.0,0.0,,,Technology,30-52 weeks
+5,5,Ford Motor,Automotive: Manufacturers,30.0,4.0,0.0,,Automotive,30-52 weeks
+6,6,Zurich,Insurance: Life,29.0,,0.0,,Insurance,20-30 weeks
+7,7,Etsy,Technology: Consumer Internet,26.0,,26.0,,Technology,20-30 weeks
+8,8,Spotify,Technology: Consumer Internet,26.0,,26.0,,Technology,20-30 weeks
+9,9,Adobe Systems,Technology: Software,26.0,6.0,10.0,,Technology,20-30 weeks
+10,10,AO.com,Retail: Online,26.0,,,,Retail,20-30 weeks
+11,11,Morrison & Foerster LLP,Law Firm,26.0,,,,Law Firm,20-30 weeks
+12,12,Organizer Inc.,Technology: Software,26.0,,,,Technology,20-30 weeks
+13,13,Worldpay,Technology: Payments,26.0,,,,Technology,20-30 weeks
+14,14,Zynga,Technology: Gaming,26.0,12.0,12.0,,Technology,20-30 weeks
+15,15,eBay Inc.,Technology: Consumer Internet,24.0,6.0,12.0,,Technology,20-30 weeks
+16,16,72andsunny,Advertising,24.0,,4.0,,Advertising,20-30 weeks
+17,17,Motorola Mobility,Technology: Manufacturing,24.0,,,,Technology,20-30 weeks
+18,18,Open Society Foundations,Philanthropy,24.0,,24.0,24.0,Philanthropy,20-30 weeks
+19,19,ZestFinance,Finance: Loans,24.0,,,,Finance,20-30 weeks
+20,20,"Orrick, Herrington & Sutcliffe LLP",Law Firm,23.0,12.0,4.0,36.0,Law Firm,20-30 weeks
+21,21,Avaya,Technology: B2B Tech Services,22.0,,,,Technology,20-30 weeks
+22,22,Lenovo,Technology: Manufacturing,22.0,,7.0,,Technology,20-30 weeks
+23,23,FireEye Inc.,Technology: Security,22.0,,,,Technology,20-30 weeks
+24,24,Mitie,Business Services: Food & Hospitality,21.0,,,,Business Services,20-30 weeks
+25,25,Microsoft,Technology: Software,20.0,0.0,12.0,8.0,Technology,20-30 weeks
+26,26,Dropbox,Technology: Consumer Internet,20.0,,8.0,,Technology,20-30 weeks
+27,27,Amazon,Technology: Consumer Internet,20.0,0.0,6.0,,Technology,20-30 weeks
+28,28,American Express Company,Finance: Credit & Fund Services,20.0,6.0,20.0,,Finance,20-30 weeks
+29,29,Credit Suisse,Finance: Diversified,20.0,,1.0,1.0,Finance,20-30 weeks
+30,30,Google,Technology: Consumer Internet,20.0,11.0,9.0,,Technology,20-30 weeks
+31,31,Shearman & Sterling LLP,Law Firm,20.0,,8.0,,Law Firm,20-30 weeks
+32,32,Standard Chartered,Finance: Diversified,20.0,,10.0,,Finance,20-30 weeks
+33,33,Twitter,Technology: Consumer Internet,20.0,0.0,20.0,0.0,Technology,20-30 weeks
+34,34,Winston & Strawn LLP,Law Firm,20.0,,20.0,,Law Firm,20-30 weeks
+35,35,Mozilla,Technology: Software,20.0,,12.0,,Technology,20-30 weeks
+36,36,Yammer,Technology: Software,20.0,0.0,,,Technology,20-30 weeks
+37,37,Tumblr,Technology: Consumer Internet,20.0,,,,Technology,20-30 weeks
+38,38,Stonyfield Farm,Consumer Packaged Goods: Packaged Foods,20.0,,,,Consumer Packaged Goods,20-30 weeks
+39,39,Atlassian,Technology: Software,20.0,,,,Technology,20-30 weeks
+40,40,Mailchimp,Advertising,18.0,0.0,10.0,,Advertising,10-20 weeks
+41,41,Squarespace,Technology: Consumer Internet,18.0,,6.0,,Technology,10-20 weeks
+42,42,Bloomberg,Information Services: Financial,18.0,2.0,4.0,,Information Services,10-20 weeks
+43,43,WilmerHale,Law Firm,18.0,,,,Law Firm,10-20 weeks
+44,44,BakerHostetler LLP,Law Firm,18.0,6.0,,,Law Firm,10-20 weeks
+45,45,CA Technologies,Technology: Software,18.0,4.0,12.0,,Technology,10-20 weeks
+46,46,Wilson Sonsini Goodrich & Rosati,Law Firm,18.0,6.0,,,Law Firm,10-20 weeks
+47,47,Akin Gump Strauss Hauer & Feld LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+48,48,Allen & Overy,Law Firm,18.0,,,,Law Firm,10-20 weeks
+49,49,Arnold & Porter LLP,Law Firm,18.0,6.0,6.0,,Law Firm,10-20 weeks
+50,50,Baker & McKenzie,Law Firm,18.0,,,,Law Firm,10-20 weeks
+51,51,Bracewell & Guiliani LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+52,52,Brown Rudnick LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+53,53,"Cadwalader, Wickersham & Taft LLP",Law Firm,18.0,,,,Law Firm,10-20 weeks
+54,54,Cahill Gordon & Reindel LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+55,55,Capital One Financial Corporation,Finance: Diversified,18.0,0.0,9.0,,Finance,10-20 weeks
+56,56,Chadbourne & Parke LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+57,57,Cleary Gottlieb Steen & Hamilton LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+58,58,Clifford Chance LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+59,59,Cooley LLP,Law Firm,18.0,,10.0,,Law Firm,10-20 weeks
+60,60,Covington & Burling LLP,Law Firm,18.0,,6.0,,Law Firm,10-20 weeks
+61,61,"Cravath, Swaine & Moore LLP",Law Firm,18.0,,,,Law Firm,10-20 weeks
+62,62,Crowell & Moring,Law Firm,18.0,,,,Law Firm,10-20 weeks
+63,63,Davis Polk & Wardwell LLP,Law Firm,18.0,7.0,,,Law Firm,10-20 weeks
+64,64,Foley & Lardner LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+65,65,"Fried, Frank, Harris, Shriver & Jacobson...",Law Firm,18.0,,5.0,,Law Firm,10-20 weeks
+66,66,Goodwin Procter LLP,Law Firm,18.0,8.0,4.0,,Law Firm,10-20 weeks
+67,67,Hogan Lovells,Law Firm,18.0,,,,Law Firm,10-20 weeks
+68,68,Jenner & Block,Law Firm,18.0,,,,Law Firm,10-20 weeks
+69,69,Jones Day,Law Firm,18.0,9.0,,,Law Firm,10-20 weeks
+70,70,Kirkland & Ellis LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+71,71,Linklaters LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+72,72,Mayer Brown,Law Firm,18.0,,,,Law Firm,10-20 weeks
+73,73,Paul Weiss,Law Firm,18.0,,,,Law Firm,10-20 weeks
+74,74,Perkins Coie,Law Firm,18.0,,,,Law Firm,10-20 weeks
+75,75,Pillsbury Winthrop Shaw Pittman LLP,Law Firm,18.0,,12.0,,Law Firm,10-20 weeks
+76,76,Sidley Austin LLP,Law Firm,18.0,8.0,,,Law Firm,10-20 weeks
+77,77,Squire Patton Boggs,Law Firm,18.0,,,,Law Firm,10-20 weeks
+78,78,Sullivan & Cromwell LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+79,79,"Yum! Brands, Inc.",Hospitality: Restaurants,18.0,,6.0,,Hospitality,10-20 weeks
+80,80,Paul Hastings,Law Firm,18.0,,,,Law Firm,10-20 weeks
+81,81,GoDaddy,Technology: Consumer Internet,18.0,6.0,12.0,,Technology,10-20 weeks
+82,82,Gunderson Dettmer,Law Firm,18.0,,,,Law Firm,10-20 weeks
+83,83,Williams & Connelly LLP,Law Firm,18.0,,,,Law Firm,10-20 weeks
+84,84,Youtube,Technology: Consumer Internet,18.0,,,,Technology,10-20 weeks
+85,85,McDermott Will & Emery,Law Firm,18.0,,,,Law Firm,10-20 weeks
+86,86,Change.org,Technology: Consumer Internet,18.0,,18.0,,Technology,10-20 weeks
+87,87,Blizzard Entertainment Inc.,Technology: Gaming,18.0,4.0,12.0,12.0,Technology,10-20 weeks
+88,88,Pepper Hamilton,Law Firm,18.0,,,,Law Firm,10-20 weeks
+89,89,Dechert LLP,Law Firm,18.0,8.0,,,Law Firm,10-20 weeks
+90,90,Doctors Without Borders,Nonprofit: Healthcare,18.0,,18.0,,Nonprofit,10-20 weeks
+91,91,Optimizely,Technology: B2B Tech Services,17.0,,,,Technology,10-20 weeks
+92,92,DLA Piper,Law Firm,17.0,,16.0,16.0,Law Firm,10-20 weeks
+93,93,Instagram,Technology: Consumer Internet,17.0,,,,Technology,10-20 weeks
+94,94,Schlumberger,Natural Resources: Oilfield Services,17.0,12.0,,,Natural Resources,10-20 weeks
+95,95,Opower,Technology: Software,17.0,,,,Technology,10-20 weeks
+96,96,Uber,Technology: Consumer Internet,17.0,2.0,,,Technology,10-20 weeks
+97,97,Reddit,Technology: Consumer Internet,17.0,,17.0,,Technology,10-20 weeks
+98,98,Mixpanel,Technology: Software,17.0,,,,Technology,10-20 weeks
+99,99,Tesla Motors,Automotive: Manufacturers,16.0,,7.0,,Automotive,10-20 weeks
+100,100,PayPal,Technology: Payments,16.0,0.0,8.0,,Technology,10-20 weeks
+101,101,Korn Ferry,Business Services: Staffing & Outsourcin...,16.0,,,,Business Services,10-20 weeks
+102,102,Edward Jones,Finance: Diversified,16.0,7.0,2.0,0.0,Finance,10-20 weeks
+103,103,SoundCloud,Technology: Consumer Internet,16.0,0.0,8.0,8.0,Technology,10-20 weeks
+104,104,Palantir,Technology: Software,16.0,36.0,,,Technology,10-20 weeks
+105,105,Square,Technology: Payments,16.0,,16.0,,Technology,10-20 weeks
+106,106,Ericsson,Technology: Manufacturing,16.0,2.0,2.0,,Technology,10-20 weeks
+107,107,Hill + Knowlton Strategies,Public Relations,16.0,,,,Public Relations,10-20 weeks
+108,108,Zillow,Technology: Consumer Internet,16.0,,,,Technology,10-20 weeks
+109,109,"Quinn Emanuel Urquhart & Sullivan, LLP",Law Firm,16.0,,,,Law Firm,10-20 weeks
+110,110,CSG International,Technology: Software,16.0,,,,Technology,10-20 weeks
+111,111,Accenture,Consulting Services,16.0,12.0,2.0,,Consulting Services,10-20 weeks
+112,112,AllianceBernstein LP,Finance: Asset Management,16.0,,4.0,,Finance,10-20 weeks
+113,113,"Avon Products, Inc.",Cosmetics,16.0,12.0,8.0,,Cosmetics,10-20 weeks
+114,114,Bain & Company,Consulting Services,16.0,,8.0,2.0,Consulting Services,10-20 weeks
+115,115,Bank of America Corporation,Finance: Diversified,16.0,14.0,16.0,26.0,Finance,10-20 weeks
+116,116,Barclays Bank PLC,Finance: Diversified,16.0,,6.0,,Finance,10-20 weeks
+117,117,Morgan Lewis & Bockius LLP,Law Firm,16.0,,,,Law Firm,10-20 weeks
+118,118,The Boston Consulting Group,Consulting Services,16.0,5.0,8.0,,Consulting Services,10-20 weeks
+119,119,Deutsche Bank,Finance: Diversified,16.0,,2.0,,Finance,10-20 weeks
+120,120,Dun & Bradstreet,Information Services: Financial,16.0,20.0,2.0,,Information Services,10-20 weeks
+121,121,EY,Consulting Services,16.0,8.0,16.0,16.0,Consulting Services,10-20 weeks
+122,122,Exelon Corporation,Natural Resources: Electric Power Genera...,16.0,6.0,8.0,,Natural Resources,10-20 weeks
+123,123,Facebook,Technology: Consumer Internet,16.0,10.0,17.0,,Technology,10-20 weeks
+124,124,Factset Research Systems,Information Services: Financial,16.0,4.0,4.0,,Information Services,10-20 weeks
+125,125,Fish & Richardson,Law Firm,16.0,,,,Law Firm,10-20 weeks
+126,126,General Electric,Conglomerate,16.0,4.0,6.0,4.0,Conglomerate,10-20 weeks
+127,127,Holland & Knight LLP,Law Firm,16.0,,,,Law Firm,10-20 weeks
+128,128,Ikea,Retail: Furniture & Home Improvement,16.0,8.0,16.0,,Retail,10-20 weeks
+129,129,Johnson & Johnson,Consumer Packaged Goods: Packaged Produc...,16.0,,8.0,,Consumer Packaged Goods,10-20 weeks
+130,130,JP Morgan Chase & Co,Finance: Diversified,16.0,7.0,2.0,,Finance,10-20 weeks
+131,131,KPMG,Consulting Services,16.0,0.0,4.0,,Consulting Services,10-20 weeks
+132,132,McKinsey & Company,Consulting Services,16.0,28.0,8.0,,Consulting Services,10-20 weeks
+133,133,Morgan Stanley,Finance: Diversified,16.0,,1.0,,Finance,10-20 weeks
+134,134,New York Times,Media: News,16.0,6.0,10.0,6.0,Media,10-20 weeks
+135,135,Pinterest,Technology: Consumer Internet,16.0,,,,Technology,10-20 weeks
+136,136,Procter & Gamble,Consumer Packaged Goods: Packaged Produc...,16.0,52.0,4.0,,Consumer Packaged Goods,10-20 weeks
+137,137,Reed Smith LLP,Law Firm,16.0,,10.0,,Law Firm,10-20 weeks
+138,138,SAP,Technology: Software,16.0,6.0,6.0,,Technology,10-20 weeks
+139,139,Sedgwick LLP,Law Firm,16.0,,3.0,,Law Firm,10-20 weeks
+140,140,"SunTrust Banks, Inc.",Finance: Personal & Commercial Banking,16.0,12.0,6.0,,Finance,10-20 weeks
+141,141,Suntrust Robinson Humphrey,Finance: Diversified,16.0,12.0,,,Finance,10-20 weeks
+142,142,Goldman Sachs,Finance: Diversified,16.0,16.0,4.0,,Finance,10-20 weeks
+143,143,UBS,Finance: Diversified,16.0,,2.0,,Finance,10-20 weeks
+144,144,United Nations,Government: International,16.0,,,,Government,10-20 weeks
+145,145,"Wachtell, Lipton, Rosen & Katz",Law Firm,16.0,,,,Law Firm,10-20 weeks
+146,146,Wells Fargo,Finance: Diversified,16.0,12.0,4.0,,Finance,10-20 weeks
+147,147,Yahoo!,Technology: Consumer Internet,16.0,0.0,8.0,,Technology,10-20 weeks
+148,148,PIMCO,Finance: Asset Management,16.0,,3.0,,Finance,10-20 weeks
+149,149,Indeed,Technology: Consumer Internet,16.0,,6.0,,Technology,10-20 weeks
+150,150,Blackstone Group,Finance: Diversified,16.0,,,,Finance,10-20 weeks
+151,151,Vodafone Group PLC,Telecommunications,16.0,,,,Telecommunications,10-20 weeks
+152,152,SunEdison,Natural Resources: Diversified Energy,16.0,,,,Natural Resources,10-20 weeks
+153,153,"Airbnb, Inc.",Technology: Consumer Internet,16.0,,,,Technology,10-20 weeks
+154,154,Groupon,Technology: Consumer Internet,16.0,,,,Technology,10-20 weeks
+155,155,Github,Technology: Software,16.0,0.0,,,Technology,10-20 weeks
+156,156,Reckitt Benckiser,Consumer Packaged Goods: Packaged Produc...,16.0,,,,Consumer Packaged Goods,10-20 weeks
+157,157,Kickstarter,Technology: Consumer Internet,16.0,,,,Technology,10-20 weeks
+158,158,TD Bank,Finance: Personal & Commercial Banking,16.0,6.0,16.0,,Finance,10-20 weeks
+159,159,The Nation,Publishing,16.0,,,,Publishing,10-20 weeks
+160,160,Media Math,Technology: B2B Tech Services,16.0,,,,Technology,10-20 weeks
+161,161,Marketo,Technology: Software,16.0,,,,Technology,10-20 weeks
+162,162,The Honest Company,Consumer Packaged Goods: Packaged Produc...,16.0,,,,Consumer Packaged Goods,10-20 weeks
+163,163,Proofpoint,Technology: Security,16.0,,,,Technology,10-20 weeks
+164,164,Patagonia,"Retail: Shoes, Accessories and Apparel",16.0,,12.0,,Retail,10-20 weeks
+165,165,Booking.com,Technology: Consumer Internet,16.0,26.0,2.0,26.0,Technology,10-20 weeks
+166,166,Blank Rome LLP,Law Firm,16.0,4.0,6.0,,Law Firm,10-20 weeks
+167,167,Applied Materials Inc,Technology: Manufacturing,16.0,,,,Technology,10-20 weeks
+168,168,GameChanger,Technology: Consumer Internet,16.0,4.0,12.0,4.0,Technology,10-20 weeks
+169,169,"Zendesk, Inc",Technology: Software,16.0,,16.0,,Technology,10-20 weeks
+170,170,Chegg,Technology: Consumer Internet,16.0,,,,Technology,10-20 weeks
+171,171,Blue State Digital,Advertising,16.0,,,,Advertising,10-20 weeks
+172,172,Simple,Finance: Personal & Commercial Banking,16.0,,16.0,,Finance,10-20 weeks
+173,173,L.E.K. Consulting,Consulting Services,16.0,,8.0,,Consulting Services,10-20 weeks
+174,174,ustwo,Design,16.0,,,,Design,10-20 weeks
+175,175,Velir,Advertising,16.0,,,,Advertising,10-20 weeks
+176,176,Meetup Inc.,Technology: Consumer Internet,16.0,,,,Technology,10-20 weeks
+177,177,JustGiving,Technology: Consumer Internet,16.0,,4.0,,Technology,10-20 weeks
+178,178,Anheuser-Busch InBev,Consumer Packaged Goods: Beverages,16.0,,,,Consumer Packaged Goods,10-20 weeks
+179,179,AXA,Insurance: Diversified,16.0,,4.0,,Insurance,10-20 weeks
+180,180,California Certified Organic Farmers,Nonprofit: Environmental Organization,16.0,0.0,,,Nonprofit,10-20 weeks
+181,181,Intact Financial Corporation,Insurance: Property & Casualty,16.0,36.0,,,Insurance,10-20 weeks
+182,182,"Amazon Web Services, Inc.",Technology: B2B Tech Services,16.0,,,,Technology,10-20 weeks
+183,183,15Five,Technology: Software,16.0,,,,Technology,10-20 weeks
+184,184,VSCO,Technology: Consumer Internet,16.0,,6.0,,Technology,10-20 weeks
+185,185,Och-Ziff Capital Management Group LLC,Finance: Asset Management,16.0,,,,Finance,10-20 weeks
+186,186,Bazaarvoice,Business Services: Technology Solutions,16.0,4.0,,,Business Services,10-20 weeks
+187,187,Lowenstein Sandler LLP,Law Firm,16.0,8.0,8.0,4.0,Law Firm,10-20 weeks
+188,188,Fidelity Investments,Finance: Diversified,16.0,,6.0,,Finance,10-20 weeks
+189,189,Spring,Technology: Software,16.0,,,,Technology,10-20 weeks
+190,190,Cisco UK & Ireland,Technology: Manufacturing,16.0,36.0,2.0,,Technology,10-20 weeks
+191,191,"Sheppard, Mullin, Richter & Hampton LLP",Law Firm,15.0,,,,Law Firm,10-20 weeks
+192,192,L'Oreal Group,Cosmetics,15.0,10.0,2.0,,Cosmetics,10-20 weeks
+193,193,Apple,Technology: Manufacturing,15.0,9.0,6.0,6.0,Technology,10-20 weeks
+194,194,"Finnegan, Henderson, Farabow, Garrett & ...",Law Firm,15.0,,9.0,,Law Firm,10-20 weeks
+195,195,Maersk Group,Natural Resources: Oil & Gas,15.0,0.0,,,Natural Resources,10-20 weeks
+196,196,Sky PLC,Media: Diversified,15.0,,,,Media,10-20 weeks
+197,197,NVIDIA,Technology: Manufacturing,14.0,,,,Technology,10-20 weeks
+198,198,World Bank Group,Government: International,14.0,,2.0,,Government,10-20 weeks
+199,199,OnDeck,Finance: Loans,14.0,0.0,3.0,,Finance,10-20 weeks
+200,200,Citigroup,Finance: Diversified,14.0,12.0,2.0,,Finance,10-20 weeks
+201,201,Deloitte,Consulting Services,14.0,4.0,16.0,45.0,Consulting Services,10-20 weeks
+202,202,Intel Corporation,Technology: Manufacturing,14.0,19.0,8.0,26.0,Technology,10-20 weeks
+203,203,MetLife,Insurance: Life,14.0,26.0,2.0,12.0,Insurance,10-20 weeks
+204,204,Nestle,Consumer Packaged Goods: Packaged Foods,14.0,,,,Consumer Packaged Goods,10-20 weeks
+205,205,"Nike, Inc.","Retail: Shoes, Accessories and Apparel",14.0,12.0,8.0,0.0,Retail,10-20 weeks
+206,206,Sirius XM Radio,Technology: Consumer Internet,14.0,,,,Technology,10-20 weeks
+207,207,Williams Sonoma,Retail: Furniture & Home Improvement,14.0,,,,Retail,10-20 weeks
+208,208,Box,Technology: Consumer Internet,14.0,,6.0,6.0,Technology,10-20 weeks
+209,209,International Finance Corporation,Government: International,14.0,,,,Government,10-20 weeks
+210,210,Motley Fool,Technology: Consumer Internet,14.0,,,,Technology,10-20 weeks
+211,211,H&M;,"Retail: Shoes, Accessories and Apparel",14.0,,6.0,,Retail,10-20 weeks
+212,212,Nestle Purina PetCare Company,Consumer Packaged Goods: Packaged Produc...,14.0,,,,Consumer Packaged Goods,10-20 weeks
+213,213,Kering,"Retail: Shoes, Accessories and Apparel",14.0,,1.0,,Retail,10-20 weeks
+214,214,Aberdeen Asset Management,Finance: Asset Management,14.0,,,,Finance,10-20 weeks
+215,215,O2,Telecommunications,14.0,,,,Telecommunications,10-20 weeks
+216,216,Bitovi,Technology: B2B Tech Services,14.0,0.0,,,Technology,10-20 weeks
+217,217,Core-Mark,Business Services: Retail,14.0,,,,Business Services,10-20 weeks
+218,218,"Susquehanna International Group, LLP",Finance: Asset Management,14.0,,,,Finance,10-20 weeks
+219,219,Fiat Chrysler Automobiles,Automotive: Manufacturers,14.0,,,,Automotive,10-20 weeks
+220,220,Fitbit Inc,Technology: Wearable,13.0,,7.0,,Technology,10-20 weeks
+221,221,Cloudera Inc.,Technology: Software,13.0,1.0,,,Technology,10-20 weeks
+222,222,Debevoise & Plimpton LLP,Law Firm,13.0,,,,Law Firm,10-20 weeks
+223,223,Duane Morris LLP,Law Firm,13.0,,,,Law Firm,10-20 weeks
+224,224,OneMain Financial,Finance: Loans,13.0,0.0,,,Finance,10-20 weeks
+225,225,Lego,Consumer Packaged Goods: Toys & Baby Pro...,13.0,,2.0,,Consumer Packaged Goods,10-20 weeks
+226,226,Financial Industry Regulatory Authority,Nonprofit: Finance,13.0,,13.0,,Nonprofit,10-20 weeks
+227,227,OppenheimerFunds,Finance: Asset Management,13.0,,5.0,,Finance,10-20 weeks
+228,228,AccentHealth,Healthcare: Communications,13.0,,,,Healthcare,10-20 weeks
+229,229,CitiMortgage,Finance: Loans,13.0,0.0,,,Finance,10-20 weeks
+230,230,Virgin Active,Hospitality: Resorts,13.0,21.0,,,Hospitality,10-20 weeks
+231,231,Stanford University,Educational Services: College & Universi...,12.0,4.0,,,Educational Services,10-20 weeks
+232,232,Pandora,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+233,233,Pernod Ricard,Consumer Packaged Goods: Beverages,12.0,,,,Consumer Packaged Goods,10-20 weeks
+234,234,United States Army,Government: Federal,12.0,6.0,2.0,,Government,10-20 weeks
+235,235,Printpack,Packaging,12.0,,,,Packaging,10-20 weeks
+236,236,Putnam Investments,Finance: Asset Management,12.0,1.0,,,Finance,10-20 weeks
+237,237,Zenefits,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+238,238,Warner Brothers,Arts & Entertainment,12.0,4.0,6.0,,Arts & Entertainment,10-20 weeks
+239,239,kCura,Technology: Software,12.0,,2.0,,Technology,10-20 weeks
+240,240,InterActiveCorp,Technology: Consumer Internet,12.0,,4.0,,Technology,10-20 weeks
+241,241,North Highland,Consulting Services,12.0,0.0,,,Consulting Services,10-20 weeks
+242,242,Gilt Groupe,Retail: Online,12.0,0.0,,,Retail,10-20 weeks
+243,243,Refinery29,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+244,244,270 Strategies,Consulting Services,12.0,,,,Consulting Services,10-20 weeks
+245,245,Johns Hopkins University,Educational Services: College & Universi...,12.0,6.0,0.0,,Educational Services,10-20 weeks
+246,246,Match.com,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+247,247,Tableau Software,Technology: Software,12.0,,4.0,,Technology,10-20 weeks
+248,248,National Geographic,Media: Diversified,12.0,,,,Media,10-20 weeks
+249,249,Avery Dennison,Packaging,12.0,0.0,4.0,,Packaging,10-20 weeks
+250,250,Oaktree Capital Management,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+251,251,Weber Shandwick,Public Relations,12.0,,6.0,,Public Relations,10-20 weeks
+252,252,Vertex Pharmaceuticals,Pharmaceutical,12.0,,,,Pharmaceutical,10-20 weeks
+253,253,Foley Hoag,Law Firm,12.0,,,,Law Firm,10-20 weeks
+254,254,GCM Grosvenor,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+255,255,"Coty, Inc.",Cosmetics,12.0,0.0,,,Cosmetics,10-20 weeks
+256,256,Wayfair Inc,Retail: Furniture & Home Improvement,12.0,,,,Retail,10-20 weeks
+257,257,Kilpatrick Townsend & Stockton,Law Firm,12.0,,,,Law Firm,10-20 weeks
+258,258,CNN,Media: News,12.0,,,,Media,10-20 weeks
+259,259,Morningstar,Information Services: Financial,12.0,,,,Information Services,10-20 weeks
+260,260,PwC,Consulting Services,12.0,24.0,6.0,52.0,Consulting Services,10-20 weeks
+261,261,News Corp.,Media: News,12.0,,,,Media,10-20 weeks
+262,262,Harvard University,Educational Services: College & Universi...,12.0,1.0,,,Educational Services,10-20 weeks
+263,263,McDonald's Corporation,Hospitality: Restaurants,12.0,,0.0,,Hospitality,10-20 weeks
+264,264,Tripadvisor,Technology: Consumer Internet,12.0,,4.0,4.0,Technology,10-20 weeks
+265,265,Alston & Bird LLP,Law Firm,12.0,,,,Law Firm,10-20 weeks
+266,266,"Altria Group, Inc.",Consumer Packaged Goods: Tobacco,12.0,0.0,6.0,,Consumer Packaged Goods,10-20 weeks
+267,267,American International Group,Insurance: Property & Casualty,12.0,,,,Insurance,10-20 weeks
+268,268,AT&T;,Telecommunications,12.0,4.0,6.0,,Telecommunications,10-20 weeks
+269,269,Bain Capital,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+270,270,Baker Botts LLP,Law Firm,12.0,12.0,,,Law Firm,10-20 weeks
+271,271,BNY Mellon,Finance: Asset Management,12.0,8.0,0.0,,Finance,10-20 weeks
+272,272,BB&T; Corporation,Finance: Diversified,12.0,,,,Finance,10-20 weeks
+273,273,"BlackRock, Inc.",Finance: Asset Management,12.0,,2.0,,Finance,10-20 weeks
+274,274,BNP Paribas,Finance: Diversified,12.0,,,,Finance,10-20 weeks
+275,275,Choate Hall & Stewart,Law Firm,12.0,,,,Law Firm,10-20 weeks
+276,276,ConocoPhillips,Natural Resources: Oil & Gas,12.0,2.0,,,Natural Resources,10-20 weeks
+277,277,Convergys,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+278,278,Costco Wholesale,Retail: General Merchandise,12.0,,,,Retail,10-20 weeks
+279,279,Cummins Inc.,Industrial: Equipment Manufacturing,12.0,,,,Industrial,10-20 weeks
+280,280,"Curtis, Mallet-Prevost, Colt & Mosle LLP",Law Firm,12.0,,,,Law Firm,10-20 weeks
+281,281,Discovery Communications,Media: Diversified,12.0,6.0,12.0,,Media,10-20 weeks
+282,282,Dow Chemical,Natural Resources: Chemicals,12.0,8.0,2.0,,Natural Resources,10-20 weeks
+283,283,Dow Jones,Media: News,12.0,,7.0,,Media,10-20 weeks
+284,284,Commerzbank,Finance: Diversified,12.0,,,,Finance,10-20 weeks
+285,285,Dykema Gossett PLLC,Law Firm,12.0,,,,Law Firm,10-20 weeks
+286,286,Epstein Becker Green,Law Firm,12.0,,,,Law Firm,10-20 weeks
+287,287,Fannie Mae,Finance: Personal & Commercial Banking,12.0,12.0,,,Finance,10-20 weeks
+288,288,First Data Corporation,Technology: B2B Tech Services,12.0,12.0,2.0,,Technology,10-20 weeks
+289,289,"Fitzpatrick, Cella, Harper & Scinto",Law Firm,12.0,,,,Law Firm,10-20 weeks
+290,290,Fortress Investment Group,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+291,291,Genentech,Healthcare: Biotechnology,12.0,,8.0,,Healthcare,10-20 weeks
+292,292,Gibbons PC,Law Firm,12.0,,,,Law Firm,10-20 weeks
+293,293,Grant Thornton,Accounting Services,12.0,,2.0,,Accounting Services,10-20 weeks
+294,294,Greenberg Traurig LLP,Law Firm,12.0,,,,Law Firm,10-20 weeks
+295,295,"Haynes and Boone, LLP",Law Firm,12.0,0.0,,,Law Firm,10-20 weeks
+296,296,HSBC,Finance: Diversified,12.0,,2.0,,Finance,10-20 weeks
+297,297,IBM,Technology: Manufacturing,12.0,6.0,6.0,,Technology,10-20 weeks
+298,298,Janus Capital Group,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+299,299,Jeffries & Company,Finance: Diversified,12.0,,,,Finance,10-20 weeks
+300,300,JW Marriott Resort & Spa,Hospitality: Hotels,12.0,,,,Hospitality,10-20 weeks
+301,301,K&L; Gates LLP,Law Firm,12.0,6.0,6.0,0.0,Law Firm,10-20 weeks
+302,302,Mars Incorporated,Consumer Packaged Goods: Packaged Foods,12.0,0.0,,,Consumer Packaged Goods,10-20 weeks
+303,303,"NBCUniversal Media, LLC",Media: Diversified,12.0,0.0,,,Media,10-20 weeks
+304,304,New York Stock Exchange,Information Services: Financial,12.0,12.0,,,Information Services,10-20 weeks
+305,305,Nielsen Holdings N.V.,Information Services: Diversified,12.0,26.0,,,Information Services,10-20 weeks
+306,306,"Nordstrom, Inc.",Retail: Department Store,12.0,9.0,6.0,,Retail,10-20 weeks
+307,307,Oppenheimer Holdings,Finance: Diversified,12.0,0.0,,,Finance,10-20 weeks
+308,308,Oracle Corporation,Technology: Software,12.0,12.0,,,Technology,10-20 weeks
+309,309,Parker-Hannifin Corporation,Technology: Manufacturing,12.0,12.0,,,Technology,10-20 weeks
+310,310,Perry Capital,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+311,311,Salesforce,Technology: Software,12.0,8.0,12.0,26.0,Technology,10-20 weeks
+312,312,SAS Institute Inc.,Technology: Software,12.0,,4.0,,Technology,10-20 weeks
+313,313,Scholastic,Publishing,12.0,0.0,,,Publishing,10-20 weeks
+314,314,Snell & Wilmer,Law Firm,12.0,,,,Law Firm,10-20 weeks
+315,315,The AES Corporation,Natural Resources: Electric Power Genera...,12.0,,1.0,,Natural Resources,10-20 weeks
+316,316,The Estee Lauder Companies Inc.,Cosmetics,12.0,,,,Cosmetics,10-20 weeks
+317,317,The Southern Company,Natural Resources: Electric Power Genera...,12.0,6.0,,,Natural Resources,10-20 weeks
+318,318,The Walt Disney Company,Media: Diversified,12.0,12.0,0.0,,Media,10-20 weeks
+319,319,Thomson Reuters,Information Services: Diversified,12.0,19.0,7.0,24.0,Information Services,10-20 weeks
+320,320,Turner Broadcasting,Media: Diversified,12.0,2.0,6.0,,Media,10-20 weeks
+321,321,Valero Energy Corporation,Natural Resources: Oil & Gas,12.0,,,,Natural Resources,10-20 weeks
+322,322,Vinson & Elkins,Law Firm,12.0,12.0,,,Law Firm,10-20 weeks
+323,323,Wal-Mart Stores,Retail: General Merchandise,12.0,9.0,2.0,,Retail,10-20 weeks
+324,324,Association of Equipment Manufacturers,Industrial: Equipment Manufacturing,12.0,,,,Industrial,10-20 weeks
+325,325,Expedia Inc.,Technology: Consumer Internet,12.0,6.0,,,Technology,10-20 weeks
+326,326,Rally Software,Technology: Software,12.0,,,,Technology,10-20 weeks
+327,327,Huron Consulting Group,Consulting Services,12.0,,4.0,,Consulting Services,10-20 weeks
+328,328,Oliver Wyman,Consulting Services,12.0,12.0,,,Consulting Services,10-20 weeks
+329,329,Ryan LLC,Accounting Services,12.0,,2.0,2.0,Accounting Services,10-20 weeks
+330,330,Akamai,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+331,331,NetApp Inc,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+332,332,Mattel,Consumer Packaged Goods: Toys & Baby Pro...,12.0,,,,Consumer Packaged Goods,10-20 weeks
+333,333,Razorfish,Advertising,12.0,,,,Advertising,10-20 weeks
+334,334,T. Rowe Price,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+335,335,Harvard Business School,Educational Services: College & Universi...,12.0,12.0,,,Educational Services,10-20 weeks
+336,336,E&J; Gallo Winery,Consumer Packaged Goods: Beverages,12.0,4.0,,,Consumer Packaged Goods,10-20 weeks
+337,337,"MongoDB, Inc.",Technology: Software,12.0,,12.0,,Technology,10-20 weeks
+338,338,Mcgraw-Hill Education,Publishing,12.0,1.0,4.0,,Publishing,10-20 weeks
+339,339,ETS,Educational Services: Management,12.0,,,,Educational Services,10-20 weeks
+340,340,Protiviti,Consulting Services,12.0,0.0,,,Consulting Services,10-20 weeks
+341,341,Markit,Information Services: Financial,12.0,,,,Information Services,10-20 weeks
+342,342,Knewton,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+343,343,Mac Cosmetics,Cosmetics,12.0,,,,Cosmetics,10-20 weeks
+344,344,The Broad Institute,Nonprofit: Research,12.0,4.0,12.0,,Nonprofit,10-20 weeks
+345,345,Lyft,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+346,346,Shire PLC,Healthcare: Biotechnology,12.0,0.0,,,Healthcare,10-20 weeks
+347,347,Drinker Biddle & Reath,Law Firm,12.0,,,,Law Firm,10-20 weeks
+348,348,Symetra,Insurance: Life,12.0,,,,Insurance,10-20 weeks
+349,349,Dorsey & Whitney LLP,Law Firm,12.0,12.0,,,Law Firm,10-20 weeks
+350,350,XO Group Inc,Media: Magazines,12.0,12.0,,,Media,10-20 weeks
+351,351,Tory Burch,"Retail: Shoes, Accessories and Apparel",12.0,0.0,,,Retail,10-20 weeks
+352,352,T-3,Advertising,12.0,,,,Advertising,10-20 weeks
+353,353,GasPedal,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+354,354,Concur Technologies,Technology: Software,12.0,,6.0,6.0,Technology,10-20 weeks
+355,355,Forever 21,"Retail: Shoes, Accessories and Apparel",12.0,6.0,,,Retail,10-20 weeks
+356,356,Buffer,Technology: B2B Tech Services,12.0,52.0,12.0,12.0,Technology,10-20 weeks
+357,357,Athenahealth,Technology: B2B Tech Services,12.0,,6.0,,Technology,10-20 weeks
+358,358,Sapient Corporation,Consulting Services,12.0,,,,Consulting Services,10-20 weeks
+359,359,Cars.com,Automotive: Dealers,12.0,2.0,1.0,1.0,Automotive,10-20 weeks
+360,360,LegalZoom,Legal Services,12.0,,,,Legal Services,10-20 weeks
+361,361,Fennemore Craig,Law Firm,12.0,,,,Law Firm,10-20 weeks
+362,362,Spanx,"Retail: Shoes, Accessories and Apparel",12.0,,,,Retail,10-20 weeks
+363,363,"HubSpot, Inc.",Technology: Software,12.0,,,,Technology,10-20 weeks
+364,364,KBS+P,Advertising,12.0,12.0,,,Advertising,10-20 weeks
+365,365,Ariba,Technology: Software,12.0,,,,Technology,10-20 weeks
+366,366,Care.com,Technology: Consumer Internet,12.0,,6.0,,Technology,10-20 weeks
+367,367,Institute of International Education,Nonprofit: Education,12.0,,,,Nonprofit,10-20 weeks
+368,368,Pure Storage,Technology: Manufacturing,12.0,,,,Technology,10-20 weeks
+369,369,Thompson Coburn,Law Firm,12.0,,,,Law Firm,10-20 weeks
+370,370,Advanced Micro Devices,Technology: Manufacturing,12.0,,,,Technology,10-20 weeks
+371,371,Applause,Technology: B2B Tech Services,12.0,,2.0,,Technology,10-20 weeks
+372,372,Analysis Group,Consulting Services,12.0,,,,Consulting Services,10-20 weeks
+373,373,Adidas,"Retail: Shoes, Accessories and Apparel",12.0,12.0,2.0,2.0,Retail,10-20 weeks
+374,374,Asana,Technology: Software,12.0,4.0,12.0,12.0,Technology,10-20 weeks
+375,375,Geller & Company,Finance: Diversified,12.0,0.0,,,Finance,10-20 weeks
+376,376,Renovate America,Finance: Loans,12.0,,,,Finance,10-20 weeks
+377,377,Kyruus,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+378,378,Fortune Magazine,Media: News,12.0,,,,Media,10-20 weeks
+379,379,Fountain Valley Regional Hospital,Healthcare: Hospitals & Clinics,12.0,0.0,,,Healthcare,10-20 weeks
+380,380,Braintree,Technology: Payments,12.0,0.0,,,Technology,10-20 weeks
+381,381,Capital One 360,Finance: Diversified,12.0,4.0,,,Finance,10-20 weeks
+382,382,Biogen,Healthcare: Biotechnology,12.0,,,,Healthcare,10-20 weeks
+383,383,Ancestry.com,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+384,384,Alvarez & Marsal,Consulting Services,12.0,,,,Consulting Services,10-20 weeks
+385,385,General Atomics,Defense & Space,12.0,0.0,,,Defense & Space,10-20 weeks
+386,386,Washington Post,Media: News,12.0,,,,Media,10-20 weeks
+387,387,Jawbone,Technology: Wearable,12.0,,,,Technology,10-20 weeks
+388,388,Russell Investments,Finance: Asset Management,12.0,,2.0,,Finance,10-20 weeks
+389,389,Mattermark,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+390,390,Acumen,Nonprofit: Development,12.0,,2.0,,Nonprofit,10-20 weeks
+391,391,Ambac,Insurance: Diversified,12.0,,,,Insurance,10-20 weeks
+392,392,Allergan,Pharmaceutical,12.0,,,,Pharmaceutical,10-20 weeks
+393,393,Steptoe & Johnson PLLC,Law Firm,12.0,,,,Law Firm,10-20 weeks
+394,394,LexisNexis,Information Services: Diversified,12.0,,,,Information Services,10-20 weeks
+395,395,PAAMCO,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+396,396,Gerson Lehrman,Information Services: Diversified,12.0,0.0,,,Information Services,10-20 weeks
+397,397,Heidrick & Struggles,Consulting Services,12.0,0.0,,,Consulting Services,10-20 weeks
+398,398,Acquia,Technology: Software,12.0,,,,Technology,10-20 weeks
+399,399,Silicon Valley Bank,Finance: Diversified,12.0,,,,Finance,10-20 weeks
+400,400,Eaton Corporation,Industrial: Diversified,12.0,6.0,4.0,,Industrial,10-20 weeks
+401,401,Robins Kaplan Miller & Ciresi,Law Firm,12.0,,,,Law Firm,10-20 weeks
+402,402,"Laureate Education, Inc.",Educational Services: College & Universi...,12.0,,,,Educational Services,10-20 weeks
+403,403,J.Jill,"Retail: Shoes, Accessories and Apparel",12.0,,,,Retail,10-20 weeks
+404,404,"Federal Management Partners (FMP), Inc.",Consulting Services,12.0,4.0,,,Consulting Services,10-20 weeks
+405,405,United States Navy,Government: Federal,12.0,12.0,,,Government,10-20 weeks
+406,406,VICE Media,Media: Entertainment,12.0,,,,Media,10-20 weeks
+407,407,Madison Square Garden,Media: Entertainment,12.0,,,,Media,10-20 weeks
+408,408,Husch Blackwell LLP,Law Firm,12.0,,,,Law Firm,10-20 weeks
+409,409,Western Union,Finance: Credit & Fund Services,12.0,12.0,,,Finance,10-20 weeks
+410,410,Butzel Long,Law Firm,12.0,,,,Law Firm,10-20 weeks
+411,411,Glassdoor,Technology: Consumer Internet,12.0,0.0,,,Technology,10-20 weeks
+412,412,Civis Analytics,Technology: B2B Tech Services,12.0,12.0,4.0,4.0,Technology,10-20 weeks
+413,413,Vox Media,Media: Diversified,12.0,0.0,,,Media,10-20 weeks
+414,414,American Jewish World Service,Nonprofit: Humanitarian Aid Organization,12.0,,,,Nonprofit,10-20 weeks
+415,415,Madison International Realty,Real Estate: Investment Trust,12.0,0.0,,,Real Estate,10-20 weeks
+416,416,Christie's,Fine Art Auctions,12.0,0.0,,,Fine Art Auctions,10-20 weeks
+417,417,LSG Sky Chefs,Business Services: Food & Hospitality,12.0,,,,Business Services,10-20 weeks
+418,418,TriHealth,Healthcare: Hospitals & Clinics,12.0,,0.0,,Healthcare,10-20 weeks
+419,419,BPCM,Public Relations,12.0,6.0,,,Public Relations,10-20 weeks
+420,420,Cision,Technology: Software,12.0,,,,Technology,10-20 weeks
+421,421,Pegasystems Inc.,Technology: Software,12.0,,,,Technology,10-20 weeks
+422,422,Capco,Consulting Services,12.0,,,,Consulting Services,10-20 weeks
+423,423,One Acre Fund,Nonprofit: Development,12.0,,,,Nonprofit,10-20 weeks
+424,424,Pivotal Labs,Technology: Software,12.0,,4.0,,Technology,10-20 weeks
+425,425,American College of Obstetricians and Gy...,Nonprofit: Medical,12.0,12.0,,,Nonprofit,10-20 weeks
+426,426,Business Insider,Media: News,12.0,0.0,,,Media,10-20 weeks
+427,427,Beaumont Health System,Healthcare: Hospitals & Clinics,12.0,0.0,,,Healthcare,10-20 weeks
+428,428,Paulson & Co.,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+429,429,Amundi,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+430,430,Artsy,Technology: Consumer Internet,12.0,,6.0,,Technology,10-20 weeks
+431,431,Rackspace Inc.,Technology: B2B Tech Services,12.0,,4.0,,Technology,10-20 weeks
+432,432,Applied Predictive Technologies,Technology: Software,12.0,,,,Technology,10-20 weeks
+433,433,Akerman LLP,Law Firm,12.0,,,,Law Firm,10-20 weeks
+434,434,2k Games,Technology: Gaming,12.0,4.0,,,Technology,10-20 weeks
+435,435,"Jockey International, Inc.","Retail: Shoes, Accessories and Apparel",12.0,,,,Retail,10-20 weeks
+436,436,International Rescue Committee,Nonprofit: Humanitarian Aid Organization,12.0,0.0,,,Nonprofit,10-20 weeks
+437,437,"BMW of North America, LLC",Automotive: Manufacturers,12.0,,,,Automotive,10-20 weeks
+438,438,Appriss,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+439,439,Advertising.com,Advertising,12.0,,,,Advertising,10-20 weeks
+440,440,Crispin Porter + Bogusky,Advertising,12.0,,12.0,,Advertising,10-20 weeks
+441,441,Blackbaud,Technology: Software,12.0,,,,Technology,10-20 weeks
+442,442,Golin,Public Relations,12.0,,,,Public Relations,10-20 weeks
+443,443,Elekta,Healthcare: Medical Devices,12.0,,,,Healthcare,10-20 weeks
+444,444,Bravo TV,Media: Television,12.0,0.0,,,Media,10-20 weeks
+445,445,Apax Partners,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+446,446,Wikia,Media: Entertainment,12.0,,,,Media,10-20 weeks
+447,447,Uptake,Technology: Software,12.0,,,,Technology,10-20 weeks
+448,448,"ThoughtWorks, Inc.",Business Services: Technology Solutions,12.0,,,,Business Services,10-20 weeks
+449,449,Propak Systems,Natural Resources: Oil & Gas,12.0,,,,Natural Resources,10-20 weeks
+450,450,Barnes & Thornburg,Law Firm,12.0,,,,Law Firm,10-20 weeks
+451,451,Ballard Spahr LLP,Law Firm,12.0,,,,Law Firm,10-20 weeks
+452,452,Khan Academy,Educational Services: E-Learning,12.0,,,,Educational Services,10-20 weeks
+453,453,LawInContext,Legal Services,12.0,0.0,,,Legal Services,10-20 weeks
+454,454,Center for Diagnostic Imaging,Healthcare: Hospitals & Clinics,12.0,,,,Healthcare,10-20 weeks
+455,455,NewYork-Presbyterian Hospital,Healthcare: Hospitals & Clinics,12.0,12.0,,,Healthcare,10-20 weeks
+456,456,Baker Tilly,Accounting Services,12.0,,6.0,,Accounting Services,10-20 weeks
+457,457,Achievement First,Educational Services: School,12.0,,,,Educational Services,10-20 weeks
+458,458,BI WORLDWIDE,Advertising,12.0,,,,Advertising,10-20 weeks
+459,459,Jellyvision,Technology: B2B Tech Services,12.0,,4.0,8.0,Technology,10-20 weeks
+460,460,Boston Medical Center,Healthcare: Hospitals & Clinics,12.0,,,,Healthcare,10-20 weeks
+461,461,Synergis,Business Services: Staffing & Outsourcin...,12.0,,,,Business Services,10-20 weeks
+462,462,Upworthy,Media: Entertainment,12.0,,12.0,,Media,10-20 weeks
+463,463,AppFog,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+464,464,Slack Technologies,Technology: Software,12.0,,,,Technology,10-20 weeks
+465,465,Wolff Olins,Advertising,12.0,,,,Advertising,10-20 weeks
+466,466,Lombard Odier,Finance: Asset Management,12.0,,,,Finance,10-20 weeks
+467,467,Ask.com,Technology: Consumer Internet,12.0,,,,Technology,10-20 weeks
+468,468,Hensel Phelps,Industrial: Construction Company,12.0,12.0,,,Industrial,10-20 weeks
+469,469,M&T; Bank Corporation,Finance: Personal & Commercial Banking,12.0,,2.0,,Finance,10-20 weeks
+470,470,"City of Ferndale, Michigan",Government: City,12.0,,,,Government,10-20 weeks
+471,471,Andersen Tax,Accounting Services,12.0,,2.0,,Accounting Services,10-20 weeks
+472,472,Olark,Technology: B2B Tech Services,12.0,,,,Technology,10-20 weeks
+473,473,TuneIn,Arts & Entertainment,12.0,,6.0,,Arts & Entertainment,10-20 weeks
+474,474,MM.LaFleur,"Retail: Shoes, Accessories and Apparel",12.0,,12.0,,Retail,10-20 weeks
+475,475,Technomic Inc.,Consulting Services,12.0,,,,Consulting Services,10-20 weeks
+476,476,RMB Capital Management,Finance: Asset Management,12.0,,4.0,,Finance,10-20 weeks
+477,477,"Morningstar, Inc.",Finance: Diversified,12.0,0.0,4.0,0.0,Finance,10-20 weeks
+478,478,Feeding America,Nonprofit: Civic & Social,12.0,4.0,,,Nonprofit,10-20 weeks
+479,479,Intercontinental Exchange,Finance: Diversified,12.0,0.0,1.0,,Finance,10-20 weeks
+480,480,San Francisco Department of Technology,Government: County,12.0,,,,Government,10-20 weeks
+481,481,Glassbreakers,Technology: Consumer Internet,12.0,,12.0,,Technology,10-20 weeks
+482,482,Kink.com,Media: Entertainment,12.0,,12.0,,Media,10-20 weeks
+483,483,American Academy of Sleep Medicine,Nonprofit: Medical,12.0,,,,Nonprofit,10-20 weeks
+484,484,Neo Technology,Technology: B2B Tech Services,12.0,,6.0,6.0,Technology,10-20 weeks
+485,485,Zuora,Information Services: Technology,12.0,,6.0,6.0,Information Services,10-20 weeks
+486,486,HMSHost,Hospitality: Restaurants,12.0,,,,Hospitality,10-20 weeks
+487,487,Fairygodboss Inc.,Technology: Consumer Internet,12.0,12.0,12.0,,Technology,10-20 weeks
+488,488,"OpticsPlanet, Inc.",Retail: Online,12.0,,,,Retail,10-20 weeks
+489,489,International Monetary Fund,Government: International,12.0,,8.0,,Government,10-20 weeks
+490,490,Starry,Technology: Consumer Internet,12.0,,12.0,,Technology,10-20 weeks
+491,491,Gofundme,Technology: Consumer Internet,12.0,,4.0,4.0,Technology,10-20 weeks
+492,492,The Clinton Foundation,Nonprofit: Charity,12.0,,12.0,,Nonprofit,10-20 weeks
+493,493,Lonza Group,Pharmaceutical,12.0,,,,Pharmaceutical,10-20 weeks
+494,494,JLT Specialty USA,Insurance: Brokerage,12.0,,2.0,,Insurance,10-20 weeks
+495,495,Pomeroy IT Solutions,Information Services: Technology,12.0,,,,Information Services,10-20 weeks
+496,496,"Coach, Inc.","Retail: Shoes, Accessories and Apparel",12.0,,,,Retail,10-20 weeks
+497,497,Entelo,Information Services: Technology,12.0,,12.0,,Information Services,10-20 weeks
+498,498,Digital Realty,Information Services: Technology,12.0,,12.0,,Information Services,10-20 weeks
+499,499,Smart Design,Design,12.0,1.0,2.0,,Design,10-20 weeks
+500,500,ideas42,Nonprofit: Civic & Social,12.0,,12.0,,Nonprofit,10-20 weeks
+501,501,Amino Inc.,Information Services: Technology,12.0,,10.0,,Information Services,10-20 weeks
+502,502,Gamestop,Retail: Other,12.0,,,,Retail,10-20 weeks
+503,503,"IEX Group, Inc.",Finance: Diversified,12.0,,4.0,,Finance,10-20 weeks
+504,504,SapientRazorfish,Advertising,12.0,,2.0,,Advertising,10-20 weeks
+505,505,Applied Research Associates,Industrial: Engineering,11.0,17.0,,,Industrial,10-20 weeks
+506,506,Unilever,Consumer Packaged Goods: Packaged Produc...,11.0,8.0,6.0,,Consumer Packaged Goods,10-20 weeks
+507,507,Hasbro Inc.,Consumer Packaged Goods: Toys & Baby Pro...,11.0,,10.0,,Consumer Packaged Goods,10-20 weeks
+508,508,IDEO,Industrial: Architecture & Design,11.0,,,,Industrial,10-20 weeks
+509,509,Linkedin,Technology: Consumer Internet,11.0,6.0,6.0,6.0,Technology,10-20 weeks
+510,510,Royal Bank of Scotland Group,Finance: Diversified,11.0,,,,Finance,10-20 weeks
+511,511,Time Inc.,Media: Diversified,11.0,5.0,,,Media,10-20 weeks
+512,512,LeClairRyan,Law Firm,11.0,2.0,,,Law Firm,10-20 weeks
+513,513,Sailthru,Technology: B2B Tech Services,11.0,8.0,5.0,,Technology,10-20 weeks
+514,514,Travelzoo,Technology: Consumer Internet,11.0,,,,Technology,10-20 weeks
+515,515,University of Southern California,Educational Services: College & Universi...,11.0,6.0,,,Educational Services,10-20 weeks
+516,516,Connections Education,Educational Services: E-Learning,11.0,0.0,,,Educational Services,10-20 weeks
+517,517,Teach for America,Nonprofit: Education,10.0,,,,Nonprofit,0-10 weeks
+518,518,Electronic Arts,Technology: Gaming,10.0,6.0,,,Technology,0-10 weeks
+519,519,Merkle,Advertising,10.0,6.0,,,Advertising,0-10 weeks
+520,520,U.S. Bank,Finance: Personal & Commercial Banking,10.0,12.0,4.0,,Finance,0-10 weeks
+521,521,HBO (Home Box Office Inc.),Media: Entertainment,10.0,,,,Media,0-10 weeks
+522,522,"PNC Financial Services Group, Inc.",Finance: Personal & Commercial Banking,10.0,13.0,6.0,,Finance,0-10 weeks
+523,523,"ScottMadden, Inc.",Consulting Services,10.0,,,,Consulting Services,0-10 weeks
+524,524,3M,Industrial: Diversified,10.0,12.0,10.0,,Industrial,0-10 weeks
+525,525,A.T. Kearney,Consulting Services,10.0,,2.0,,Consulting Services,0-10 weeks
+526,526,"American Airlines Group, Inc.",Transportation: Passenger Air,10.0,6.0,,,Transportation,0-10 weeks
+527,527,Broadridge Financial Solutions Group,Business Services: Technology Solutions,10.0,12.0,,,Business Services,0-10 weeks
+528,528,Campbell Soup Company,Consumer Packaged Goods: Packaged Foods,10.0,,,,Consumer Packaged Goods,0-10 weeks
+529,529,Chesapeake Energy Corporation,Natural Resources: Oil & Gas,10.0,2.0,,,Natural Resources,0-10 weeks
+530,530,Diageo,Consumer Packaged Goods: Beverages,10.0,6.0,4.0,,Consumer Packaged Goods,0-10 weeks
+531,531,Eli Lilly and Company,Pharmaceutical,10.0,6.0,1.0,,Pharmaceutical,0-10 weeks
+532,532,Enterprise Holdings,Transportation: Rental,10.0,2.0,2.0,,Transportation,0-10 weeks
+533,533,HP Inc.,Technology: Manufacturing,10.0,5.0,8.0,,Technology,0-10 weeks
+534,534,Hilton Worldwide Holdings Inc.,Hospitality: Hotels,10.0,,2.0,,Hospitality,0-10 weeks
+535,535,Kaplan University,Educational Services: College & Universi...,10.0,6.0,,,Educational Services,0-10 weeks
+536,536,Kimberly-Clark Corporation,Consumer Packaged Goods: Packaged Produc...,10.0,6.0,4.0,,Consumer Packaged Goods,0-10 weeks
+537,537,Liberty Interactive Corporation,Media: Diversified,10.0,,,,Media,0-10 weeks
+538,538,Moody's Corporation,Finance: Diversified,10.0,0.0,4.0,,Finance,0-10 weeks
+539,539,MTV Networks,Media: Entertainment,10.0,,,,Media,0-10 weeks
+540,540,NASDAQ,Information Services: Financial,10.0,,1.0,,Information Services,0-10 weeks
+541,541,New York Life Insurance Company,Insurance: Life,10.0,8.0,4.0,,Insurance,0-10 weeks
+542,542,Pitney Bowes,Business Services: Technology Solutions,10.0,,,,Business Services,0-10 weeks
+543,543,Roche Holding AG,Pharmaceutical,10.0,7.0,,,Pharmaceutical,0-10 weeks
+544,544,Viacom Inc.,Media: Diversified,10.0,,4.0,,Media,0-10 weeks
+545,545,Weight Watchers,Consumer Packaged Goods: Packaged Foods,10.0,2.0,,,Consumer Packaged Goods,0-10 weeks
+546,546,Cornerstone Research,Consulting Services,10.0,,4.0,,Consulting Services,0-10 weeks
+547,547,Symantec,Technology: Software,10.0,,,,Technology,0-10 weeks
+548,548,Alnylam,Pharmaceutical,10.0,4.0,2.0,,Pharmaceutical,0-10 weeks
+549,549,Virginia Tech,Educational Services: College & Universi...,10.0,7.0,,,Educational Services,0-10 weeks
+550,550,Nature Conservancy,Nonprofit: Environmental Organization,10.0,6.0,2.0,,Nonprofit,0-10 weeks
+551,551,Everyday Health,Technology: Consumer Internet,10.0,,,,Technology,0-10 weeks
+552,552,CGI Group,Business Services: Technology Solutions,10.0,2.0,,,Business Services,0-10 weeks
+553,553,Forrester Research,Information Services: Technology,10.0,2.0,2.0,,Information Services,0-10 weeks
+554,554,Duff & Phelps,Finance: Diversified,10.0,1.0,,,Finance,0-10 weeks
+555,555,Kiewit,Industrial: Construction Company,10.0,0.0,,,Industrial,0-10 weeks
+556,556,CGI Interactive,Advertising,10.0,2.0,,,Advertising,0-10 weeks
+557,557,Rockfish Interactive,Advertising,10.0,,,,Advertising,0-10 weeks
+558,558,Cimpress,Design,10.0,,2.0,,Design,0-10 weeks
+559,559,West Monroe Partners,Consulting Services,10.0,,5.0,,Consulting Services,0-10 weeks
+560,560,Natural Resources Defense Council,Nonprofit: Environmental Organization,10.0,,,,Nonprofit,0-10 weeks
+561,561,"City of Saratoga, California",Government: City,10.0,10.0,,,Government,0-10 weeks
+562,562,Cornerstone Chemical Company,Natural Resources: Chemicals,10.0,2.0,,,Natural Resources,0-10 weeks
+563,563,Trulia,Technology: Consumer Internet,10.0,,,,Technology,0-10 weeks
+564,564,Saint Michael's College,Educational Services: College & Universi...,10.0,2.0,,,Educational Services,0-10 weeks
+565,565,Cartoon Network,Media: Television,10.0,2.0,,,Media,0-10 weeks
+566,566,"500friends, a Merkle Company",Technology: B2B Tech Services,10.0,6.0,,,Technology,0-10 weeks
+567,567,Leo Burnett U.S.,Advertising,10.0,,2.0,,Advertising,0-10 weeks
+568,568,Roche Diagnostics,Healthcare: Medical Devices,10.0,,8.0,,Healthcare,0-10 weeks
+569,569,Amgen Inc.,Healthcare: Biotechnology,9.0,6.0,,,Healthcare,0-10 weeks
+570,570,AOL,Technology: Consumer Internet,9.0,,,,Technology,0-10 weeks
+571,571,BDO International,Accounting Services,9.0,,2.0,,Accounting Services,0-10 weeks
+572,572,Fifth Third Bank,Finance: Personal & Commercial Banking,9.0,1.0,,,Finance,0-10 weeks
+573,573,Kaiser Permanente,Insurance: Health,9.0,12.0,,,Insurance,0-10 weeks
+574,574,Lexmark International,Technology: Manufacturing,9.0,6.0,6.0,,Technology,0-10 weeks
+575,575,Mastercard Incorporated,Finance: Credit & Fund Services,9.0,8.0,2.0,,Finance,0-10 weeks
+576,576,McGraw-HIll Financial,Information Services: Financial,9.0,,3.0,3.0,Information Services,0-10 weeks
+577,577,Vanguard Group,Finance: Asset Management,9.0,0.0,6.0,,Finance,0-10 weeks
+578,578,"EnerNOC, Inc.",Technology: Software,9.0,,,,Technology,0-10 weeks
+579,579,McMaster-Carr,Industrial: Other,9.0,7.0,,,Industrial,0-10 weeks
+580,580,Cozen O'Connor,Law Firm,9.0,6.0,,,Law Firm,0-10 weeks
+581,581,Mindshare Worldwide,Advertising,9.0,,,,Advertising,0-10 weeks
+582,582,USAA,Insurance: Diversified,9.0,6.0,12.0,,Insurance,0-10 weeks
+583,583,Boston Scientific,Healthcare: Medical Devices,9.0,6.0,3.0,,Healthcare,0-10 weeks
+584,584,Cornerstone OnDemand,Technology: Software,9.0,5.0,,,Technology,0-10 weeks
+585,585,Sandoz,Pharmaceutical,9.0,0.0,,,Pharmaceutical,0-10 weeks
+586,586,BMO Harris Bank,Finance: Personal & Commercial Banking,9.0,9.0,,,Finance,0-10 weeks
+587,587,Epsilon,Advertising,9.0,3.0,,,Advertising,0-10 weeks
+588,588,Lincoln Financial Group,Finance: Diversified,9.0,,1.0,,Finance,0-10 weeks
+589,589,RSM US LLP,Accounting Services,9.0,,3.0,,Accounting Services,0-10 weeks
+590,590,S&P; Global Inc,Information Services: Financial,9.0,,3.0,,Information Services,0-10 weeks
+591,591,VMware,Technology: Software,8.0,4.0,,,Technology,0-10 weeks
+592,592,DoorDash,Technology: Consumer Internet,8.0,4.0,,,Technology,0-10 weeks
+593,593,Georgetown University,Educational Services: College & Universi...,8.0,4.0,,,Educational Services,0-10 weeks
+594,594,Lincoln Laboratory,Nonprofit: Research,8.0,4.0,,1.0,Nonprofit,0-10 weeks
+595,595,Charles Stark Draper Laboratory,Nonprofit: Research,8.0,,6.0,,Nonprofit,0-10 weeks
+596,596,MIT,Educational Services: College & Universi...,8.0,8.0,1.0,1.0,Educational Services,0-10 weeks
+597,597,Harper's Bazaar,Publishing,8.0,,,,Publishing,0-10 weeks
+598,598,dunnhumby,Advertising,8.0,,,,Advertising,0-10 weeks
+599,599,Levi Strauss & Co.,"Retail: Shoes, Accessories and Apparel",8.0,,8.0,,Retail,0-10 weeks
+600,600,BP,Natural Resources: Oil & Gas,8.0,20.0,2.0,0.0,Natural Resources,0-10 weeks
+601,601,Harrah's,Hospitality: Casinos,8.0,,,,Hospitality,0-10 weeks
+602,602,Blue Apron,Hospitality: Meal Kit Delivery,8.0,,,,Hospitality,0-10 weeks
+603,603,"Reebok International, Ltd.","Retail: Shoes, Accessories and Apparel",8.0,10.0,,,Retail,0-10 weeks
+604,604,Pearson Education,Publishing,8.0,3.0,,,Publishing,0-10 weeks
+605,605,McAfee & Taft,Law Firm,8.0,,,,Law Firm,0-10 weeks
+606,606,AECOM Technology Corporation,Industrial: Construction Company,8.0,,,,Industrial,0-10 weeks
+607,607,Archer Daniels Midland,Natural Resources: Agriculture and Food ...,8.0,,,,Natural Resources,0-10 weeks
+608,608,Birchbox,Technology: Consumer Internet,8.0,4.0,8.0,4.0,Technology,0-10 weeks
+609,609,Booz Allen Hamilton,Consulting Services,8.0,38.0,4.0,,Consulting Services,0-10 weeks
+610,610,CBS Corporation,Media: Diversified,8.0,,,,Media,0-10 weeks
+611,611,"CenturyLink, Inc.",Telecommunications,8.0,,,,Telecommunications,0-10 weeks
+612,612,City University of New York,Educational Services: College & Universi...,8.0,4.0,,,Educational Services,0-10 weeks
+613,613,DHL,Transportation: Couriers & Delivery,8.0,,,,Transportation,0-10 weeks
+614,614,Digitas LBi,Advertising,8.0,,6.0,,Advertising,0-10 weeks
+615,615,E*Trade Financial Corporation,Finance: Diversified,8.0,,,,Finance,0-10 weeks
+616,616,"Ecolab, Inc.",Conglomerate,8.0,4.0,,,Conglomerate,0-10 weeks
+617,617,Hearst Corporation,Media: Diversified,8.0,,,,Media,0-10 weeks
+618,618,Aon Hewitt,Consulting Services,8.0,8.0,,,Consulting Services,0-10 weeks
+619,619,Hyatt Hotels,Hospitality: Hotels,8.0,4.0,8.0,,Hospitality,0-10 weeks
+620,620,Kellogg Company,Consumer Packaged Goods: Packaged Foods,8.0,,,,Consumer Packaged Goods,0-10 weeks
+621,621,Kelly Services,Business Services: Staffing & Outsourcin...,8.0,4.0,,,Business Services,0-10 weeks
+622,622,Marathon Oil Corporation,Natural Resources: Oil & Gas,8.0,4.0,,,Natural Resources,0-10 weeks
+623,623,"Marsh & McLennan Companies, Inc.",Finance: Diversified,8.0,12.0,8.0,12.0,Finance,0-10 weeks
+624,624,Marvel Entertainment,Media: Entertainment,8.0,,,,Media,0-10 weeks
+625,625,Mercer Consulting,Consulting Services,8.0,,,,Consulting Services,0-10 weeks
+626,626,Monsanto Company,Natural Resources: Agrochemical,8.0,,4.0,,Natural Resources,0-10 weeks
+627,627,Philip Morris International Inc.,Consumer Packaged Goods: Tobacco,8.0,,,,Consumer Packaged Goods,0-10 weeks
+628,628,"Prudential Financial, Inc.",Insurance: Life,8.0,19.0,4.0,,Insurance,0-10 weeks
+629,629,Raymond James Financial,Finance: Diversified,8.0,,3.0,,Finance,0-10 weeks
+630,630,Regis Corp,Services: Salons & Spas,8.0,12.0,,,Services,0-10 weeks
+631,631,Robert Baird & Co.,Finance: Diversified,8.0,,,,Finance,0-10 weeks
+632,632,State Street Corporation,Finance: Diversified,8.0,,8.0,,Finance,0-10 weeks
+633,633,Stifel Nicolaus & Co.,Finance: Diversified,8.0,4.0,,,Finance,0-10 weeks
+634,634,Stryker Corporation,Healthcare: Medical Devices,8.0,4.0,4.0,,Healthcare,0-10 weeks
+635,635,Texas Instruments Incorporated,Technology: Manufacturing,8.0,,2.0,,Technology,0-10 weeks
+636,636,TIAA-CREF,Finance: Asset Management,8.0,,4.0,,Finance,0-10 weeks
+637,637,TOMS,"Retail: Shoes, Accessories and Apparel",8.0,,8.0,8.0,Retail,0-10 weeks
+638,638,U.S. News & World Report,Media: News,8.0,,,,Media,0-10 weeks
+639,639,United Technologies,Conglomerate,8.0,16.0,4.0,,Conglomerate,0-10 weeks
+640,640,"W.W. Grainger, Inc.",Industrial: Other,8.0,,,,Industrial,0-10 weeks
+641,641,Abbott Nutrition,Pharmaceutical,8.0,4.0,,,Pharmaceutical,0-10 weeks
+642,642,Wipro,Technology: B2B Tech Services,8.0,,,,Technology,0-10 weeks
+643,643,Fox News Channel,Media: News,8.0,,,,Media,0-10 weeks
+644,644,Monster,Technology: Consumer Internet,8.0,4.0,,,Technology,0-10 weeks
+645,645,Rust-Oleum Corporation,Industrial: Building Materials Manufactu...,8.0,,,,Industrial,0-10 weeks
+646,646,Brand Networks,Advertising,8.0,,,,Advertising,0-10 weeks
+647,647,Data Communique,Technology: B2B Tech Services,8.0,12.0,,,Technology,0-10 weeks
+648,648,SC johnson,Consumer Packaged Goods: Packaged Produc...,8.0,,2.0,,Consumer Packaged Goods,0-10 weeks
+649,649,Valassis,Advertising,8.0,4.0,,,Advertising,0-10 weeks
+650,650,The Container Store,Retail: Furniture & Home Improvement,8.0,4.0,2.0,,Retail,0-10 weeks
+651,651,Hologic,Healthcare: Medical Devices,8.0,4.0,2.0,10.0,Healthcare,0-10 weeks
+652,652,New Balance,"Retail: Shoes, Accessories and Apparel",8.0,4.0,,,Retail,0-10 weeks
+653,653,Kmart,Retail: Discount Store,8.0,12.0,,,Retail,0-10 weeks
+654,654,Save-A-Lot,Retail: Supermarket Company,8.0,,,,Retail,0-10 weeks
+655,655,Kelly Services OCG,Consulting Services,8.0,,,,Consulting Services,0-10 weeks
+656,656,St. Edward's University,Educational Services: College & Universi...,8.0,4.0,,,Educational Services,0-10 weeks
+657,657,Los Angeles Unified School District,Educational Services: School,8.0,,,,Educational Services,0-10 weeks
+658,658,DreamHost,Technology: B2B Tech Services,8.0,,,,Technology,0-10 weeks
+659,659,Cengage Learning,Educational Services: E-Learning,8.0,4.0,,,Educational Services,0-10 weeks
+660,660,Southern Methodist University,Educational Services: College & Universi...,8.0,4.0,,,Educational Services,0-10 weeks
+661,661,Astellas Pharma,Pharmaceutical,8.0,,2.0,,Pharmaceutical,0-10 weeks
+662,662,Capella University,Educational Services: College & Universi...,8.0,4.0,,,Educational Services,0-10 weeks
+663,663,Evolent Health,Healthcare: Services,8.0,4.0,,,Healthcare,0-10 weeks
+664,664,United Way Worldwide,Nonprofit: Charity,8.0,4.0,,,Nonprofit,0-10 weeks
+665,665,"Thompson, Siegel and Walmsley",Finance: Asset Management,8.0,0.0,,,Finance,0-10 weeks
+666,666,CFA Institute,Finance: Diversified,8.0,,,,Finance,0-10 weeks
+667,667,Datalogix,Technology: Software,8.0,4.0,,,Technology,0-10 weeks
+668,668,Audible,Technology: Manufacturing,8.0,,,,Technology,0-10 weeks
+669,669,Tech Mahindra,Technology: B2B Tech Services,8.0,4.0,8.0,,Technology,0-10 weeks
+670,670,Prometric Testing,Educational Services: Management,8.0,,,,Educational Services,0-10 weeks
+671,671,Blackboard Inc.,Technology: Software,8.0,,,,Technology,0-10 weeks
+672,672,Clarks,"Retail: Shoes, Accessories and Apparel",8.0,2.0,2.0,,Retail,0-10 weeks
+673,673,Crescent City Schools,Educational Services: School,8.0,4.0,,,Educational Services,0-10 weeks
+674,674,Newly Weds Foods,Consumer Packaged Goods: Packaged Foods,8.0,4.0,,,Consumer Packaged Goods,0-10 weeks
+675,675,Mother Jones,Publishing,8.0,,,,Publishing,0-10 weeks
+676,676,Plum Organics,Consumer Packaged Goods: Packaged Foods,8.0,,2.0,,Consumer Packaged Goods,0-10 weeks
+677,677,EverFi,Educational Services: E-Learning,8.0,4.0,,,Educational Services,0-10 weeks
+678,678,PharMerica Corporation,Pharmaceutical,8.0,3.0,,,Pharmaceutical,0-10 weeks
+679,679,Myler Disability,Legal Services,8.0,4.0,,,Legal Services,0-10 weeks
+680,680,Slalom Consulting,Consulting Services,8.0,4.0,,,Consulting Services,0-10 weeks
+681,681,Centro,Advertising,8.0,,,,Advertising,0-10 weeks
+682,682,Michelin,Automotive: Parts Manufacturing,8.0,4.0,3.0,,Automotive,0-10 weeks
+683,683,WIL Research,Pharmaceutical,8.0,8.0,,,Pharmaceutical,0-10 weeks
+684,684,Alice + Olivia,"Retail: Shoes, Accessories and Apparel",8.0,,,,Retail,0-10 weeks
+685,685,thoughtbot,Technology: B2B Tech Services,8.0,,,,Technology,0-10 weeks
+686,686,iCrossing,Advertising,8.0,,4.0,,Advertising,0-10 weeks
+687,687,Rock Solid Technologies,Technology: Software,8.0,,,,Technology,0-10 weeks
+688,688,Q2ebanking,Technology: Financial Services,8.0,4.0,,,Technology,0-10 weeks
+689,689,Avanade,Technology: B2B Tech Services,8.0,,,,Technology,0-10 weeks
+690,690,Foursquare,Technology: Consumer Internet,8.0,4.0,6.0,0.0,Technology,0-10 weeks
+691,691,Evangelical Lutheran Good Samaritan Soci...,Nonprofit: Family Care,8.0,,,,Nonprofit,0-10 weeks
+692,692,BigCommerce,Technology: Software,8.0,,,,Technology,0-10 weeks
+693,693,"City of Cambridge, Massachusetts",Government: City,8.0,,,,Government,0-10 weeks
+694,694,Ellucian,Technology: B2B Tech Services,8.0,4.0,2.0,,Technology,0-10 weeks
+695,695,Capstone Partners LLC,Finance: Diversified,8.0,1.0,,,Finance,0-10 weeks
+696,696,Scripps Networks Interactive,Media: Television,8.0,5.0,,,Media,0-10 weeks
+697,697,"Pocket Gems, Inc",Technology: Gaming,8.0,10.0,4.0,8.0,Technology,0-10 weeks
+698,698,Rocana,Technology: Software,8.0,,8.0,8.0,Technology,0-10 weeks
+699,699,"TMP Worldwide, LLC",Advertising,8.0,,,,Advertising,0-10 weeks
+700,700,Hartford Hospital,Healthcare: Hospitals & Clinics,8.0,,,,Healthcare,0-10 weeks
+701,701,Crowe Horwath International,Accounting Services,8.0,,,,Accounting Services,0-10 weeks
+702,702,Cohn & Wolfe,Public Relations,8.0,8.0,,,Public Relations,0-10 weeks
+703,703,PPR Talent Management,Healthcare: Services,8.0,,2.0,2.0,Healthcare,0-10 weeks
+704,704,Philips,Electronics: Manufacturing,8.0,,,,Electronics,0-10 weeks
+705,705,New York Media LLC,Media: Magazines,8.0,4.0,2.0,10.0,Media,0-10 weeks
+706,706,Carbonite,Technology: Software,8.0,4.0,,,Technology,0-10 weeks
+707,707,Paperless Post,Design,8.0,12.0,,,Design,0-10 weeks
+708,708,Stauffers of Kissel Hill,Retail: Supermarket Company,8.0,4.0,0.0,0.0,Retail,0-10 weeks
+709,709,Omnicom Health Group,Advertising,8.0,4.0,2.0,,Advertising,0-10 weeks
+710,710,The Frontier Project,Consulting Services,8.0,4.0,8.0,4.0,Consulting Services,0-10 weeks
+711,711,Echo Energy,Finance: Asset Management,8.0,,,,Finance,0-10 weeks
+712,712,Jana Mobile Inc.,Advertising,8.0,4.0,8.0,4.0,Advertising,0-10 weeks
+713,713,Atlas Obscura,Technology: Consumer Internet,8.0,,,,Technology,0-10 weeks
+714,714,Bright Antenna Records,Publishing,8.0,,,,Publishing,0-10 weeks
+715,715,Blue Cross and Blue Shield of North Caro...,Insurance: Health,8.0,,2.0,,Insurance,0-10 weeks
+716,716,GRAND HYATT SAN ANTONIO,Hospitality: Hotels,8.0,,2.0,,Hospitality,0-10 weeks
+717,717,Abbott Laboratories,Pharmaceutical,7.0,12.0,2.0,,Pharmaceutical,0-10 weeks
+718,718,Allianz SE,Finance: Diversified,7.0,,4.0,,Finance,0-10 weeks
+719,719,AON PLC,Insurance: Diversified,7.0,2.0,,,Insurance,0-10 weeks
+720,720,Bayer AG,Pharmaceutical,7.0,9.0,,,Pharmaceutical,0-10 weeks
+721,721,Bristol-Myers Squibb Company,Pharmaceutical,7.0,18.0,1.0,,Pharmaceutical,0-10 weeks
+722,722,Caterpillar Inc.,Industrial: Equipment Manufacturing,7.0,6.0,2.0,,Industrial,0-10 weeks
+723,723,FCA US LLC,Automotive: Manufacturers,7.0,,,,Automotive,0-10 weeks
+724,724,Cognizant Technology Solutions Corporati...,Technology: B2B Tech Services,7.0,,0.0,,Technology,0-10 weeks
+725,725,Colgate-Palmolive Company,Consumer Packaged Goods: Packaged Produc...,7.0,9.0,3.0,,Consumer Packaged Goods,0-10 weeks
+726,726,First Horizon National,Finance: Diversified,7.0,4.0,4.0,,Finance,0-10 weeks
+727,727,Freddie Mac,Finance: Personal & Commercial Banking,7.0,12.0,3.0,,Finance,0-10 weeks
+728,728,Katten Muchin Rosenman LLP,Law Firm,7.0,,0.0,,Law Firm,0-10 weeks
+729,729,McGladrey,Accounting Services,7.0,13.0,,,Accounting Services,0-10 weeks
+730,730,Nationwide Mutual Insurance Co.,Insurance: Property & Casualty,7.0,5.0,,,Insurance,0-10 weeks
+731,731,Northern Trust,Finance: Diversified,7.0,,3.0,,Finance,0-10 weeks
+732,732,Southwest Airlines Co.,Transportation: Passenger Air,7.0,,,,Transportation,0-10 weeks
+733,733,T-Mobile,Telecommunications,7.0,12.0,3.0,3.0,Telecommunications,0-10 weeks
+734,734,Target Corporation,Retail: General Merchandise,7.0,6.0,2.0,,Retail,0-10 weeks
+735,735,United Services Automobile Association,Finance: Diversified,7.0,5.0,,,Finance,0-10 weeks
+736,736,Wiley Publishing,Publishing,7.0,12.0,,,Publishing,0-10 weeks
+737,737,CoverednFab,"Retail: Shoes, Accessories and Apparel",7.0,2.0,,,Retail,0-10 weeks
+738,738,Princeton University,Educational Services: College & Universi...,7.0,6.0,,,Educational Services,0-10 weeks
+739,739,OutboundEngine,Advertising,7.0,4.0,,,Advertising,0-10 weeks
+740,740,Bose Corporation,Technology: Manufacturing,7.0,4.0,,,Technology,0-10 weeks
+741,741,AstraZeneca,Pharmaceutical,7.0,26.0,,,Pharmaceutical,0-10 weeks
+742,742,Zoetis,Healthcare: Animal Health,7.0,6.0,1.0,,Healthcare,0-10 weeks
+743,743,Hall Capital Partners,Finance: Asset Management,7.0,7.0,8.0,,Finance,0-10 weeks
+744,744,Takeda,Pharmaceutical,7.0,6.0,2.0,,Pharmaceutical,0-10 weeks
+745,745,United States Chamber of Commerce,Business Services: Other,7.0,,,,Business Services,0-10 weeks
+746,746,FM Global,Insurance: Property & Casualty,7.0,,,,Insurance,0-10 weeks
+747,747,CapTech Consulting,Technology: B2B Tech Services,7.0,5.0,,,Technology,0-10 weeks
+748,748,RSM International,Accounting Services,7.0,,3.0,,Accounting Services,0-10 weeks
+749,749,2U,Educational Services: E-Learning,7.0,,6.0,,Educational Services,0-10 weeks
+750,750,Boehringer Ingelheim,Pharmaceutical,7.0,16.0,2.0,,Pharmaceutical,0-10 weeks
+751,751,AP Staffing,Business Services: Staffing & Outsourcin...,6.0,6.0,,,Business Services,0-10 weeks
+752,752,Hines,Real Estate: Development & Management,6.0,6.0,,,Real Estate,0-10 weeks
+753,753,Pharmaceutical Product Development,Pharmaceutical,6.0,,,,Pharmaceutical,0-10 weeks
+754,754,National Instruments,Technology: Manufacturing,6.0,6.0,0.0,0.0,Technology,0-10 weeks
+755,755,Harman International Industries,Electronics: Manufacturing,6.0,,,,Electronics,0-10 weeks
+756,756,Phillips Edison & Company,Real Estate: Development & Management,6.0,,,,Real Estate,0-10 weeks
+757,757,GlobalFoundries,Technology: Manufacturing,6.0,6.0,,,Technology,0-10 weeks
+758,758,Sugarcrm,Technology: Software,6.0,,,,Technology,0-10 weeks
+759,759,Citizens Bank,Finance: Personal & Commercial Banking,6.0,6.0,1.0,,Finance,0-10 weeks
+760,760,Sony Music,Media: Entertainment,6.0,6.0,0.0,,Media,0-10 weeks
+761,761,Havas,Advertising,6.0,5.0,,,Advertising,0-10 weeks
+762,762,Quintiles Transnational,Pharmaceutical,6.0,,,,Pharmaceutical,0-10 weeks
+763,763,Humanscale,Industrial: Appliances & Furniture,6.0,9.0,,,Industrial,0-10 weeks
+764,764,Sierra Club,Nonprofit: Environmental Organization,6.0,6.0,,,Nonprofit,0-10 weeks
+765,765,Quest Diagnostics,Healthcare: Laboratory Testing,6.0,,,,Healthcare,0-10 weeks
+766,766,Mccormick,Consumer Packaged Goods: Packaged Foods,6.0,,,,Consumer Packaged Goods,0-10 weeks
+767,767,Redfin,Real Estate: Brokers,6.0,10.0,,,Real Estate,0-10 weeks
+768,768,Asurion,Telecommunications,6.0,,,,Telecommunications,0-10 weeks
+769,769,Cargill,Natural Resources: Agriculture and Food ...,6.0,6.0,0.0,2.0,Natural Resources,0-10 weeks
+770,770,Creative Circle,Business Services: Staffing & Outsourcin...,6.0,6.0,,,Business Services,0-10 weeks
+771,771,Philips Healthcare,Healthcare: Diversified,6.0,12.0,,,Healthcare,0-10 weeks
+772,772,NYU School of Medicine,Educational Services: College & Universi...,6.0,8.0,,,Educational Services,0-10 weeks
+773,773,Cessna Aircraft Company,Aerospace,6.0,,,,Aerospace,0-10 weeks
+774,774,Yale University,Educational Services: College & Universi...,6.0,26.0,,,Educational Services,0-10 weeks
+775,775,Claire's,"Retail: Shoes, Accessories and Apparel",6.0,6.0,,,Retail,0-10 weeks
+776,776,"Land O'Lakes, Inc.",Consumer Packaged Goods: Packaged Foods,6.0,,,,Consumer Packaged Goods,0-10 weeks
+777,777,"Macy's, Inc.",Retail: Department Store,6.0,6.0,0.0,,Retail,0-10 weeks
+778,778,Allstate Insurance Group,Insurance: Property & Casualty,6.0,6.0,,,Insurance,0-10 weeks
+779,779,Progressive Corporation,Insurance: Property & Casualty,6.0,9.0,,,Insurance,0-10 weeks
+780,780,UPS,Transportation: Couriers & Delivery,6.0,12.0,,,Transportation,0-10 weeks
+781,781,Purdue University,Educational Services: College & Universi...,6.0,,6.0,,Educational Services,0-10 weeks
+782,782,Swiss Re,Insurance: Reinsurance,6.0,6.0,,,Insurance,0-10 weeks
+783,783,Yelp,Technology: Consumer Internet,6.0,6.0,,,Technology,0-10 weeks
+784,784,7-Eleven,Retail: Convenience Store,6.0,,,,Retail,0-10 weeks
+785,785,Abercrombie & Fitch,"Retail: Shoes, Accessories and Apparel",6.0,6.0,,,Retail,0-10 weeks
+786,786,"ADP, LLC",Business Services: Human Resources,6.0,12.0,1.0,,Business Services,0-10 weeks
+787,787,Advance Auto Parts,Automotive: Parts,6.0,12.0,,,Automotive,0-10 weeks
+788,788,Aetna Inc.,Insurance: Health,6.0,13.0,,,Insurance,0-10 weeks
+789,789,AGCO Corporation,Industrial: Equipment Manufacturing,6.0,6.0,0.0,,Industrial,0-10 weeks
+790,790,AmerisourceBergen,Pharmaceutical,6.0,,,,Pharmaceutical,0-10 weeks
+791,791,ANN Inc.,"Retail: Shoes, Accessories and Apparel",6.0,6.0,,,Retail,0-10 weeks
+792,792,Aramark Holdings Corporation,Business Services: Food & Hospitality,6.0,0.0,,,Business Services,0-10 weeks
+793,793,"Avnet, Inc.",Electronics: Wholesaler,6.0,,,,Electronics,0-10 weeks
+794,794,BAE Systems,Defense & Space,6.0,6.0,0.0,26.0,Defense & Space,0-10 weeks
+795,795,Baker Hughes,Natural Resources: Oilfield Services,6.0,6.0,,,Natural Resources,0-10 weeks
+796,796,Ball Corporation,Industrial: Materials,6.0,6.0,,,Industrial,0-10 weeks
+797,797,Barnes & Noble,Retail: Books,6.0,12.0,,,Retail,0-10 weeks
+798,798,Bausch & Lomb,Healthcare: Medical Devices,6.0,,,,Healthcare,0-10 weeks
+799,799,Baxter International Inc.,Healthcare: Medical Devices,6.0,12.0,,,Healthcare,0-10 weeks
+800,800,"Becton, Dickinson and Company",Healthcare: Medical Devices,6.0,6.0,,,Healthcare,0-10 weeks
+801,801,Blue Cross Blue Shield,Insurance: Health,6.0,6.0,,,Insurance,0-10 weeks
+802,802,"C.H. Robinson Worldwide, Inc.",Transportation: Freight & Logistics,6.0,,,,Transportation,0-10 weeks
+803,803,Cameron International Corporation,Natural Resources: Oilfield Services,6.0,6.0,,,Natural Resources,0-10 weeks
+804,804,"CarMax, Inc.",Automotive: Dealers,6.0,6.0,,,Automotive,0-10 weeks
+805,805,Centene Corporation,Insurance: Health,6.0,6.0,,,Insurance,0-10 weeks
+806,806,Cerner Corporation,Technology: B2B Tech Services,6.0,6.0,1.0,,Technology,0-10 weeks
+807,807,Spectrum,Telecommunications,6.0,6.0,,,Telecommunications,0-10 weeks
+808,808,Chevron,Natural Resources: Oil & Gas,6.0,26.0,0.0,26.0,Natural Resources,0-10 weeks
+809,809,CIGNA Corporation,Insurance: Health,6.0,,,,Insurance,0-10 weeks
+810,810,Cintas Corporation,Business Services: Food & Hospitality,6.0,9.0,,,Business Services,0-10 weeks
+811,811,City of New York,Government: City,6.0,12.0,,,Government,0-10 weeks
+812,812,Columbia University,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+813,813,Comcast,Telecommunications,6.0,6.0,0.0,12.0,Telecommunications,0-10 weeks
+814,814,Danaher Corporation,Industrial: Diversified,6.0,16.0,,,Industrial,0-10 weeks
+815,815,Deere & Company,Industrial: Equipment Manufacturing,6.0,6.0,,,Industrial,0-10 weeks
+816,816,Dell,Technology: Manufacturing,6.0,7.0,,,Technology,0-10 weeks
+817,817,"Delta Air Lines, Inc.",Transportation: Passenger Air,6.0,12.0,,,Transportation,0-10 weeks
+818,818,Discover Financial Services,Finance: Credit & Fund Services,6.0,6.0,,,Finance,0-10 weeks
+819,819,DTE Energy Company,Natural Resources: Diversified Energy,6.0,12.0,0.0,12.0,Natural Resources,0-10 weeks
+820,820,Duke Energy Corporation,Natural Resources: Electric Power Genera...,6.0,,6.0,,Natural Resources,0-10 weeks
+821,821,DuPont,Natural Resources: Chemicals,6.0,18.0,1.0,,Natural Resources,0-10 weeks
+822,822,Emerson Electric Co.,Industrial: Materials,6.0,12.0,0.0,,Industrial,0-10 weeks
+823,823,Entergy Corporation,Natural Resources: Diversified Energy,6.0,12.0,0.0,,Natural Resources,0-10 weeks
+824,824,Exxon Mobil,Natural Resources: Oil & Gas,6.0,22.0,,,Natural Resources,0-10 weeks
+825,825,FedEx Corporation,Transportation: Couriers & Delivery,6.0,6.0,,,Transportation,0-10 weeks
+826,826,Fitch Ratings,Information Services: Financial,6.0,6.0,,,Information Services,0-10 weeks
+827,827,General Dynamics,Defense & Space,6.0,,,,Defense & Space,0-10 weeks
+828,828,"General Mills, Inc.",Consumer Packaged Goods: Packaged Foods,6.0,24.0,2.0,24.0,Consumer Packaged Goods,0-10 weeks
+829,829,General Motors,Automotive: Manufacturers,6.0,6.0,0.0,,Automotive,0-10 weeks
+830,830,Georgia Pacific,Consumer Packaged Goods: Packaged Produc...,6.0,,,,Consumer Packaged Goods,0-10 weeks
+831,831,GlaxoSmithKline,Pharmaceutical,6.0,6.0,,,Pharmaceutical,0-10 weeks
+832,832,Halliburton,Natural Resources: Oilfield Services,6.0,,,,Natural Resources,0-10 weeks
+833,833,Hartford Financial Services Group,Insurance: Property & Casualty,6.0,6.0,2.0,,Insurance,0-10 weeks
+834,834,The Home Depot,Retail: Furniture & Home Improvement,6.0,6.0,0.0,,Retail,0-10 weeks
+835,835,Honeywell International Inc.,Industrial: Diversified,6.0,12.0,0.0,,Industrial,0-10 weeks
+836,836,Ipreo Holdings LLC,Information Services: Financial,6.0,6.0,,,Information Services,0-10 weeks
+837,837,J.B. Hunt Transport inc,Transportation: Freight & Logistics,6.0,6.0,,,Transportation,0-10 weeks
+838,838,"J.C. Penney Company, Inc.",Retail: Department Store,6.0,4.0,0.0,,Retail,0-10 weeks
+839,839,King & Spalding,Law Firm,6.0,,,,Law Firm,0-10 weeks
+840,840,"Kraft Foods Group, Inc.",Consumer Packaged Goods: Packaged Foods,6.0,6.0,,,Consumer Packaged Goods,0-10 weeks
+841,841,"L Brands, Inc.","Retail: Shoes, Accessories and Apparel",6.0,3.0,,,Retail,0-10 weeks
+842,842,Laboratory Corporation of America Holdin...,Healthcare: Laboratory Testing,6.0,6.0,,,Healthcare,0-10 weeks
+843,843,Lincoln National Corporation,Finance: Asset Management,6.0,6.0,,,Finance,0-10 weeks
+844,844,Lockheed Martin Corporation,Aerospace,6.0,6.0,1.0,,Aerospace,0-10 weeks
+845,845,Marathon Petroleum,Natural Resources: Oil & Gas,6.0,12.0,,,Natural Resources,0-10 weeks
+846,846,Marshalls,Retail: Department Store,6.0,,,,Retail,0-10 weeks
+847,847,McKesson,Pharmaceutical,6.0,6.0,0.0,0.0,Pharmaceutical,0-10 weeks
+848,848,"Medtronic, Inc.",Healthcare: Medical Devices,6.0,12.0,1.0,,Healthcare,0-10 weeks
+849,849,Memorial Sloan Kettering Cancer Center,Healthcare: Hospitals & Clinics,6.0,6.0,0.0,,Healthcare,0-10 weeks
+850,850,Mercedes Benz,Automotive: Manufacturers,6.0,46.0,,,Automotive,0-10 weeks
+851,851,"Merck & Co., Inc.",Pharmaceutical,6.0,18.0,1.0,,Pharmaceutical,0-10 weeks
+852,852,"Mondelez International, Inc.",Consumer Packaged Goods: Packaged Foods,6.0,,,,Consumer Packaged Goods,0-10 weeks
+853,853,"Motorola Solutions, Inc.",Telecommunications,6.0,,,,Telecommunications,0-10 weeks
+854,854,Mount Sinai Medical Center,Healthcare: Hospitals & Clinics,6.0,12.0,,,Healthcare,0-10 weeks
+855,855,Neiman Marcus,Retail: Department Store,6.0,9.0,,,Retail,0-10 weeks
+856,856,Net-A-Porter,Retail: Online,6.0,,,,Retail,0-10 weeks
+857,857,ICE Futures US,Government: State,6.0,,,,Government,0-10 weeks
+858,858,New York University,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+859,859,New York-Presbyterian Hospital,Healthcare: Hospitals & Clinics,6.0,12.0,,,Healthcare,0-10 weeks
+860,860,Newell Rubbermaid,Consumer Packaged Goods: Packaged Produc...,6.0,6.0,,,Consumer Packaged Goods,0-10 weeks
+861,861,Novartis,Pharmaceutical,6.0,6.0,,,Pharmaceutical,0-10 weeks
+862,862,Novo Nordisk,Pharmaceutical,6.0,12.0,1.0,,Pharmaceutical,0-10 weeks
+863,863,"NRG Energy, Inc.",Natural Resources: Diversified Energy,6.0,6.0,,,Natural Resources,0-10 weeks
+864,864,Occidental Petroleum Corporation,Natural Resources: Oil & Gas,6.0,6.0,,,Natural Resources,0-10 weeks
+865,865,PepsiCo,Consumer Packaged Goods: Beverages,6.0,6.0,4.0,8.0,Consumer Packaged Goods,0-10 weeks
+866,866,Pfizer,Pharmaceutical,6.0,24.0,,,Pharmaceutical,0-10 weeks
+867,867,Phillips 66,Natural Resources: Oil & Gas,6.0,,0.0,,Natural Resources,0-10 weeks
+868,868,PVH Corp.,"Retail: Shoes, Accessories and Apparel",6.0,0.0,6.0,,Retail,0-10 weeks
+869,869,Quest,Industrial: Engineering,6.0,,,,Industrial,0-10 weeks
+870,870,Revlon,Cosmetics,6.0,6.0,1.0,,Cosmetics,0-10 weeks
+871,871,Rite Aid Corporation,Pharmacies & Drug Stores,6.0,12.0,,,Pharmacies & Drug Stores,0-10 weeks
+872,872,Ryder Transportation,Transportation: Freight & Logistics,6.0,12.0,0.0,0.0,Transportation,0-10 weeks
+873,873,Scripps Health,Healthcare: Hospitals & Clinics,6.0,8.0,4.0,,Healthcare,0-10 weeks
+874,874,Sears Holdings Corporation,Retail: General Merchandise,6.0,12.0,0.0,,Retail,0-10 weeks
+875,875,Shoprite,Retail: General Merchandise,6.0,0.0,,,Retail,0-10 weeks
+876,876,Sikorsky,Aerospace,6.0,,,,Aerospace,0-10 weeks
+877,877,Starbucks Corporation,Hospitality: Restaurants,6.0,6.0,6.0,,Hospitality,0-10 weeks
+878,878,State Farm,Insurance: Property & Casualty,6.0,6.0,,,Insurance,0-10 weeks
+879,879,The Coca-Cola Company,Consumer Packaged Goods: Beverages,6.0,12.0,6.0,,Consumer Packaged Goods,0-10 weeks
+880,880,"The Gap, Inc.","Retail: Shoes, Accessories and Apparel",6.0,12.0,0.0,,Retail,0-10 weeks
+881,881,The Sherwin-Williams Company,Industrial: Building Materials Manufactu...,6.0,,,,Industrial,0-10 weeks
+882,882,"The TJX Companies, Inc.",Retail: Department Store,6.0,6.0,0.0,,Retail,0-10 weeks
+883,883,Time Warner Inc.,Media: Diversified,6.0,4.0,,,Media,0-10 weeks
+884,884,Travelers Companies,Insurance: Property & Casualty,6.0,,1.0,,Insurance,0-10 weeks
+885,885,"Twenty-First Century Fox, Inc.",Media: Diversified,6.0,,,,Media,0-10 weeks
+886,886,"Tyson Foods, Inc.",Consumer Packaged Goods: Packaged Foods,6.0,12.0,0.0,,Consumer Packaged Goods,0-10 weeks
+887,887,Union Pacific Corporation,Transportation: Rail,6.0,12.0,,,Transportation,0-10 weeks
+888,888,UnitedHealth Group,Insurance: Health,6.0,12.0,2.0,,Insurance,0-10 weeks
+889,889,United States Steel Corporation,Natural Resources: Metals & Mining,6.0,,,,Natural Resources,0-10 weeks
+890,890,Valeant,Pharmaceutical,6.0,6.0,,,Pharmaceutical,0-10 weeks
+891,891,Veolia,Services: Waste Management,6.0,,,,Services,0-10 weeks
+892,892,Visa Inc.,Finance: Credit & Fund Services,6.0,6.0,,,Finance,0-10 weeks
+893,893,Walgreens,Pharmacies & Drug Stores,6.0,6.0,0.0,0.0,Pharmacies & Drug Stores,0-10 weeks
+894,894,"Waste Management, Inc.",Services: Waste Management,6.0,12.0,,,Services,0-10 weeks
+895,895,Weatherford International Inc.,Natural Resources: Oilfield Services,6.0,12.0,0.0,,Natural Resources,0-10 weeks
+896,896,"WellCare Health Plans, Inc.",Insurance: Health,6.0,6.0,0.0,,Insurance,0-10 weeks
+897,897,Whirlpool Corporation,Industrial: Appliances & Furniture,6.0,,2.0,,Industrial,0-10 weeks
+898,898,Wolters Kluwer,Information Services: Diversified,6.0,6.0,,,Information Services,0-10 weeks
+899,899,Xerox Corporation,Business Services: Technology Solutions,6.0,12.0,0.0,,Business Services,0-10 weeks
+900,900,BASF,Natural Resources: Chemicals,6.0,,,,Natural Resources,0-10 weeks
+901,901,Navigant Consulting,Consulting Services,6.0,6.0,2.0,,Consulting Services,0-10 weeks
+902,902,University of Florida,Educational Services: College & Universi...,6.0,18.0,,,Educational Services,0-10 weeks
+903,903,Sephora,Cosmetics,6.0,6.0,,,Cosmetics,0-10 weeks
+904,904,LenderLive Network,Finance: Credit & Fund Services,6.0,3.0,,,Finance,0-10 weeks
+905,905,EShots,Advertising,6.0,6.0,,,Advertising,0-10 weeks
+906,906,Creganna Medical,Healthcare: Medical Devices,6.0,6.0,,,Healthcare,0-10 weeks
+907,907,Liberty Property Trust,Real Estate: Investment Trust,6.0,6.0,,,Real Estate,0-10 weeks
+908,908,St. Jude Children's Research Hospital,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+909,909,Kaplan Test Prep,Educational Services: Management,6.0,,,,Educational Services,0-10 weeks
+910,910,Garmin,Technology: Manufacturing,6.0,6.0,,,Technology,0-10 weeks
+911,911,March of Dimes,Nonprofit: Healthcare,6.0,18.0,,,Nonprofit,0-10 weeks
+912,912,Petsmart,Retail: General Merchandise,6.0,6.0,,,Retail,0-10 weeks
+913,913,GDIT,Technology: B2B Tech Services,6.0,6.0,,,Technology,0-10 weeks
+914,914,The MITRE Corporation,Nonprofit: Research,6.0,6.0,,,Nonprofit,0-10 weeks
+915,915,Hotwire,Technology: Consumer Internet,6.0,,,,Technology,0-10 weeks
+916,916,"CBRE Group, Inc",Real Estate: Development & Management,6.0,,,,Real Estate,0-10 weeks
+917,917,SalonCentric,Wholesale,6.0,,,,Wholesale,0-10 weeks
+918,918,Dillard's,Retail: Department Store,6.0,6.0,,,Retail,0-10 weeks
+919,919,St. Luke's Hospital,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+920,920,Lubrizol,Natural Resources: Chemicals,6.0,,,,Natural Resources,0-10 weeks
+921,921,Parallon,Healthcare: Services,6.0,,,,Healthcare,0-10 weeks
+922,922,FirstMerit Bank,Finance: Diversified,6.0,,,,Finance,0-10 weeks
+923,923,Regal Entertainment Group,Arts & Entertainment,6.0,6.0,,,Arts & Entertainment,0-10 weeks
+924,924,Honda Motor Corporation,Automotive: Manufacturers,6.0,12.0,0.0,,Automotive,0-10 weeks
+925,925,Raining Rose,Cosmetics,6.0,,,,Cosmetics,0-10 weeks
+926,926,Mylan,Pharmaceutical,6.0,,,,Pharmaceutical,0-10 weeks
+927,927,Tommy Hilfiger Corporation,"Retail: Shoes, Accessories and Apparel",6.0,,,,Retail,0-10 weeks
+928,928,Sony Pictures Entertainment,Media: Entertainment,6.0,6.0,,,Media,0-10 weeks
+929,929,John Hancock,Insurance: Life,6.0,12.0,,,Insurance,0-10 weeks
+930,930,Loyola University Chicago,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+931,931,Randstad,Business Services: Human Resources,6.0,,,,Business Services,0-10 weeks
+932,932,WebMD,Technology: Consumer Internet,6.0,6.0,,,Technology,0-10 weeks
+933,933,Joy Global Inc,Industrial: Equipment Manufacturing,6.0,6.0,,,Industrial,0-10 weeks
+934,934,Navy Federal Credit Union,Finance: Credit Unions,6.0,,,,Finance,0-10 weeks
+935,935,Perrigo,Pharmaceutical,6.0,6.0,,,Pharmaceutical,0-10 weeks
+936,936,Dstillery,Advertising,6.0,,,,Advertising,0-10 weeks
+937,937,Vineyard Vines,"Retail: Shoes, Accessories and Apparel",6.0,,,,Retail,0-10 weeks
+938,938,Evergreen Healthcare,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+939,939,Penn State University,Educational Services: College & Universi...,6.0,6.0,0.0,,Educational Services,0-10 weeks
+940,940,Farmers Insurance,Insurance: Property & Casualty,6.0,6.0,,,Insurance,0-10 weeks
+941,941,QBE Insurance,Insurance: Property & Casualty,6.0,,6.0,,Insurance,0-10 weeks
+942,942,Aldi's,Retail: Discount Store,6.0,6.0,,,Retail,0-10 weeks
+943,943,CWCapital,Real Estate: Investment Trust,6.0,6.0,,,Real Estate,0-10 weeks
+944,944,"Bath & Body Works, LLC",Cosmetics,6.0,,,,Cosmetics,0-10 weeks
+945,945,Hautelook,Retail: Online,6.0,6.0,,,Retail,0-10 weeks
+946,946,Fry's Food & Drug Stores,Retail: Supermarket Company,6.0,6.0,,,Retail,0-10 weeks
+947,947,Solstice Mobile,Technology: B2B Tech Services,6.0,,,,Technology,0-10 weeks
+948,948,CNA Financial,Insurance: Property & Casualty,6.0,7.0,,,Insurance,0-10 weeks
+949,949,Paychex Inc,Business Services: Staffing & Outsourcin...,6.0,,,,Business Services,0-10 weeks
+950,950,INC Research,Pharmaceutical,6.0,6.0,,,Pharmaceutical,0-10 weeks
+951,951,The College Board,Educational Services: Management,6.0,,,,Educational Services,0-10 weeks
+952,952,The Wonderful Company,Consumer Packaged Goods: Packaged Foods,6.0,,,,Consumer Packaged Goods,0-10 weeks
+953,953,Columbia University Medical Center,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+954,954,George Washington University,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+955,955,Public Broadcasting Service,Media: Television,6.0,,,,Media,0-10 weeks
+956,956,Aurora Health Care,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+957,957,Moss Adams,Accounting Services,6.0,,2.0,,Accounting Services,0-10 weeks
+958,958,Kaplan International,Educational Services: Management,6.0,6.0,,,Educational Services,0-10 weeks
+959,959,Waffle House,Hospitality: Restaurants,6.0,6.0,,,Hospitality,0-10 weeks
+960,960,Santander,Finance: Personal & Commercial Banking,6.0,6.0,,,Finance,0-10 weeks
+961,961,The Advisory Board Company,Consulting Services,6.0,8.0,2.0,,Consulting Services,0-10 weeks
+962,962,LearnVest,Technology: Financial Services,6.0,,,,Technology,0-10 weeks
+963,963,Corning Incorporated,Industrial: Materials,6.0,9.0,,,Industrial,0-10 weeks
+964,964,Interbrand,Advertising,6.0,6.0,,,Advertising,0-10 weeks
+965,965,Invesco,Finance: Asset Management,6.0,6.0,,,Finance,0-10 weeks
+966,966,Sandia National Labs,Government: Contractor,6.0,6.0,,,Government,0-10 weeks
+967,967,Cadillac,Automotive: Manufacturers,6.0,6.0,,,Automotive,0-10 weeks
+968,968,Bosch,Industrial: Appliances & Furniture,6.0,6.0,0.0,,Industrial,0-10 weeks
+969,969,Emerald Expositions,Business Services: Business Events,6.0,6.0,,,Business Services,0-10 weeks
+970,970,Intuit Inc,Technology: Software,6.0,,2.0,,Technology,0-10 weeks
+971,971,The Wharton School of the University of ...,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+972,972,The Trium Group,Consulting Services,6.0,,,,Consulting Services,0-10 weeks
+973,973,UF Health,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+974,974,Angie's List,Technology: Consumer Internet,6.0,6.0,,,Technology,0-10 weeks
+975,975,ServiceNow,Technology: Software,6.0,,,,Technology,0-10 weeks
+976,976,Cadence Design Systems,Technology: Manufacturing,6.0,6.0,,,Technology,0-10 weeks
+977,977,Scottrade,Finance: Asset Management,6.0,6.0,2.0,,Finance,0-10 weeks
+978,978,TD Ameritrade,Finance: Diversified,6.0,12.0,,,Finance,0-10 weeks
+979,979,FSG,Consulting Services,6.0,18.0,,,Consulting Services,0-10 weeks
+980,980,Windstream Communications,Telecommunications,6.0,,,,Telecommunications,0-10 weeks
+981,981,Lionsgate,Media: Entertainment,6.0,,,,Media,0-10 weeks
+982,982,Ogilvy PR,Public Relations,6.0,6.0,,,Public Relations,0-10 weeks
+983,983,Neo@Ogilvy,Advertising,6.0,,,,Advertising,0-10 weeks
+984,984,Medline Industries,Healthcare: Medical Devices,6.0,6.0,0.0,,Healthcare,0-10 weeks
+985,985,Pew Charitable Trusts,Philanthropy,6.0,6.0,,,Philanthropy,0-10 weeks
+986,986,Smucker's,Consumer Packaged Goods: Packaged Foods,6.0,6.0,,,Consumer Packaged Goods,0-10 weeks
+987,987,MedRisk,Insurance: Diversified,6.0,6.0,,,Insurance,0-10 weeks
+988,988,Carolinas HealthCare System,Healthcare: Hospitals & Clinics,6.0,,,,Healthcare,0-10 weeks
+989,989,Burger King,Hospitality: Restaurants,6.0,10.0,,,Hospitality,0-10 weeks
+990,990,The Bon-Ton Stores,Retail: Department Store,6.0,,,,Retail,0-10 weeks
+991,991,Athleta,"Retail: Shoes, Accessories and Apparel",6.0,6.0,,,Retail,0-10 weeks
+992,992,Bard,Healthcare: Medical Devices,6.0,6.0,,,Healthcare,0-10 weeks
+993,993,Appirio Inc.,Technology: B2B Tech Services,6.0,6.0,,,Technology,0-10 weeks
+994,994,Alexander Mann Solutions,Business Services: Staffing & Outsourcin...,6.0,6.0,,,Business Services,0-10 weeks
+995,995,Amerigroup,Insurance: Health,6.0,6.0,,,Insurance,0-10 weeks
+996,996,BMC Software Inc.,Technology: Software,6.0,,,,Technology,0-10 weeks
+997,997,"Alameda County, California",Government: State,6.0,,,,Government,0-10 weeks
+998,998,Carestream,Healthcare: Services,6.0,,,,Healthcare,0-10 weeks
+999,999,Abbott Vascular,Healthcare: Medical Devices,6.0,12.0,,,Healthcare,0-10 weeks
+1000,1000,AbbVie Inc.,Pharmaceutical,6.0,6.0,2.0,,Pharmaceutical,0-10 weeks
+1001,1001,St. Bonaventure University,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+1002,1002,Dick's Sporting Goods,"Retail: Shoes, Accessories and Apparel",6.0,6.0,,,Retail,0-10 weeks
+1003,1003,Expeditors International,Transportation: Freight & Logistics,6.0,6.0,,,Transportation,0-10 weeks
+1004,1004,MediaCom,Advertising,6.0,,,,Advertising,0-10 weeks
+1005,1005,Great American Insurance Group,Insurance: Property & Casualty,6.0,,,,Insurance,0-10 weeks
+1006,1006,Genesco,"Retail: Shoes, Accessories and Apparel",6.0,,,,Retail,0-10 weeks
+1007,1007,Allegion PLC,Technology: Security,6.0,6.0,,,Technology,0-10 weeks
+1008,1008,Brookdale Senior Living,Services: Senior Living,6.0,12.0,12.0,,Services,0-10 weeks
+1009,1009,University of Minnesota,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+1010,1010,ONEOK,Natural Resources: Oil & Gas,6.0,6.0,2.0,10.0,Natural Resources,0-10 weeks
+1011,1011,Vanderbilt University,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+1012,1012,University of Notre Dame,Educational Services: College & Universi...,6.0,,,,Educational Services,0-10 weeks
+1013,1013,Burson-Marsteller,Public Relations,6.0,,,,Public Relations,0-10 weeks
+1014,1014,Northwestern Memorial Hospital,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+1015,1015,FHI 360,Nonprofit: Development,6.0,6.0,,,Nonprofit,0-10 weeks
+1016,1016,Hayneedle,Retail: Online,6.0,6.0,,,Retail,0-10 weeks
+1017,1017,Ocwen,Finance: Diversified,6.0,6.0,,,Finance,0-10 weeks
+1018,1018,Yazaki North America,Automotive: Parts Manufacturing,6.0,6.0,0.0,0.0,Automotive,0-10 weeks
+1019,1019,Rush University Medical Center,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+1020,1020,Gymboree,Retail: Baby products,6.0,,,,Retail,0-10 weeks
+1021,1021,Bottle Rocket LLC,Technology: Software,6.0,6.0,,,Technology,0-10 weeks
+1022,1022,Wellesley College,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+1023,1023,Loyola University Health System,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+1024,1024,Lewis Brisbois Bisgaard & Smith LLP,Law Firm,6.0,,,,Law Firm,0-10 weeks
+1025,1025,Say Media,Advertising,6.0,,,,Advertising,0-10 weeks
+1026,1026,Plante Moran,Accounting Services,6.0,,,,Accounting Services,0-10 weeks
+1027,1027,Keurig,Industrial: Appliances & Furniture,6.0,6.0,,,Industrial,0-10 weeks
+1028,1028,University of Pittsburgh Medical Center,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+1029,1029,Ipsos,Advertising: Market Research,6.0,6.0,,,Advertising,0-10 weeks
+1030,1030,Highmark Inc.,Insurance: Health,6.0,6.0,,,Insurance,0-10 weeks
+1031,1031,Fleishman-Hillard Inc.,Public Relations,6.0,6.0,,,Public Relations,0-10 weeks
+1032,1032,Dentsply International,Healthcare: Medical Devices,6.0,6.0,,,Healthcare,0-10 weeks
+1033,1033,Chemonics,Consulting Services,6.0,6.0,,,Consulting Services,0-10 weeks
+1034,1034,Leidos,Technology: B2B Tech Services,6.0,,,,Technology,0-10 weeks
+1035,1035,Dartmouth College,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+1036,1036,Beveridge & Diamond,Law Firm,6.0,,,,Law Firm,0-10 weeks
+1037,1037,Amdocs,Technology: B2B Tech Services,6.0,,,,Technology,0-10 weeks
+1038,1038,Frog Design Inc,Design,6.0,6.0,,,Design,0-10 weeks
+1039,1039,Sungard Availability Services,Technology: B2B Tech Services,6.0,6.0,,,Technology,0-10 weeks
+1040,1040,Alcon,Pharmaceutical,6.0,6.0,,,Pharmaceutical,0-10 weeks
+1041,1041,American City Business Journals,Publishing,6.0,6.0,,,Publishing,0-10 weeks
+1042,1042,"University of California, San Diego",Educational Services: College & Universi...,6.0,,,,Educational Services,0-10 weeks
+1043,1043,PAE,Government: Contractor,6.0,,6.0,,Government,0-10 weeks
+1044,1044,Horizon Blue Cross Blue Shield of New Je...,Insurance: Health,6.0,,2.0,,Insurance,0-10 weeks
+1045,1045,Baylor University Medical Center,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+1046,1046,University of Arizona,Educational Services: College & Universi...,6.0,12.0,,,Educational Services,0-10 weeks
+1047,1047,AmTrust Financial Services,Insurance: Property & Casualty,6.0,4.0,,,Insurance,0-10 weeks
+1048,1048,Children's National Medical Center,Healthcare: Hospitals & Clinics,6.0,16.0,,,Healthcare,0-10 weeks
+1049,1049,Cardinal Solutions,Technology: B2B Tech Services,6.0,6.0,,,Technology,0-10 weeks
+1050,1050,Blue Cross and Blue Shield of Minnesota,Insurance: Health,6.0,6.0,,,Insurance,0-10 weeks
+1051,1051,"California State University, Northridge",Educational Services: College & Universi...,6.0,,,,Educational Services,0-10 weeks
+1052,1052,American Automobile Association,Nonprofit: Trade Organization,6.0,6.0,,,Nonprofit,0-10 weeks
+1053,1053,Michaels,"Retail: Crafts, Fabrics & Party Supplies",6.0,6.0,,,Retail,0-10 weeks
+1054,1054,Rockwell Automation,Industrial: Equipment Manufacturing,6.0,6.0,,,Industrial,0-10 weeks
+1055,1055,"G2 Web Services, LLC",Technology: B2B Tech Services,6.0,,,,Technology,0-10 weeks
+1056,1056,Sterling Brands,Advertising,6.0,,,,Advertising,0-10 weeks
+1057,1057,Weill Cornell Medicine,Educational Services: College & Universi...,6.0,,,,Educational Services,0-10 weeks
+1058,1058,Spiceworks,Information Services: Technology,6.0,6.0,,,Information Services,0-10 weeks
+1059,1059,Gateway Media,Technology: Consumer Internet,6.0,,,,Technology,0-10 weeks
+1060,1060,"Medical Information Technology, Inc.",Technology: B2B Tech Services,6.0,10.0,2.0,14.0,Technology,0-10 weeks
+1061,1061,CH2M Hill,Industrial: Engineering,6.0,6.0,,,Industrial,0-10 weeks
+1062,1062,Dave & Buster's,Hospitality: Restaurants,6.0,,,,Hospitality,0-10 weeks
+1063,1063,American Society for the Prevention of C...,Nonprofit: Animal Welfare,6.0,6.0,,,Nonprofit,0-10 weeks
+1064,1064,Johns Hopkins University Applied Physics...,Educational Services: College & Universi...,6.0,12.0,,,Educational Services,0-10 weeks
+1065,1065,The Freudenberg Group,Industrial: Diversified,6.0,12.0,0.0,,Industrial,0-10 weeks
+1066,1066,Barneys New York,Retail: Department Store,6.0,16.0,,,Retail,0-10 weeks
+1067,1067,TracFone Wireless,Telecommunications,6.0,,,,Telecommunications,0-10 weeks
+1068,1068,Answers Corporation,Technology: Consumer Internet,6.0,6.0,,,Technology,0-10 weeks
+1069,1069,Catholic Health Initiatives,Healthcare: Hospitals & Clinics,6.0,6.0,,,Healthcare,0-10 weeks
+1070,1070,California Institute of Technology,Educational Services: College & Universi...,6.0,,,,Educational Services,0-10 weeks
+1071,1071,Alere Inc,Healthcare: Medical Devices,6.0,12.0,,,Healthcare,0-10 weeks
+1072,1072,Catholic Relief Services,Nonprofit: Humanitarian Aid Organization,6.0,6.0,,,Nonprofit,0-10 weeks
+1073,1073,Bechtel,Industrial: Construction Company,6.0,6.0,,,Industrial,0-10 weeks
+1074,1074,American Association of Retired Persons,Nonprofit: Interest Group,6.0,6.0,,,Nonprofit,0-10 weeks
+1075,1075,Bard Medical,Healthcare: Medical Devices,6.0,5.0,,,Healthcare,0-10 weeks
+1076,1076,DELPHI,Automotive: Parts Manufacturing,6.0,,0.0,,Automotive,0-10 weeks
+1077,1077,"California State University, Sacramento",Educational Services: College & Universi...,6.0,,,,Educational Services,0-10 weeks
+1078,1078,Affymetrix,Healthcare: Biotechnology,6.0,6.0,,,Healthcare,0-10 weeks
+1079,1079,Security Mutual Life Insurance Co,Insurance: Life,6.0,,,,Insurance,0-10 weeks
+1080,1080,Pick 'n Save,Retail: Supermarket Company,6.0,,,,Retail,0-10 weeks
+1081,1081,NiSource,Natural Resources: Electric & Gas Utilit...,6.0,6.0,0.0,0.0,Natural Resources,0-10 weeks
+1082,1082,IPG Mediabrands,Advertising,6.0,,,,Advertising,0-10 weeks
+1083,1083,Synchrony Financial,Finance: Personal & Commercial Banking,6.0,,6.0,,Finance,0-10 weeks
+1084,1084,AdvantageCare Physicians,Healthcare: Hospitals & Clinics,6.0,,,,Healthcare,0-10 weeks
+1085,1085,SurveyGizmo,Technology: Software,6.0,13.0,6.0,13.0,Technology,0-10 weeks
+1086,1086,American Management Association,Nonprofit: Professional Development,6.0,6.0,,,Nonprofit,0-10 weeks
+1087,1087,American University Washington D.C.,Educational Services: College & Universi...,6.0,6.0,,,Educational Services,0-10 weeks
+1088,1088,"Bremer Bank, N.A.",Finance: Diversified,6.0,6.0,,,Finance,0-10 weeks
+1089,1089,British Airways,Transportation: Passenger Air,6.0,,,,Transportation,0-10 weeks
+1090,1090,CohnReznick,Accounting Services,6.0,6.0,1.0,1.0,Accounting Services,0-10 weeks
+1091,1091,AkzoNobel Global,Natural Resources: Chemicals,6.0,6.0,,,Natural Resources,0-10 weeks
+1092,1092,ContextMedia Inc.,Healthcare: Communications,6.0,,,,Healthcare,0-10 weeks
+1093,1093,American Academy Of Pediatrics,Nonprofit: Medical,6.0,10.0,,,Nonprofit,0-10 weeks
+1094,1094,California Air Resources Board,Government: State,6.0,6.0,,,Government,0-10 weeks
+1095,1095,Allscripts,Technology: Software,6.0,,,,Technology,0-10 weeks
+1096,1096,"Trey Resources, Inc.",Natural Resources: Oil & Gas,6.0,6.0,,,Natural Resources,0-10 weeks
+1097,1097,CMFG Life Insurance Company,Insurance: Life,6.0,6.0,,,Insurance,0-10 weeks
+1098,1098,Possible,Design,6.0,,3.0,,Design,0-10 weeks
+1099,1099,Cook Medical,Healthcare: Medical Devices,6.0,6.0,,,Healthcare,0-10 weeks
+1100,1100,CUNA Mutual Group,Insurance: Diversified,6.0,6.0,,,Insurance,0-10 weeks
+1101,1101,Softchoice,Information Services: Technology,6.0,,,,Information Services,0-10 weeks
+1102,1102,Scoutmob,Technology: Consumer Internet,6.0,,,,Technology,0-10 weeks
+1103,1103,Management Concepts,Educational Services: Professional Train...,6.0,,,,Educational Services,0-10 weeks
+1104,1104,Motivate,Technology: Financial Services,6.0,,,,Technology,0-10 weeks
+1105,1105,Learfield Sports,Sports,6.0,,,,Sports,0-10 weeks
+1106,1106,Emerson,Industrial: Engineering,6.0,6.0,0.0,,Industrial,0-10 weeks
+1107,1107,"Carlson Capital, LP",Finance: Asset Management,6.0,6.0,,,Finance,0-10 weeks
+1108,1108,Fallon,Advertising,6.0,,6.0,,Advertising,0-10 weeks
+1109,1109,Love's,Retail: Convenience Store,6.0,,,,Retail,0-10 weeks
+1110,1110,Owens Corning,Industrial: Building Materials Manufactu...,6.0,6.0,,0.0,Industrial,0-10 weeks
+1111,1111,Mojotech,Technology: Software,6.0,6.0,6.0,,Technology,0-10 weeks
+1112,1112,Compass Group PLC,Business Services: Food & Hospitality,6.0,,,,Business Services,0-10 weeks
+1113,1113,Giant Eagle,Retail: Supermarket Company,6.0,,,,Retail,0-10 weeks
+1114,1114,About.com,Technology: Consumer Internet,6.0,,6.0,,Technology,0-10 weeks
+1115,1115,Alarm.com,Technology: Security,6.0,6.0,1.0,0.0,Technology,0-10 weeks
+1116,1116,PennyMac Loan Services,Finance: Loans,6.0,12.0,1.0,12.0,Finance,0-10 weeks
+1117,1117,Sunrise of Richmond,Services: Senior Living,6.0,4.0,2.0,2.0,Services,0-10 weeks
+1118,1118,WomanCare,Healthcare: Family Care,6.0,6.0,,,Healthcare,0-10 weeks
+1119,1119,"Spillman Technologies, Inc.",Technology: Software,6.0,3.0,0.0,0.0,Technology,0-10 weeks
+1120,1120,Morristown-Beard School,Educational Services: School,6.0,20.0,1.0,12.0,Educational Services,0-10 weeks
+1121,1121,SL Green Realty Corp,Real Estate: Investment Trust,6.0,6.0,0.0,0.0,Real Estate,0-10 weeks
+1122,1122,SiteHawk,Information Services: Technology,6.0,,,,Information Services,0-10 weeks
+1123,1123,GVW Group,Finance: Venture Capital,6.0,6.0,,,Finance,0-10 weeks
+1124,1124,NPD Group,Advertising: Market Research,5.0,7.0,,,Advertising,0-10 weeks
+1125,1125,"Arrow Electronics, Inc.",Electronics: Wholesaler,5.0,2.0,2.0,8.0,Electronics,0-10 weeks
+1126,1126,Berkshire Hathaway,Conglomerate,5.0,0.0,0.0,,Conglomerate,0-10 weeks
+1127,1127,"Best Buy Co., Inc.",Retail: Electronics,5.0,7.0,,,Retail,0-10 weeks
+1128,1128,CACI International Inc.,Technology: B2B Tech Services,5.0,12.0,0.0,12.0,Technology,0-10 weeks
+1129,1129,Northrop Grumman Corporation,Defense & Space,5.0,12.0,2.0,,Defense & Space,0-10 weeks
+1130,1130,Raytheon Company,Technology: Security,5.0,7.0,,,Technology,0-10 weeks
+1131,1131,"Anthem, Inc.",Insurance: Health,5.0,6.0,,,Insurance,0-10 weeks
+1132,1132,Websense,Technology: Security,5.0,7.0,,,Technology,0-10 weeks
+1133,1133,"Ashland, Inc.",Natural Resources: Chemicals,5.0,,,,Natural Resources,0-10 weeks
+1134,1134,New Hampshire Department of Health and H...,Government: State,5.0,7.0,,,Government,0-10 weeks
+1135,1135,"Homeyer Consulting Services, Inc.",Natural Resources: Chemicals,5.0,3.0,,,Natural Resources,0-10 weeks
+1136,1136,PatientsLikeMe,Technology: Consumer Internet,5.0,7.0,,,Technology,0-10 weeks
+1137,1137,Straumann Group,Healthcare: Medical Devices,5.0,7.0,,,Healthcare,0-10 weeks
+1138,1138,Bank of the West,Finance: Personal & Commercial Banking,5.0,6.0,,,Finance,0-10 weeks
+1139,1139,Banfield Pet Hospital,Healthcare: Animal Health,5.0,7.0,,,Healthcare,0-10 weeks
+1140,1140,Baptist Health South Florida,Healthcare: Hospitals & Clinics,5.0,7.0,,,Healthcare,0-10 weeks
+1141,1141,1-800-GOT-JUNK?,Services: Waste Management,5.0,,,,Services,0-10 weeks
+1142,1142,BAYADA,Healthcare: Family Care,5.0,,,,Healthcare,0-10 weeks
+1143,1143,Mount San Jacinto College,Educational Services: College & Universi...,5.0,6.0,,,Educational Services,0-10 weeks
+1144,1144,PC Connection,Technology: B2B Tech Services,5.0,1.0,,,Technology,0-10 weeks
+1145,1145,The Aspen Institute,Nonprofit: Public Policy,5.0,9.0,2.0,,Nonprofit,0-10 weeks
+1146,1146,"Drayer Physical Therapy Institute, LLC",Healthcare: Hospitals & Clinics,5.0,7.0,,,Healthcare,0-10 weeks
+1147,1147,Meredith Corporation,Media: Diversified,4.0,5.0,1.0,11.0,Media,0-10 weeks
+1148,1148,General Assembly,Educational Services: Management,4.0,5.0,,,Educational Services,0-10 weeks
+1149,1149,Black Mountain Systems,Technology: Software,4.0,,,,Technology,0-10 weeks
+1150,1150,"American Electric Power Company, Inc.",Natural Resources: Electric Power Genera...,4.0,,,,Natural Resources,0-10 weeks
+1151,1151,Cemex,Industrial: Building Materials Manufactu...,4.0,12.0,,,Industrial,0-10 weeks
+1152,1152,Cisco Systems,Technology: Manufacturing,4.0,10.0,4.0,8.0,Technology,0-10 weeks
+1153,1153,Humana Inc.,Insurance: Health,4.0,12.0,4.0,,Insurance,0-10 weeks
+1154,1154,Nokia,Telecommunications,4.0,,,,Telecommunications,0-10 weeks
+1155,1155,Norfolk Southern Corporation,Transportation: Rail,4.0,3.0,,,Transportation,0-10 weeks
+1156,1156,Ralph Lauren,"Retail: Shoes, Accessories and Apparel",4.0,8.0,,,Retail,0-10 weeks
+1157,1157,Saks Fifth Avenue,Retail: Department Store,4.0,6.0,,,Retail,0-10 weeks
+1158,1158,Shell Oil,Natural Resources: Oil & Gas,4.0,12.0,0.0,0.0,Natural Resources,0-10 weeks
+1159,1159,Verizon Communications,Telecommunications,4.0,8.0,2.0,,Telecommunications,0-10 weeks
+1160,1160,Winn Dixie,Retail: Supermarket Company,4.0,24.0,,,Retail,0-10 weeks
+1161,1161,New Relic,Technology: Software,4.0,,4.0,,Technology,0-10 weeks
+1162,1162,Massachusetts General Hospital,Healthcare: Hospitals & Clinics,4.0,8.0,,,Healthcare,0-10 weeks
+1163,1163,Red Hat,Technology: Software,4.0,12.0,4.0,,Technology,0-10 weeks
+1164,1164,Varian Medical Systems,Healthcare: Medical Devices,4.0,,,,Healthcare,0-10 weeks
+1165,1165,Avvo,Technology: Consumer Internet,4.0,,,,Technology,0-10 weeks
+1166,1166,"APS Healthcare, Inc",Healthcare: Behavioral,4.0,0.0,,,Healthcare,0-10 weeks
+1167,1167,Association of American Medical Colleges,Nonprofit: Medical,4.0,6.0,4.0,,Nonprofit,0-10 weeks
+1168,1168,Sinai Health System,Healthcare: Hospitals & Clinics,4.0,8.0,,,Healthcare,0-10 weeks
+1169,1169,Carter's Inc.,Retail: Baby products,4.0,6.0,,,Retail,0-10 weeks
+1170,1170,Home Shopping Network,Media: Television,4.0,8.0,,,Media,0-10 weeks
+1171,1171,Sensata,Electronics: Manufacturing,4.0,,,,Electronics,0-10 weeks
+1172,1172,Discovery Education,Educational Services: E-Learning,4.0,,,,Educational Services,0-10 weeks
+1173,1173,Domo,Technology: Software,4.0,,,,Technology,0-10 weeks
+1174,1174,Volusion,Technology: Consumer Internet,4.0,,,,Technology,0-10 weeks
+1175,1175,Burns & McDonnell,Industrial: Engineering,4.0,8.0,,,Industrial,0-10 weeks
+1176,1176,Penguin Random House,Publishing,4.0,,,,Publishing,0-10 weeks
+1177,1177,Bio-Rad Laboratories,Healthcare: Biotechnology,4.0,8.0,,,Healthcare,0-10 weeks
+1178,1178,Sunday River Skiway,Hospitality: Resorts,4.0,4.0,,,Hospitality,0-10 weeks
+1179,1179,Moffitt Cancer Center,Healthcare: Hospitals & Clinics,4.0,,1.0,,Healthcare,0-10 weeks
+1180,1180,Triage Consulting Group,Healthcare: Services,4.0,14.0,,,Healthcare,0-10 weeks
+1181,1181,Brookings Institution,Nonprofit: Public Policy,4.0,,4.0,,Nonprofit,0-10 weeks
+1182,1182,VSA Partners,Advertising,4.0,,,,Advertising,0-10 weeks
+1183,1183,Red Lobster,Hospitality: Restaurants,4.0,,,,Hospitality,0-10 weeks
+1184,1184,Legal Assistance of Western New York,Nonprofit: Legal,4.0,20.0,,,Nonprofit,0-10 weeks
+1185,1185,"City of Cincinnati, Ohio",Government: City,4.0,12.0,,,Government,0-10 weeks
+1186,1186,Keen,"Retail: Shoes, Accessories and Apparel",4.0,,,,Retail,0-10 weeks
+1187,1187,Armstrong World Industries,Industrial: Building Materials Manufactu...,4.0,,,,Industrial,0-10 weeks
+1188,1188,GovDelivery,Technology: Consumer Internet,4.0,8.0,,,Technology,0-10 weeks
+1189,1189,American Institutes for Research,Nonprofit: Research,4.0,,,,Nonprofit,0-10 weeks
+1190,1190,Galvanize,Educational Services: Professional Train...,4.0,8.0,,,Educational Services,0-10 weeks
+1191,1191,"Lookout, Inc.",Technology: Security,4.0,,,,Technology,0-10 weeks
+1192,1192,Adventist Health System,Healthcare: Hospitals & Clinics,4.0,,,,Healthcare,0-10 weeks
+1193,1193,Major League Baseball,Sports,4.0,12.0,,,Sports,0-10 weeks
+1194,1194,Creighton University,Educational Services: College & Universi...,4.0,,,,Educational Services,0-10 weeks
+1195,1195,Buffalo Wild Wings,Hospitality: Restaurants,4.0,,,,Hospitality,0-10 weeks
+1196,1196,Checkers and Rally's,Hospitality: Restaurants,4.0,,,,Hospitality,0-10 weeks
+1197,1197,Evergage,Technology: Software,4.0,,,,Technology,0-10 weeks
+1198,1198,"Mercury Network, LLC",Technology: Software,4.0,6.0,,,Technology,0-10 weeks
+1199,1199,Port of Seattle,Maritime,4.0,,4.0,,Maritime,0-10 weeks
+1200,1200,Bristow Helicopters,Aerospace,4.0,12.0,,,Aerospace,0-10 weeks
+1201,1201,Epipheo,Arts & Entertainment,4.0,8.0,1.0,11.0,Arts & Entertainment,0-10 weeks
+1202,1202,Relias Learning,Educational Services: E-Learning,4.0,,4.0,,Educational Services,0-10 weeks
+1203,1203,United States Department of State,Government: Federal,3.0,12.0,,,Government,0-10 weeks
+1204,1204,Parexel,Pharmaceutical,3.0,,,,Pharmaceutical,0-10 weeks
+1205,1205,University of Houston,Educational Services: College & Universi...,3.0,6.0,,,Educational Services,0-10 weeks
+1206,1206,George Mason University,Educational Services: College & Universi...,3.0,6.0,,,Educational Services,0-10 weeks
+1207,1207,Indiana University,Educational Services: College & Universi...,3.0,12.0,3.0,,Educational Services,0-10 weeks
+1208,1208,"Assurant, Inc.",Insurance: Property & Casualty,3.0,1.0,,,Insurance,0-10 weeks
+1209,1209,Boeing,Aerospace,3.0,10.0,1.0,6.0,Aerospace,0-10 weeks
+1210,1210,Capgemini,Consulting Services,3.0,0.0,,,Consulting Services,0-10 weeks
+1211,1211,The Kroger Company,Retail: Supermarket Company,3.0,6.0,0.0,6.0,Retail,0-10 weeks
+1212,1212,ManpowerGroup Inc.,Business Services: Staffing & Outsourcin...,3.0,12.0,,,Business Services,0-10 weeks
+1213,1213,Massachusetts Mutual Life Insurance Comp...,Insurance: Life,3.0,10.0,3.0,,Insurance,0-10 weeks
+1214,1214,Ogilvy & Mather,Advertising,3.0,,,,Advertising,0-10 weeks
+1215,1215,Qualcomm Incorporated,Telecommunications,3.0,6.0,,,Telecommunications,0-10 weeks
+1216,1216,R.R. Donnelley & Sons Company,Printing,3.0,9.0,,,Printing,0-10 weeks
+1217,1217,Robert Half International,Business Services: Staffing & Outsourcin...,3.0,9.0,,,Business Services,0-10 weeks
+1218,1218,Seward & Kissel LLP,Law Firm,3.0,,1.0,,Law Firm,0-10 weeks
+1219,1219,Siemens,Conglomerate,3.0,6.0,,,Conglomerate,0-10 weeks
+1220,1220,"Staples, Inc.",Retail: Stationary & Office Supplies,3.0,6.0,0.0,12.0,Retail,0-10 weeks
+1221,1221,"Neustar, Inc.",Technology: B2B Tech Services,3.0,,,,Technology,0-10 weeks
+1222,1222,Haymarket Media Group,Publishing,3.0,,,,Publishing,0-10 weeks
+1223,1223,SanDisk,Technology: Manufacturing,3.0,12.0,,,Technology,0-10 weeks
+1224,1224,Duke Clinical Research Institute,Educational Services: College & Universi...,3.0,,,,Educational Services,0-10 weeks
+1225,1225,DeVry,Educational Services: College & Universi...,3.0,9.0,,,Educational Services,0-10 weeks
+1226,1226,The University of Texas at Austin,Educational Services: College & Universi...,3.0,9.0,,,Educational Services,0-10 weeks
+1227,1227,Rockwell Collins,Aerospace,3.0,12.0,,0.0,Aerospace,0-10 weeks
+1228,1228,Baylor University,Educational Services: College & Universi...,3.0,9.0,,,Educational Services,0-10 weeks
+1229,1229,University of California Berkeley,Educational Services: College & Universi...,3.0,6.0,,,Educational Services,0-10 weeks
+1230,1230,Bloomberg Law,Information Services: Legal,3.0,,,,Information Services,0-10 weeks
+1231,1231,WellStar Health System,Healthcare: Hospitals & Clinics,3.0,52.0,3.0,,Healthcare,0-10 weeks
+1232,1232,Columbia Sportswear,"Retail: Shoes, Accessories and Apparel",3.0,6.0,,,Retail,0-10 weeks
+1233,1233,Research Square,Educational Services: Management,3.0,,,,Educational Services,0-10 weeks
+1234,1234,CHI Health,Healthcare: Hospitals & Clinics,3.0,9.0,,,Healthcare,0-10 weeks
+1235,1235,Duke University,Educational Services: College & Universi...,3.0,9.0,,,Educational Services,0-10 weeks
+1236,1236,Sleep number,Retail: Furniture & Home Improvement,3.0,9.0,,,Retail,0-10 weeks
+1237,1237,Nsight Telservices,Telecommunications,3.0,9.0,,,Telecommunications,0-10 weeks
+1238,1238,American Councils for International Educ...,Nonprofit: Education,3.0,6.0,,,Nonprofit,0-10 weeks
+1239,1239,CannonDesign,Industrial: Architecture & Design,3.0,9.0,,,Industrial,0-10 weeks
+1240,1240,National Renewable Energy Laboratory,Government: Federal,3.0,12.0,0.0,,Government,0-10 weeks
+1241,1241,Northwell Health,Healthcare: Hospitals & Clinics,3.0,12.0,0.0,,Healthcare,0-10 weeks
+1242,1242,Capita,Business Services: Staffing & Outsourcin...,3.0,,0.0,,Business Services,0-10 weeks
+1243,1243,Social Impact,Consulting Services,3.0,,3.0,,Consulting Services,0-10 weeks
+1244,1244,Chipotle Mexican Grill,Hospitality: Restaurants,2.0,10.0,,,Hospitality,0-10 weeks
+1245,1245,Intouch Solutions,Advertising,2.0,,,,Advertising,0-10 weeks
+1246,1246,Gannett,Media: News,2.0,12.0,2.0,,Media,0-10 weeks
+1247,1247,Jones Lang LaSalle,Real Estate: Development & Management,2.0,12.0,2.0,,Real Estate,0-10 weeks
+1248,1248,Liberty Mutual Group,Insurance: Property & Casualty,2.0,10.0,2.0,0.0,Insurance,0-10 weeks
+1249,1249,New York Mercantile Exchange,Information Services: Financial,2.0,10.0,,,Information Services,0-10 weeks
+1250,1250,Principal Financial Group,Finance: Asset Management,2.0,,4.0,,Finance,0-10 weeks
+1251,1251,Constant Contact,Advertising,2.0,10.0,,,Advertising,0-10 weeks
+1252,1252,AKQA,Advertising,2.0,0.0,6.0,,Advertising,0-10 weeks
+1253,1253,LeadPages,Technology: Software,2.0,0.0,,,Technology,0-10 weeks
+1254,1254,Under Armour,"Retail: Shoes, Accessories and Apparel",2.0,10.0,2.0,10.0,Retail,0-10 weeks
+1255,1255,AEGON,Finance: Diversified,2.0,,,,Finance,0-10 weeks
+1256,1256,Big Brothers Big Sisters,Nonprofit: Youth Development,2.0,,,,Nonprofit,0-10 weeks
+1257,1257,Aerotek Staffing Agency,Business Services: Staffing & Outsourcin...,2.0,,,,Business Services,0-10 weeks
+1258,1258,Advent Software,Technology: Software,2.0,11.0,,,Technology,0-10 weeks
+1259,1259,CME Group,Finance: Diversified,2.0,10.0,0.0,,Finance,0-10 weeks
+1260,1260,Tulane University,Educational Services: College & Universi...,2.0,6.0,4.0,,Educational Services,0-10 weeks
+1261,1261,a9,Technology: Software,2.0,,,,Technology,0-10 weeks
+1262,1262,U.S. Department of Veterans Affairs,Government: Federal,2.0,16.0,,,Government,0-10 weeks
+1263,1263,PayScale,Technology: Consumer Internet,2.0,,2.0,,Technology,0-10 weeks
+1264,1264,Care Dimensions,Healthcare: Hospitals & Clinics,2.0,6.0,,,Healthcare,0-10 weeks
+1265,1265,The State of Massachusetts,Government: State,2.0,8.0,,,Government,0-10 weeks
+1266,1266,Herman Miller,Industrial: Appliances & Furniture,2.0,2.0,2.0,12.0,Industrial,0-10 weeks
+1267,1267,BBVA Compass,Finance: Personal & Commercial Banking,2.0,,,,Finance,0-10 weeks
+1268,1268,One Kings Lane,Retail: Furniture & Home Improvement,2.0,5.0,,,Retail,0-10 weeks
+1269,1269,TechTarget,Technology: B2B Tech Services,2.0,0.0,,,Technology,0-10 weeks
+1270,1270,GrubHub,Technology: Consumer Internet,2.0,,2.0,,Technology,0-10 weeks
+1271,1271,Strayer University,Educational Services: College & Universi...,2.0,12.0,2.0,12.0,Educational Services,0-10 weeks
+1272,1272,QVC,Retail: Online,2.0,6.0,,,Retail,0-10 weeks
+1273,1273,Orbital ATK,Defense & Space,2.0,,,,Defense & Space,0-10 weeks
+1274,1274,Cutters Studios,Design,2.0,10.0,,,Design,0-10 weeks
+1275,1275,William Morris Endeavor,Arts & Entertainment,2.0,,,,Arts & Entertainment,0-10 weeks
+1276,1276,Institute for Sustainable Communities,Nonprofit: Civic & Social,2.0,12.0,12.0,12.0,Nonprofit,0-10 weeks
+1277,1277,"Handpick, Inc.",Technology: Consumer Internet,2.0,0.0,,,Technology,0-10 weeks
+1278,1278,McGaw Medical Center of Northwestern Uni...,Healthcare: Hospitals & Clinics,2.0,10.0,2.0,,Healthcare,0-10 weeks
+1279,1279,SpotX,Information Services: Technology,2.0,3.0,,,Information Services,0-10 weeks
+1280,1280,"Zimmer Biomet Holdings, Inc.",Healthcare: Medical Devices,2.0,,2.0,,Healthcare,0-10 weeks
+1281,1281,Cardinal Health,Pharmaceutical,1.0,11.0,,,Pharmaceutical,0-10 weeks
+1282,1282,Ketchum,Public Relations,1.0,,,,Public Relations,0-10 weeks
+1283,1283,"Marriott International, Inc.",Hospitality: Hotels,1.0,12.0,2.0,,Hospitality,0-10 weeks
+1284,1284,Martha Stewart Living Omnimedia,Media: Diversified,1.0,6.0,,,Media,0-10 weeks
+1285,1285,Princeton Review,Educational Services: Management,1.0,,,,Educational Services,0-10 weeks
+1286,1286,TGI Fridays,Hospitality: Restaurants,1.0,,,,Hospitality,0-10 weeks
+1287,1287,Schoolzilla,Technology: B2B Tech Services,1.0,,,,Technology,0-10 weeks
+1288,1288,Equinix Inc,Technology: B2B Tech Services,1.0,,,,Technology,0-10 weeks
+1289,1289,International Institute for Sustainable ...,Nonprofit: Public Policy,1.0,4.0,,,Nonprofit,0-10 weeks
+1290,1290,Alaska Airlines,Transportation: Passenger Air,1.0,12.0,2.0,,Transportation,0-10 weeks
+1291,1291,CubeSmart,Real Estate: Other,1.0,11.0,,,Real Estate,0-10 weeks
+1292,1292,"Bluebeam Software, Inc.",Technology: Software,1.0,12.0,,,Technology,0-10 weeks
+1293,1293,Carlson Wagonlit Travel,"Leisure, Travel & Tourism",1.0,,,,"Leisure, Travel & Tourism",0-10 weeks
+1294,1294,Harrison and Star,Advertising,1.0,,,,Advertising,0-10 weeks
+1295,1295,Children's Healthcare of Atlanta,Healthcare: Hospitals & Clinics,1.0,6.0,1.0,,Healthcare,0-10 weeks
+1296,1296,Coupa,Technology: Software,1.0,10.0,,,Technology,0-10 weeks
+1297,1297,Benco Dental,Healthcare: Medical Devices,1.0,,,,Healthcare,0-10 weeks
+1298,1298,TBWA\CHIAT\DAY,Advertising,1.0,12.0,1.0,,Advertising,0-10 weeks
+1299,1299,Olympus Corporation,Healthcare: Medical Devices,1.0,12.0,1.0,0.0,Healthcare,0-10 weeks
+1300,1300,Association Management Center,Business Services: Other,1.0,,,,Business Services,0-10 weeks
+1301,1301,Boston Beer Company,Consumer Packaged Goods: Beverages,1.0,,,,Consumer Packaged Goods,0-10 weeks
+1302,1302,Central Oregon Community College,Educational Services: College & Universi...,1.0,16.0,1.0,16.0,Educational Services,0-10 weeks
+1303,1303,"Axioma, Inc.",Technology: Software,1.0,,,,Technology,0-10 weeks
+1304,1304,Forte Research Systems,Technology: Software,1.0,12.0,1.0,12.0,Technology,0-10 weeks
+1305,1305,Newell Brands,Conglomerate,1.0,6.0,,,Conglomerate,0-10 weeks
+1306,1306,Bon Secours Health System,Healthcare: Hospitals & Clinics,1.0,,1.0,,Healthcare,0-10 weeks
+1307,1307,Northwestern Memorial Healthcare Corpora...,Healthcare: Hospitals & Clinics,1.0,,0.0,,Healthcare,0-10 weeks
+1308,1308,Panera Bread,Hospitality: Restaurants,0.0,5.0,,,Hospitality,0-10 weeks
+1309,1309,Sentara Healthcare,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1310,1310,Visiting Nurse Service of New York,Healthcare: Family Care,0.0,6.0,,,Healthcare,0-10 weeks
+1311,1311,Univar,Natural Resources: Chemicals,0.0,12.0,,,Natural Resources,0-10 weeks
+1312,1312,IU Health,Healthcare: Hospitals & Clinics,0.0,,,,Healthcare,0-10 weeks
+1313,1313,Leprino Foods,Consumer Packaged Goods: Packaged Foods,0.0,12.0,0.0,0.0,Consumer Packaged Goods,0-10 weeks
+1314,1314,University of Kansas Medical Center,Healthcare: Hospitals & Clinics,0.0,,,,Healthcare,0-10 weeks
+1315,1315,Dimension Data,Technology: B2B Tech Services,0.0,,,,Technology,0-10 weeks
+1316,1316,Popeyes Louisiana Kitchen,Hospitality: Restaurants,0.0,12.0,,,Hospitality,0-10 weeks
+1317,1317,Lowe's Companies,Retail: General Merchandise,0.0,,0.0,,Retail,0-10 weeks
+1318,1318,Epic Systems,Technology: Software,0.0,9.0,,,Technology,0-10 weeks
+1319,1319,Charles Schwab,Finance: Diversified,0.0,12.0,1.0,12.0,Finance,0-10 weeks
+1320,1320,ABB NZ,Electronics: Manufacturing,0.0,52.0,,,Electronics,0-10 weeks
+1321,1321,Chicago Bridge & Iron,Industrial: Engineering,0.0,12.0,,,Industrial,0-10 weeks
+1322,1322,CVS Health,Pharmacies & Drug Stores,0.0,15.0,0.0,,Pharmacies & Drug Stores,0-10 weeks
+1323,1323,"Darden Restaurants, Inc.",Hospitality: Restaurants,0.0,,0.0,,Hospitality,0-10 weeks
+1324,1324,DineEquity Inc.,Hospitality: Restaurants,0.0,,,,Hospitality,0-10 weeks
+1325,1325,DISH Network Corporation,Media: Television,0.0,6.0,4.0,4.0,Media,0-10 weeks
+1326,1326,Geico,Insurance: Property & Casualty,0.0,12.0,,,Insurance,0-10 weeks
+1327,1327,"Jabil Circuit, Inc.",Electronics: Manufacturing,0.0,12.0,0.0,,Electronics,0-10 weeks
+1328,1328,Jacobs Engineering Group Inc.,Industrial: Engineering,0.0,12.0,0.0,0.0,Industrial,0-10 weeks
+1329,1329,"Johnson Controls, Inc.",Automotive: Parts Manufacturing,0.0,12.0,0.0,,Automotive,0-10 weeks
+1330,1330,"Penske Automotive Group, Inc.",Automotive: Dealers,0.0,8.0,0.0,,Automotive,0-10 weeks
+1331,1331,Pacific Gas and Electric Company,Natural Resources: Electric Power Genera...,0.0,24.0,,12.0,Natural Resources,0-10 weeks
+1332,1332,"Publix Super Markets, Inc.",Retail: Supermarket Company,0.0,12.0,0.0,,Retail,0-10 weeks
+1333,1333,Sempra Energy,Natural Resources: Electric & Gas Utilit...,0.0,18.0,,,Natural Resources,0-10 weeks
+1334,1334,Sodexo,Business Services: Food & Hospitality,0.0,12.0,,,Business Services,0-10 weeks
+1335,1335,Supervalu Inc.,Retail: Supermarket Company,0.0,,0.0,,Retail,0-10 weeks
+1336,1336,Tata Consultancy Services,Technology: B2B Tech Services,0.0,,,,Technology,0-10 weeks
+1337,1337,Tenet Healthcare Corporation,Healthcare: Diversified,0.0,12.0,,,Healthcare,0-10 weeks
+1338,1338,TravelCenters of America LLC,Retail: Other,0.0,8.0,0.0,,Retail,0-10 weeks
+1339,1339,U-Haul,Transportation: Rental,0.0,12.0,,,Transportation,0-10 weeks
+1340,1340,Western Digital Corporation,Technology: Manufacturing,0.0,12.0,,,Technology,0-10 weeks
+1341,1341,"Whole Foods Market, Inc.",Retail: Supermarket Company,0.0,14.0,,,Retail,0-10 weeks
+1342,1342,Planned Parenthood,Nonprofit: Healthcare,0.0,,16.0,,Nonprofit,0-10 weeks
+1343,1343,LivingSocial,Technology: Consumer Internet,0.0,,,,Technology,0-10 weeks
+1344,1344,Zion's Bank,Finance: Personal & Commercial Banking,0.0,,,,Finance,0-10 weeks
+1345,1345,Providence Health & Services,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1346,1346,Stericycle,Healthcare: Services,0.0,,,,Healthcare,0-10 weeks
+1347,1347,Infosys Ltd.,Technology: B2B Tech Services,0.0,12.0,0.0,,Technology,0-10 weeks
+1348,1348,Progress Software,Technology: Software,0.0,12.0,,,Technology,0-10 weeks
+1349,1349,SSB,Technology: B2B Tech Services,0.0,8.0,,,Technology,0-10 weeks
+1350,1350,University of Dayton,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1351,1351,DePaul University,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1352,1352,Dignity Health,Healthcare: Hospitals & Clinics,0.0,,0.0,,Healthcare,0-10 weeks
+1353,1353,Spacex,Aerospace,0.0,12.0,,,Aerospace,0-10 weeks
+1354,1354,JetBlue Airways,Transportation: Passenger Air,0.0,,,,Transportation,0-10 weeks
+1355,1355,Kate Somerville,Cosmetics,0.0,,,,Cosmetics,0-10 weeks
+1356,1356,Securian Financial Group Inc.,Finance: Diversified,0.0,,0.0,0.0,Finance,0-10 weeks
+1357,1357,Menards,Retail: Furniture & Home Improvement,0.0,,,,Retail,0-10 weeks
+1358,1358,OWNZONES,Technology: Consumer Internet,0.0,12.0,,,Technology,0-10 weeks
+1359,1359,Genesis Healthcare,Healthcare: Family Care,0.0,12.0,,,Healthcare,0-10 weeks
+1360,1360,Social Security Administration,Government: Federal,0.0,12.0,,,Government,0-10 weeks
+1361,1361,STEPS to End Family Violence,Nonprofit: Family Care,0.0,12.0,,,Nonprofit,0-10 weeks
+1362,1362,Pet Supplies Plus,Retail: General Merchandise,0.0,12.0,,,Retail,0-10 weeks
+1363,1363,SAC Wireless,Telecommunications,0.0,,,,Telecommunications,0-10 weeks
+1364,1364,Greystar,Real Estate: Development & Management,0.0,12.0,,,Real Estate,0-10 weeks
+1365,1365,Alorica,Business Services: Technology Solutions,0.0,12.0,,,Business Services,0-10 weeks
+1366,1366,South Carolina Research Authority,Government: State,0.0,12.0,,,Government,0-10 weeks
+1367,1367,Albertsons,Retail: Supermarket Company,0.0,,0.0,,Retail,0-10 weeks
+1368,1368,YMCA,Nonprofit: Civic & Social,0.0,12.0,,,Nonprofit,0-10 weeks
+1369,1369,Steward Healthcare,Healthcare: Services,0.0,12.0,,,Healthcare,0-10 weeks
+1370,1370,Sharp Microelectronics of the Americas,Technology: Manufacturing,0.0,12.0,,,Technology,0-10 weeks
+1371,1371,Gorilla Group,Technology: B2B Tech Services,0.0,12.0,,,Technology,0-10 weeks
+1372,1372,La-Z-Boy,Industrial: Appliances & Furniture,0.0,,,,Industrial,0-10 weeks
+1373,1373,"Babies""R""Us",Retail: Department Store,0.0,12.0,,,Retail,0-10 weeks
+1374,1374,The Florida State University,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1375,1375,Billabong,"Retail: Shoes, Accessories and Apparel",0.0,14.0,,,Retail,0-10 weeks
+1376,1376,HDR,Industrial: Diversified,0.0,12.0,,,Industrial,0-10 weeks
+1377,1377,Jhpiego,Nonprofit: Healthcare,0.0,12.0,,,Nonprofit,0-10 weeks
+1378,1378,ARES Corporation,Technology: Security,0.0,12.0,,,Technology,0-10 weeks
+1379,1379,Weis Markets,Retail: Supermarket Company,0.0,12.0,,,Retail,0-10 weeks
+1380,1380,ICF international,Consulting Services,0.0,,0.0,,Consulting Services,0-10 weeks
+1381,1381,Overstock.com,Retail: Online,0.0,12.0,,,Retail,0-10 weeks
+1382,1382,Compass Group USA,Business Services: Food & Hospitality,0.0,,,,Business Services,0-10 weeks
+1383,1383,Advantage Sales and Marketing,Advertising,0.0,12.0,0.0,,Advertising,0-10 weeks
+1384,1384,KaBOOM!,Nonprofit: Development,0.0,12.0,,,Nonprofit,0-10 weeks
+1385,1385,Centers for Disease Control & Prevention,Government: Federal,0.0,12.0,,,Government,0-10 weeks
+1386,1386,Ball Aerospace,Aerospace,0.0,,,,Aerospace,0-10 weeks
+1387,1387,Ashland University,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1388,1388,Alpine Access,Business Services: Staffing & Outsourcin...,0.0,6.0,,,Business Services,0-10 weeks
+1389,1389,Ahold,Retail: Supermarket Company,0.0,8.0,,,Retail,0-10 weeks
+1390,1390,Air Liquide,Natural Resources: Chemicals,0.0,12.0,,,Natural Resources,0-10 weeks
+1391,1391,Carl's Jr.,Hospitality: Restaurants,0.0,,,,Hospitality,0-10 weeks
+1392,1392,The BNSF Railway,Transportation: Rail,0.0,,,,Transportation,0-10 weeks
+1393,1393,Geek Squad,Technology: B2B Tech Services,0.0,12.0,,,Technology,0-10 weeks
+1394,1394,ADT Corporation,Technology: Security,0.0,12.0,,,Technology,0-10 weeks
+1395,1395,Airgas Inc,Natural Resources: Energy Distributor,0.0,12.0,,,Natural Resources,0-10 weeks
+1396,1396,Payless ShoeSource,"Retail: Shoes, Accessories and Apparel",0.0,12.0,,,Retail,0-10 weeks
+1397,1397,Bright Horizons Family Solutions,Services: Daycare,0.0,,0.0,,Services,0-10 weeks
+1398,1398,U.S. Department of Agriculture,Government: Federal,0.0,12.0,,,Government,0-10 weeks
+1399,1399,American Red Cross,Nonprofit: Humanitarian Aid Organization,0.0,6.0,,,Nonprofit,0-10 weeks
+1400,1400,Essendant,Wholesale,0.0,,,,Wholesale,0-10 weeks
+1401,1401,"Department of Social Health Services, Wa...",Government: State,0.0,12.0,,,Government,0-10 weeks
+1402,1402,RTI International,Nonprofit: Research,0.0,32.0,,,Nonprofit,0-10 weeks
+1403,1403,Lahey Health,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1404,1404,Advanced Bionics Corporation,Healthcare: Medical Devices,0.0,12.0,,,Healthcare,0-10 weeks
+1405,1405,University of Washington,Educational Services: College & Universi...,0.0,,,,Educational Services,0-10 weeks
+1406,1406,UT Southwestern Medical Center,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1407,1407,ASICS,"Retail: Shoes, Accessories and Apparel",0.0,17.0,,,Retail,0-10 weeks
+1408,1408,Heartland Dental,Healthcare: Services,0.0,12.0,,,Healthcare,0-10 weeks
+1409,1409,University of Tulsa,Educational Services: College & Universi...,0.0,6.0,,,Educational Services,0-10 weeks
+1410,1410,NC State University,Educational Services: College & Universi...,0.0,,,,Educational Services,0-10 weeks
+1411,1411,Casa Monica hotel,Hospitality: Hotels,0.0,12.0,,,Hospitality,0-10 weeks
+1412,1412,Integral group,Industrial: Engineering,0.0,,,,Industrial,0-10 weeks
+1413,1413,United States Department of Defense,Government: Federal,0.0,12.0,,,Government,0-10 weeks
+1414,1414,Elie Tahari,"Retail: Shoes, Accessories and Apparel",0.0,12.0,,,Retail,0-10 weeks
+1415,1415,Gucci,"Retail: Shoes, Accessories and Apparel",0.0,,,,Retail,0-10 weeks
+1416,1416,Robert Graham,"Retail: Shoes, Accessories and Apparel",0.0,12.0,,,Retail,0-10 weeks
+1417,1417,Esurance Insurance,Insurance: Property & Casualty,0.0,12.0,,,Insurance,0-10 weeks
+1418,1418,Premier Staffing,Business Services: Staffing & Outsourcin...,0.0,,,,Business Services,0-10 weeks
+1419,1419,Financial recovery technologies,Technology: Financial Services,0.0,,,,Technology,0-10 weeks
+1420,1420,Tetra Tech Inc.,Natural Resources: Renewables & Environm...,0.0,4.0,,,Natural Resources,0-10 weeks
+1421,1421,Curtiss-Wright,Industrial: Diversified,0.0,12.0,,,Industrial,0-10 weeks
+1422,1422,Culver's,Hospitality: Restaurants,0.0,12.0,,,Hospitality,0-10 weeks
+1423,1423,University of Miami,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1424,1424,Parsons Corporation,Industrial: Engineering,0.0,12.0,,,Industrial,0-10 weeks
+1425,1425,Turnaround for Children,Nonprofit: Education,0.0,12.0,,,Nonprofit,0-10 weeks
+1426,1426,University of Massachusetts Medical Scho...,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1427,1427,Precision for Medicine,Pharmaceutical,0.0,12.0,,,Pharmaceutical,0-10 weeks
+1428,1428,Arkansas Department of Health,Government: State,0.0,12.0,,,Government,0-10 weeks
+1429,1429,PRA Health Sciences,Healthcare: Services,0.0,,0.0,,Healthcare,0-10 weeks
+1430,1430,YWCA,Nonprofit: Civic & Social,0.0,6.0,,,Nonprofit,0-10 weeks
+1431,1431,Boston University,Educational Services: College & Universi...,0.0,8.0,0.0,0.0,Educational Services,0-10 weeks
+1432,1432,Active Network,Technology: Software,0.0,12.0,,,Technology,0-10 weeks
+1433,1433,Renown Regional Medical Center,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1434,1434,Ascension Health,Nonprofit: Healthcare,0.0,,,,Nonprofit,0-10 weeks
+1435,1435,HealthSouth,Healthcare: Hospitals & Clinics,0.0,,,,Healthcare,0-10 weeks
+1436,1436,Baltimore County Public Schools,Educational Services: School,0.0,12.0,,,Educational Services,0-10 weeks
+1437,1437,Sunrise Senior Living,Services: Senior Living,0.0,12.0,0.0,,Services,0-10 weeks
+1438,1438,SS&C; Technologies,Technology: Software,0.0,12.0,,,Technology,0-10 weeks
+1439,1439,Northeast Georgia Health System,Healthcare: Hospitals & Clinics,0.0,12.0,0.0,,Healthcare,0-10 weeks
+1440,1440,Food and Drug Administration,Government: Federal,0.0,,,,Government,0-10 weeks
+1441,1441,Follett Corporation,Educational Services: Management,0.0,12.0,,,Educational Services,0-10 weeks
+1442,1442,Crystal Run Healthcare,Healthcare: Hospitals & Clinics,0.0,12.0,0.0,,Healthcare,0-10 weeks
+1443,1443,Bronx District Attorney's Office,Government: County,0.0,,,,Government,0-10 weeks
+1444,1444,Cardon Outreach,Healthcare: Services,0.0,,,,Healthcare,0-10 weeks
+1445,1445,Benefitfocus,Technology: Software,0.0,,,,Technology,0-10 weeks
+1446,1446,"Anne Arundel County, Maryland",Government: County,0.0,12.0,,,Government,0-10 weeks
+1447,1447,Beth Israel Deaconess Medical Center,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1448,1448,Texas Children's Hospital,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1449,1449,Community Impact Newspaper,Media: News,0.0,12.0,,,Media,0-10 weeks
+1450,1450,University of Dubuque,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1451,1451,"University of California, Santa Cruz",Educational Services: College & Universi...,0.0,6.0,,,Educational Services,0-10 weeks
+1452,1452,State of Washington,Government: State,0.0,12.0,,,Government,0-10 weeks
+1453,1453,Xanterra Parks and Resorts,Hospitality: Resorts,0.0,6.0,,,Hospitality,0-10 weeks
+1454,1454,State of North Carolina,Government: State,0.0,,,,Government,0-10 weeks
+1455,1455,"Johnson, Mirmiran & Thompson (JMT)",Industrial: Engineering,0.0,,,,Industrial,0-10 weeks
+1456,1456,Eastern Maine Community College,Educational Services: College & Universi...,0.0,,,,Educational Services,0-10 weeks
+1457,1457,Grady Health System,Healthcare: Hospitals & Clinics,0.0,,,,Healthcare,0-10 weeks
+1458,1458,Boston Public Library,Nonprofit: Libraries,0.0,12.0,,,Nonprofit,0-10 weeks
+1459,1459,Skyhook Wireless,Technology: B2B Tech Services,0.0,,,,Technology,0-10 weeks
+1460,1460,Superior Group,Business Services: Staffing & Outsourcin...,0.0,,,,Business Services,0-10 weeks
+1461,1461,Texas Commission on Environmental Qualit...,Government: State,0.0,12.0,,,Government,0-10 weeks
+1462,1462,America's Best Contacts & Eyeglasses,"Retail: Shoes, Accessories and Apparel",0.0,12.0,,,Retail,0-10 weeks
+1463,1463,The Gettys Group,Industrial: Architecture & Design,0.0,6.0,,,Industrial,0-10 weeks
+1464,1464,Abt Associates,Consulting Services,0.0,6.0,,,Consulting Services,0-10 weeks
+1465,1465,Fairfax County Public Schools,Educational Services: School,0.0,6.0,,,Educational Services,0-10 weeks
+1466,1466,American Chemical Society,Nonprofit: Science & Technology,0.0,,,,Nonprofit,0-10 weeks
+1467,1467,Dana-Farber Cancer Institute,Healthcare: Hospitals & Clinics,0.0,12.0,,,Healthcare,0-10 weeks
+1468,1468,Argento SC,"Retail: Crafts, Fabrics & Party Supplies",0.0,,,,Retail,0-10 weeks
+1469,1469,Federal Trade Commission,Government: Federal,0.0,12.0,,,Government,0-10 weeks
+1470,1470,"F+W Media, Inc.",Media: Diversified,0.0,12.0,,,Media,0-10 weeks
+1471,1471,"Hagen, Streiff, Newton & Oshiro, Account...",Accounting Services,0.0,,0.0,,Accounting Services,0-10 weeks
+1472,1472,YMCA of Oklahoma City,Nonprofit: Civic & Social,0.0,0.0,0.0,,Nonprofit,0-10 weeks
+1473,1473,Everlast Worldwide Inc,"Retail: Shoes, Accessories and Apparel",0.0,,,,Retail,0-10 weeks
+1474,1474,The American Council of Life Insurers,Insurance: Diversified,0.0,24.0,0.0,,Insurance,0-10 weeks
+1475,1475,"Spotsylvania County, Virginia",Government: County,0.0,12.0,0.0,12.0,Government,0-10 weeks
+1476,1476,Banana Republic,"Retail: Shoes, Accessories and Apparel",0.0,12.0,,,Retail,0-10 weeks
+1477,1477,"Commonwealth Dairy, LLC",Consumer Packaged Goods: Packaged Foods,0.0,6.0,0.0,,Consumer Packaged Goods,0-10 weeks
+1478,1478,"Alsco, Inc.",Textiles,0.0,,,,Textiles,0-10 weeks
+1479,1479,Bendix Commercial Vehicle Systems,Automotive: Parts Manufacturing,0.0,12.0,,,Automotive,0-10 weeks
+1480,1480,Ashoka,Nonprofit: Civic & Social,0.0,,,,Nonprofit,0-10 weeks
+1481,1481,Knowledge Universe,Educational Services: Preschool,0.0,0.0,,,Educational Services,0-10 weeks
+1482,1482,SEPTA,Transportation: Rail,0.0,12.0,,,Transportation,0-10 weeks
+1483,1483,AlliedBarton Security Services,Business Services: Security,0.0,4.0,,,Business Services,0-10 weeks
+1484,1484,Jenny Craig Inc.,Wellness & Fitness,0.0,12.0,,,Wellness & Fitness,0-10 weeks
+1485,1485,Onward Search,Business Services: Staffing & Outsourcin...,0.0,,,,Business Services,0-10 weeks
+1486,1486,Colorado Public Radio,Media: Diversified,0.0,,,,Media,0-10 weeks
+1487,1487,Loyola Marymount University,Educational Services: College & Universi...,0.0,,,,Educational Services,0-10 weeks
+1488,1488,Atlas Travel,"Leisure, Travel & Tourism",0.0,,,,"Leisure, Travel & Tourism",0-10 weeks
+1489,1489,California Primary Care Association,Nonprofit: Healthcare,0.0,12.0,,,Nonprofit,0-10 weeks
+1490,1490,CAPS,Business Services: Other,0.0,,,,Business Services,0-10 weeks
+1491,1491,Smartlogic,Information Services: Technology,0.0,,0.0,,Information Services,0-10 weeks
+1492,1492,Druva,Technology: Software,0.0,12.0,6.0,6.0,Technology,0-10 weeks
+1493,1493,Tuacahn Center For The Arts,Nonprofit: Museums,0.0,12.0,,,Nonprofit,0-10 weeks
+1494,1494,Edgewell Personal Care,Consumer Packaged Goods: Packaged Produc...,0.0,,,,Consumer Packaged Goods,0-10 weeks
+1495,1495,Lawrence & Russell PLC,Law Firm,0.0,8.0,,,Law Firm,0-10 weeks
+1496,1496,William O'Neil + Co. Incorporated,Finance: Diversified,0.0,12.0,,,Finance,0-10 weeks
+1497,1497,State of Colorado,Government: State,0.0,,,,Government,0-10 weeks
+1498,1498,The Field Museum,Nonprofit: Museums,0.0,,,,Nonprofit,0-10 weeks
+1499,1499,Norwegian Cruise Line,"Leisure, Travel & Tourism",0.0,12.0,,,"Leisure, Travel & Tourism",0-10 weeks
+1500,1500,Nova Southeastern University,Educational Services: College & Universi...,0.0,,,,Educational Services,0-10 weeks
+1501,1501,Lutheran Family Services Rocky Mountains,Nonprofit: Family Care,0.0,,,,Nonprofit,0-10 weeks
+1502,1502,University of South Carolina,Educational Services: College & Universi...,0.0,12.0,0.0,12.0,Educational Services,0-10 weeks
+1503,1503,Raley's Supermarkets,Retail: Supermarket Company,0.0,,,,Retail,0-10 weeks
+1504,1504,"Acumed, LLC",Healthcare: Medical Devices,0.0,,,,Healthcare,0-10 weeks
+1505,1505,University of West Florida,Educational Services: College & Universi...,0.0,0.0,0.0,0.0,Educational Services,0-10 weeks
+1506,1506,Legacy.com,Business Services: Technology Solutions,0.0,,,,Business Services,0-10 weeks
+1507,1507,Mallinckrodt Pharmaceuticals,Pharmaceutical,0.0,,,,Pharmaceutical,0-10 weeks
+1508,1508,"Pragmatics, Inc.",Information Services: Technology,0.0,12.0,0.0,,Information Services,0-10 weeks
+1509,1509,OEConnection,Technology: Software,0.0,12.0,0.0,0.0,Technology,0-10 weeks
+1510,1510,COPE Health Solutions,Healthcare: Services,0.0,,0.0,0.0,Healthcare,0-10 weeks
+1511,1511,Junior Achievement,Nonprofit: Education,0.0,,,,Nonprofit,0-10 weeks
+1512,1512,Ballotpedia,Nonprofit: Public Policy,0.0,,,,Nonprofit,0-10 weeks
+1513,1513,LovelySkin,Retail: Other,0.0,6.0,0.0,0.0,Retail,0-10 weeks
+1514,1514,Ferrero,Consumer Packaged Goods: Packaged Foods,0.0,,,,Consumer Packaged Goods,0-10 weeks
+1515,1515,UL LLC,Business Services: Other,0.0,,,,Business Services,0-10 weeks
+1516,1516,Johns Hopkins Medicine,Healthcare: Hospitals & Clinics,0.0,,,,Healthcare,0-10 weeks
+1517,1517,Bench Craft Company,Advertising,0.0,24.0,,,Advertising,0-10 weeks
+1518,1518,Electric Reliability Council of Texas,Natural Resources: Energy Distributor,0.0,,0.0,,Natural Resources,0-10 weeks
+1519,1519,Medpace Inc.,Healthcare: Diversified,0.0,12.0,,,Healthcare,0-10 weeks
+1520,1520,Miami University,Educational Services: College & Universi...,0.0,12.0,,,Educational Services,0-10 weeks
+1521,1521,Little Caesars,Hospitality: Restaurants,0.0,,,,Hospitality,0-10 weeks
+1522,1522,Cycle Gear,Retail: Other,0.0,,,,Retail,0-10 weeks
+1523,1523,Wayne Fueling Systems,Industrial: Equipment Manufacturing,0.0,0.0,,,Industrial,0-10 weeks
+1524,1524,Alliant Insurance Services,Insurance: Brokerage,0.0,12.0,0.0,12.0,Insurance,0-10 weeks
+1525,1525,Toppan Photomasks Inc,Electronics: Manufacturing,0.0,,0.0,,Electronics,0-10 weeks
+1526,1526,Natera Inc,Healthcare: Laboratory Testing,0.0,,0.0,,Healthcare,0-10 weeks
+1527,1527,RedBrick Health,Healthcare: Services,0.0,12.0,,,Healthcare,0-10 weeks
+1528,1528,Compass Learning,Technology: Software,0.0,,0.0,,Technology,0-10 weeks
+1529,1529,Denbury Resources,Natural Resources: Oil & Gas,0.0,12.0,0.0,12.0,Natural Resources,0-10 weeks
+1530,1530,The Resource Group,Technology: Software,0.0,,,,Technology,0-10 weeks
+1531,1531,LKQ Corporation,Automotive: Parts,0.0,,,,Automotive,0-10 weeks
+1532,1532,Spargo Inc.,Business Services: Other,0.0,,,,Business Services,0-10 weeks
+1533,1533,"Mettler-Toledo International, Inc",Electronics: Manufacturing,0.0,12.0,0.0,0.0,Electronics,0-10 weeks

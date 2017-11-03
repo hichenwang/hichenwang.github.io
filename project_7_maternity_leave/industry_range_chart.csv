@@ -1,0 +1,13 @@
+sector,paid_family_leave,unpaid_family_leave,paid_sd,unpaid_sd,paid_upper,paid_lower
+Finance and insurance,38,96,1,0.8,39,37
+Information,34,97,3.5,0.9,37.5,30.5
+Professional and technical services,27,87,3.3,3,30.3,23.7
+Educational services,20,89,2,2.3,22,18
+Health care and social assistance,18,93,1.7,1.6,19.7,16.3
+Manufacturing,10,92,1,0.8,11,9
+Real estate and rental and leasing,10,87,2.7,2.9,12.7,7.3
+Other services,9,80,2.1,4,11.1,6.9
+"Trade, transportation, and utilities",7,89,0.5,0.8,7.5,6.5
+Administrative and waste services,6,75,1.4,3,7.4,4.6
+Leisure and hospitality,6,78,1.4,2.6,7.4,4.6
+Construction,5,78,1,1.5,6,4
