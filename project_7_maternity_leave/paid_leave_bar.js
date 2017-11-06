@@ -203,7 +203,7 @@
         .style('font-weight', 'bold')
 
      container.append("text")
-        .text('U.S. is the Only OECD Countries that Has No Paid Parental Leave')
+        .text('U.S. is the Only OECD Country that Has No Paid Parental Leave')
         .attr("x",0)
         .attr("y", -65)
         .attr("text-anchor", "left")

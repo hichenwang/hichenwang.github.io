@@ -21,6 +21,16 @@
   	.range([height,0])
   	.padding(.4)
 
+  var tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        return "<span style='color:black'>" + "upper end: " + d.paid_upper + " weeks" + "<br>" +
+        "<span style='color:black'>" + "lower end: " + d.paid_lower + " weeks"
+      })
+
+  svg.call(tip)
+
   d3.queue()
     .defer(d3.csv, 'industry_range_chart.csv')
     .await(ready)
@@ -71,6 +81,18 @@
      })
      .attr('stroke', '#DDA0DD')
      .attr('stroke-width', 10)
+     .on('mouseover', function(d) {
+             d3.select(this)
+               .transition()
+               .duration(300)
+               tip.show(d)     
+           })
+        .on('mouseout', function(d) {
+             d3.select(this)
+               .transition()
+               .duration(300)
+               tip.hide(d)
+             })
 
   svg.selectAll('.tick_average')
     .data(datapoints)
@@ -113,40 +135,55 @@
   //     })
   //     .attr('fill', 'black')
 
-
-  svg.selectAll('.upper_text')
+  svg.selectAll('.average_text')
       .data(datapoints)
-      .attr('class', 'upper_text')
+      .attr('class', 'average_text')
       .enter().append('text')
       .text(function(d){
-        return d.paid_upper
+        return d.paid_family_leave
       })
       .attr('x', function(d){
-          return xPositionScale(d.paid_upper)
+          return xPositionScale(d.paid_family_leave)
       })
       .attr('y', function(d){
-          return yPositionScale(d.sector) + 3
+          return yPositionScale(d.sector) -8
       })
-      .attr("text-anchor", "left")
-      .attr("dx", 5)
+      .attr("text-anchor", "middle")
       .style("font-size", 8)
 
-    svg.selectAll('.lower_text')
-      .data(datapoints)
-      .attr('class', 'lower_text')
-      .enter().append('text')
-      .text(function(d){
-        return d.paid_lower
-      })
-      .attr('x', function(d){
-          return xPositionScale(d.paid_lower)
-      })
-      .attr('y', function(d){
-          return yPositionScale(d.sector) + 3
-      })
-      .attr("text-anchor", "right")
-      .attr("dx", -17)
-      .style("font-size", 8)
+  // svg.selectAll('.upper_text')
+  //     .data(datapoints)
+  //     .attr('class', 'upper_text')
+  //     .enter().append('text')
+  //     .text(function(d){
+  //       return d.paid_upper
+  //     })
+  //     .attr('x', function(d){
+  //         return xPositionScale(d.paid_upper)
+  //     })
+  //     .attr('y', function(d){
+  //         return yPositionScale(d.sector) + 3
+  //     })
+  //     .attr("text-anchor", "left")
+  //     .attr("dx", 5)
+  //     .style("font-size", 8)
+
+  //   svg.selectAll('.lower_text')
+  //     .data(datapoints)
+  //     .attr('class', 'lower_text')
+  //     .enter().append('text')
+  //     .text(function(d){
+  //       return d.paid_lower
+  //     })
+  //     .attr('x', function(d){
+  //         return xPositionScale(d.paid_lower)
+  //     })
+  //     .attr('y', function(d){
+  //         return yPositionScale(d.sector) + 3
+  //     })
+  //     .attr("text-anchor", "right")
+  //     .attr("dx", -17)
+  //     .style("font-size", 8)
 
 
   svg.append("text")
