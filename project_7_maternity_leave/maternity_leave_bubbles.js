@@ -1,9 +1,9 @@
 (function() {
   var margin = { top: 0, left: 50, right: 50, bottom: 100},
-      height = 800 - margin.top - margin.bottom,
+      height = 550 - margin.top - margin.bottom,
       width = 800 - margin.left - margin.right;
   
-  var svg = d3.select("#chart3")
+  var svg = d3.select("#chart2")
       .append("svg")
       .attr("height", height + margin.top + margin.bottom)
       .attr("width", width + margin.left + margin.right)
@@ -147,17 +147,18 @@
       }
 
     svg.append("text")
-        .text('40 Out of 1534 Companies Beat OECD Country Average Paid Maternity Leave')
+        .text('91 Out of 1,534 Companies Beat OECD Country Average Paid Maternity Leave')
         .attr("x", 50)
         .attr("y", 30)
         .attr("text-anchor", "left")
         .attr("font-size", "15px")
         .attr('fill', 'black')
+        .style("font-weight", "bold")
 
     svg.append("text")
         .text("Every point represents a company. Hover to see who are they.")
         .attr("x",50)
-        .attr("y", 50)
+        .attr("y",50)
         .attr("text-anchor", "left")
         .attr("font-size", "12px")
         .attr('fill', 'grey')

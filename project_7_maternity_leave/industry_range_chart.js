@@ -5,7 +5,7 @@
       width = 800 - margin.left - margin.right;
   
   // Grab the SVG from the page, set the height and width
-  var svg = d3.select("#chart2")
+  var svg = d3.select("#chart3")
       .append("svg")
       .attr("height", height + margin.top + margin.bottom)
       .attr("width", width + margin.left + margin.right)
@@ -193,6 +193,7 @@
         .attr("text-anchor", "left")
         .attr("font-size", "15px")
         .attr('fill', 'black')
+        .style("font-weight", "bold")
 
   svg.append("text")
         .text('% of worker with access to paid family leave, by industry, 2016')

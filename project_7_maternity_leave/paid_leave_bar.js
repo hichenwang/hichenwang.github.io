@@ -1,5 +1,5 @@
 (function() {
-    var margin = { top: 100, left: 100, right:100, bottom: 50},
+    var margin = { top: 100, left: 100, right:100, bottom: 0},
     height = 650 - margin.top - margin.bottom,
     width = 700 - margin.left - margin.right;
 
@@ -173,21 +173,21 @@
     
 
     container.append("rect")
+      .attr("x", -50)
       .attr("y", -50)
-      .attr("x", 0)
       .attr("width", 10)
       .attr("height", 15)
       .attr("fill", "#DDA0DD")
 
     container.append("rect")
+        .attr("x", 110)
         .attr("y", -50)
-        .attr("x", 160)
         .attr("width", 10)
         .attr("height", 15)
         .attr("fill", "#ADD8E6")
 
      container.append("text")
-        .attr("x", 13)
+        .attr("x", -38)
         .attr("y", -40)
         .attr("dx", ".4em")
         .attr("text-anchor", "start")
@@ -195,7 +195,7 @@
         .style('font-weight', 'bold')
 
      container.append("text")
-        .attr("x", 175)
+        .attr("x", 122)
         .attr("y", -40)
         .attr("dx", ".4em")
         .attr("text-anchor", "start")
@@ -203,12 +203,13 @@
         .style('font-weight', 'bold')
 
      container.append("text")
-        .text('U.S. is the Only OECD Country that Has No Paid Parental Leave')
-        .attr("x",0)
+        .text('Weeks Of Paid Leave For New Mothers and Fathers')
+        .attr("x", -60)
         .attr("y", -65)
         .attr("text-anchor", "left")
         .attr("font-size", "15px")
         .attr('fill', 'black')
+        .style("font-weight", "bold")
 
       container.append("line")
         .attr("x1",0)
