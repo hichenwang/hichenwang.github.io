@@ -187,7 +187,7 @@
 
 
   svg.append("text")
-        .text('Weeks Of Paid Maternity Leave of 1,534 Companies')
+        .text('Getting Paid Family Leave Depends on the Workplace')
         .attr("x",-150)
         .attr("y", -55)
         .attr("text-anchor", "left")

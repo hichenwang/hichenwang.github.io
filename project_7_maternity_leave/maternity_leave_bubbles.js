@@ -147,7 +147,7 @@
       }
 
     svg.append("text")
-        .text('91 Out of 1,534 Companies Beat OECD Country Average Paid Maternity Leave')
+        .text('Weeks Of Paid Maternity Leave of 1,534 Companies')
         .attr("x", 50)
         .attr("y", 30)
         .attr("text-anchor", "left")
