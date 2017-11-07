@@ -1,6 +1,6 @@
 (function () {
 
-  var margin = { top: 100, left: 250, right: 150, bottom: 30},
+  var margin = { top: 50, left: 250, right: 150, bottom: 30},
       height = 450 - margin.top - margin.bottom,
       width = 800 - margin.left - margin.right;
   
@@ -187,7 +187,7 @@
 
 
   svg.append("text")
-        .text('Getting Paid Family Leave Depends on the Workplace')
+        .text('Weeks Of Paid Maternity Leave of 1,534 Companies')
         .attr("x",-150)
         .attr("y", -55)
         .attr("text-anchor", "left")
