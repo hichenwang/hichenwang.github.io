@@ -1,0 +1,190 @@
+body {
+  background: #fff;
+  font: 400 0.625em "Open Sans", sans-serif;
+  color: #333;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-print-color-adjust: exact;
+}
+
+#container {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#title {
+  margin: auto;
+  text-align: center;
+  padding-top: 35px;
+  max-width: 50%;
+}
+
+h1 {
+  padding-bottom: 10px;
+  font-family: 'Bree Serif', serif !important;
+  font-weight: bold !important;
+}
+
+#main {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#main p {
+  max-width: 70%;
+  margin: auto;
+  text-align: left;
+  color: black;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  padding-bottom: 25px;
+}
+
+#part_1 {
+  margin: auto;
+  max-width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#part_1  h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 80%;
+  color: #3182bd;
+}
+
+img.block {
+  display: block;
+  border: solid #333 1p;
+  margin: 0 auto;
+}
+
+.step {
+  padding-bottom: 90px;
+  margin-bottom: 10px;
+}
+
+.step, .row {
+  padding-top: 2rem;
+  padding-left: 40px;
+}
+
+.step:last-of-type {
+  padding-bottom: 150px;
+}
+
+.active {
+  background: beige;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  height: fit-content;
+  top: 10%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+p {
+  color: #F5F5F5;
+  font-size: 1.1em;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.8em;
+}
+
+#part_2 p {
+  color: #202020;
+  font-size: 1.1em;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.8em;
+}
+
+p.by {
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #ddd;
+  text-align: center;
+  font-size: 15px;
+  color: #326891;
+  font-family: georgia italic;
+  width: 100%;
+  padding: 5px 0 20px;
+}
+
+a:link, a:visited {
+  color: #2789D4;
+  text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 700;
+}
+
+#methodologies {
+  margin-top: 80px;
+}
+
+.footer {
+  padding: 60px 0;
+  text-align: left;
+  margin: auto;
+  max-width: 60%;
+}
+
+.data_source {
+  list-style: square inside;
+}
+
+.footer  h3 {
+  text-align: left;
+  padding-bottom: 15px;
+  margin: auto;
+  font-size: 20px;
+}
+
+td { 
+  border: 1px solid #ccc;
+  text-align: right;
+  color: #202020;
+  font-size: 0.85em;
+  line-height: 1.8em;
+  width: 12%;
+}
+
+td:first-child { 
+  width: 25%;
+  text-align: left;
+}
+
+th {
+  color: #202020;
+  font-size: 0.85em;
+  line-height: 1.8em;
+}
+
+.header:active, .header:focus{
+  background: #BD869D;
+  color: white;
+}
+
+
