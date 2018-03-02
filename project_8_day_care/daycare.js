@@ -54,8 +54,8 @@
         console.log("draw ontario")
 
         projection
-          .translate([width/2 - 70, height/2 + 2015]) 
-          .scale(2160)
+          .translate([width/2 - 70, height/2 + 2280]) 
+          .scale(2400)
 
         ontarioData.forEach(function(d) {
           context.beginPath()
@@ -102,15 +102,15 @@
         console.log("done")
     }
 
-    var duration = 400
+    var duration = 300
     var ease = d3.easeCubic
 
     trans_width_start = width/2 - 70
-    trans_width_target = width/2 + 50
-    trans_height_start = height/2 + 2015
-    trans_height_target = height/2 + 3400
-    scale_start = 2160
-    scale_target = 3400
+    trans_width_target = width/2 + 100
+    trans_height_start = height/2 + 2280
+    trans_height_target = height/2 + 3900
+    scale_start = 2400
+    scale_target = 3900
 
     function zoom_in() {
 
@@ -212,9 +212,11 @@
     //   })
     // }
 
+    draw_ontario()
+
     d3.select("#general").on('stepin', draw_ontario)
     
-    d3.select("#general").on('stepout', draw_ontario)
+    // d3.select("#general").on('stepout', draw_ontario)
 
     d3.select("#centres").on('stepin', draw_centres)
 
