@@ -68,6 +68,11 @@ h1 {
   padding-left: 40px;
 }
 
+.app .step, .row {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
 .step:last-of-type {
   padding-bottom: 150px;
 }
@@ -137,7 +142,7 @@ a:focus, a:hover, a:active {
 th {
   color: #202020;
   font-size: 0.8em;
-  line-height: 1.5em;
+  line-height: 3em;
   text-align: middle; 
   border-top: 3px solid white;
   border-bottom: 2px solid #ccc;
@@ -146,7 +151,7 @@ th {
 }
 
 /* this won't work without .table as there's a priority embedded css     */
-.table th:nth-child(2) {
+#table th:nth-child(2) {
   border-top: 3px solid #8759A4;
 }
 
@@ -155,7 +160,7 @@ td {
   text-align: left;
   color: #202020;
   font-size: 0.85em;
-  line-height: 1em;
+  line-height: 2.2em;
   width: 10%;
   padding: 0.3em 0.7em 0.3em;
 }
@@ -164,7 +169,17 @@ td:first-child {
   width: 20%;
 }
 
-.table tr:nth-child(n+11) {
+#custome-table td { 
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  color: #202020;
+  font-size: 0.85em;
+  line-height: 2.2em;
+  width: 10%;
+  padding: 0.3em 0.7em 0.3em;
+}
+
+#table tr:nth-child(n+11) {
   display: none;
 }
 

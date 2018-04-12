@@ -41,21 +41,22 @@
                             return d
                           })
                          .on('click', function (d) {
-
+                            console.log(d)
                              // set up sortale table
                              // when true, descend it and change sortAscending to "false"
-                             if (sortAscending) {
-                                rows.sort(function(x, y){
-                                  return d3.descending(x[d], y[d])
-                                })
-                                sortAscending = false
-                             } 
-                             else {
-                               rows.sort(function(x, y){
-                                  return d3.ascending(x[d], y[d])
-                                })
-                               sortAscending = true
-                             }
+                             if (d != "Division") {
+                               if (sortAscending) {
+                                  rows.sort(function(x, y){
+                                    return d3.descending(x[d], y[d])
+                                  })
+                                  sortAscending = false
+                               } 
+                               else {
+                                 rows.sort(function(x, y){
+                                    return d3.ascending(x[d], y[d])
+                                  })
+                                 sortAscending = true
+                               }
 
                              d3.selectAll('td')
                                .style("background", "white")
@@ -85,10 +86,10 @@
                                 .attr("width", 350)
                                 .attr("height", 450)
 
+                            }
+
                             // console.log('img/' + d.replace(" ", "-") + '.png')
 
-                             console.log(datapoints)
-                             console.log(d)
                          })
 
       

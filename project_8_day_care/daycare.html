@@ -21,7 +21,7 @@
 </style>
 
 <body>
-<div id="container">
+<div id="container"></div>
     <div id="title">
       <h1>How Hard Is It to Enroll in A Child Care in Ontario?</h1>
       <p class="by" align="center">by Chen Wang</a> &nbsp;|&nbsp; December 12, 2017</p>
@@ -83,23 +83,40 @@
     <br>
     <br>
 
-    <div class="row">
-      <div class="col-sm-7 table">
-        <div id="table">
-        </div>
+    <div id="standard">
+      <div class="row">
+        <div class="col-sm-7">
+          <div id="table"></div>
+        </div>  
+
+        <div class="col-sm-5">
+          <div id="coverage-map"></div>
+        </div> 
       </div>
-      <div class="col-sm-5 map">
-        <div id="coverage-map">
-        </div>
-        <div class='ui__search'>
-          <div class='search__input'>
-            <input placeholder='Find a division...'>
-            <svg class="feather feather-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="10.5" cy="10.5" r="7"></circle>
-              <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
-            </svg>
+    </div>
+
+    <div id="app">
+      <div class="row">
+        <div class="col-sm-7">
+          <div id="app">
+            <table id="custome-table">
+              <tr v-for="division in filteredDivisions" v-on="showDivision(division)">
+                <td>{{ currentDivision }}</td>
+                <td>{{ currentYear1 }}</td>
+                <td>{{ currentYear2 }}</td>
+                <td>{{ currentYear3 }}</td>
+                <td>{{ currentYear4 }}</td>
+              </tr>
+            </table>       
           </div>
-          <ul class='search__result'></ul>
+        </div>
+
+        <div class="col-sm-5">
+          <input type="text" v-model="search" placeholder="Find your division..." />  
+          <svg class="feather feather-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="10.5" cy="10.5" r="7"></circle>
+                <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
+          </svg>
         </div>
       </div>
     </div>
@@ -130,6 +147,10 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
 
+  <!-- include our application and data parsing library -->
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.3.7/papaparse.min.js"></script>
+
   <script>
     /* Allow position: sticky to work in old browsers */
     var elements = document.querySelectorAll('.sticky');
@@ -157,6 +178,7 @@
 
   <script src='daycare.js'></script>
   <script src='table.js'></script>
+  <script src='app.js'></script>
 
 </div>
 
