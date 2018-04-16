@@ -1,51 +1,50 @@
 Division,0-2 Years,3-5 Years,6-7 Years,8-14 Years
-Leeds and Grenville,33%,44%,25%,54%
-Essex,39%,52%,29%,48%
-Halton,57%,84%,48%,77%
-Middlesex,41%,55%,31%,50%
-Simcoe,30%,54%,36%,77%
-Haldimand-Norfolk,21%,32%,26%,44%
-Rainy River,45%,47%,4%,44%
-Ottawa,32%,49%,21%,32%
-Timiskaming,47%,43%,6%,91%
-Prescott and Russell,19%,38%,29%,44%
-Brant,35%,52%,34%,47%
-Lanark,30%,57%,37%,62%
-Hamilton,35%,61%,39%,61%
-Nipissing,44%,59%,32%,79%
-Bruce,36%,42%,16%,60%
-Northumberland,33%,52%,29%,49%
-Frontenac,49%,62%,33%,49%
-York,50%,90%,43%,80%
-Haliburton,19%,46%,21%,71%
-Renfrew,26%,32%,20%,31%
-Parry Sound,27%,48%,31%,65%
-Oxford,14%,29%,21%,35%
-Muskoka,18%,44%,23%,77%
-Lambton,33%,55%,28%,50%
-Durham,42%,64%,41%,62%
-"Stormont, Dundas and Glengarry",19%,32%,20%,39%
-Huron,29%,40%,27%,44%
-Greater Sudbury / Grand Sudbury,35%,53%,32%,51%
-Prince Edward,23%,33%,37%,46%
-Waterloo,26%,35%,13%,41%
-Grey,36%,42%,21%,63%
-Dufferin,31%,54%,41%,66%
-Algoma,55%,49%,14%,35%
-Chatham-Kent,44%,59%,29%,51%
-Lennox and Addington,20%,40%,32%,33%
-Manitoulin,65%,71%,42%,70%
-Perth,16%,40%,28%,56%
-Wellington,26%,41%,21%,28%
-Kawartha Lakes,24%,43%,27%,30%
-Toronto,46%,69%,33%,51%
-Elgin,25%,38%,22%,46%
-Niagara,29%,52%,31%,46%
-Sudbury,55%,62%,12%,67%
-Hastings,27%,36%,13%,40%
-Peterborough,31%,57%,38%,51%
-Peel,28%,48%,32%,54%
-Cochrane,37%,47%,21%,42%
-Kenora,28%,44%,13%,20%
-Thunder Bay,35%,38%,14%,40%
-,,,,
+Oxford,0.14,0.29,0.21,0.35
+Perth,0.16,0.40,0.28,0.56
+Muskoka,0.18,0.44,0.23,0.77
+Prescott and Russell,0.19,0.38,0.29,0.44
+Haliburton,0.19,0.46,0.21,0.71
+"Stormont, Dundas and Glengarry",0.19,0.32,0.20,0.39
+Lennox and Addington,0.20,0.40,0.32,0.33
+Haldimand-Norfolk,0.21,0.32,0.26,0.44
+Prince Edward,0.23,0.33,0.37,0.46
+Kawartha Lakes,0.24,0.43,0.27,0.30
+Elgin,0.25,0.38,0.22,0.46
+Renfrew,0.26,0.32,0.20,0.31
+Waterloo,0.26,0.35,0.13,0.41
+Wellington,0.26,0.41,0.21,0.28
+Parry Sound,0.27,0.48,0.31,0.65
+Hastings,0.27,0.36,0.13,0.40
+Peel,0.28,0.48,0.32,0.54
+Kenora,0.28,0.44,0.13,0.20
+Huron,0.29,0.40,0.27,0.44
+Niagara,0.29,0.52,0.31,0.46
+Simcoe,0.30,0.54,0.36,0.77
+Lanark,0.30,0.57,0.37,0.62
+Dufferin,0.31,0.54,0.41,0.66
+Peterborough,0.31,0.57,0.38,0.51
+Ottawa,0.32,0.49,0.21,0.32
+Leeds and Grenville,0.33,0.44,0.25,0.54
+Northumberland,0.33,0.52,0.29,0.49
+Lambton,0.33,0.55,0.28,0.50
+Brant,0.35,0.52,0.34,0.47
+Hamilton,0.35,0.61,0.39,0.61
+Greater Sudbury / Grand Sudbury,0.35,0.53,0.32,0.51
+Thunder Bay,0.35,0.38,0.14,0.40
+Bruce,0.36,0.42,0.16,0.60
+Grey,0.36,0.42,0.21,0.63
+Cochrane,0.37,0.47,0.21,0.42
+Essex,0.39,0.52,0.29,0.48
+Middlesex,0.41,0.55,0.31,0.50
+Durham,0.42,0.64,0.41,0.62
+Nipissing,0.44,0.59,0.32,0.79
+Chatham-Kent,0.44,0.59,0.29,0.51
+Rainy River,0.45,0.47,0.04,0.44
+Toronto,0.46,0.69,0.33,0.51
+Timiskaming,0.47,0.43,0.06,0.91
+Frontenac,0.49,0.62,0.33,0.49
+York,0.50,0.90,0.43,0.80
+Algoma,0.55,0.49,0.14,0.35
+Sudbury,0.55,0.62,0.12,0.67
+Halton,0.57,0.84,0.48,0.77
+Manitoulin,0.65,0.71,0.42,0.70
