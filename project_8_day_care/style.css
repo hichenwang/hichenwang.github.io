@@ -13,6 +13,16 @@ body {
   margin: auto;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  height: fit-content;
+  top: 5%;
+}
+
 #title {
   margin: auto;
   text-align: center;
@@ -24,16 +34,17 @@ h1 {
   padding-bottom: 10px;
   font-family: 'Bree Serif', serif !important;
   font-weight: bold !important;
+  font-size: 2.2em !important;
 }
 
-#main {
+#lede {
   margin: auto;
-  max-width: 70%;
+  max-width: 65%;
   text-align: center;
   padding: 30px 0;
 }
 
-#main p {
+#lede p {
   max-width: 70%;
   margin: auto;
   text-align: left;
@@ -97,7 +108,7 @@ p {
   width: 80%;
   margin: auto;
   text-align: left;
-  line-height: 1.8em;
+  line-height: 1.6em;
 }
 
 #part_2 {
@@ -117,7 +128,7 @@ p.by {
   padding-bottom: 30px;
   border-bottom: 1px dotted #ddd;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.8em;
   color: #326891;
   font-family: georgia italic;
   width: 100%;
