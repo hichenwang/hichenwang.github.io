@@ -4,7 +4,7 @@
     .defer(d3.csv, 'data/daycare_and_population_facts_clean.csv')
     .await(ready)
 
-    function ready(error, datapoints) { 
+    function ready(error, datapoints) {
 
       // create table
       var table = d3.select('#table').append('table')
@@ -101,6 +101,7 @@
 
       rows.selectAll('td')
           .data(function (d) {
+            console.log()
               return titles.map(function (k) {
                 return { 'value': d[k], 'name': k}
               })

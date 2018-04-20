@@ -34,7 +34,6 @@
                .projection(projection)
                .context(context)
 
-
   d3.queue()
     // .defer(d3.csv, "data/capitals.csv")
     .defer(d3.json, "mygeodata/out3.json")
@@ -184,6 +183,16 @@
           })
 
           console.log("done")
+
+          context.beginPath()
+          context.moveTo(0,100) //here you set the equiv. to X1 and Y1 in SVG
+          context.lineTo(400,100) //here you set the equiv. to X2 and Y2 in SVG
+          context.stroke()
+          context.lineWidth = 2
+          context.closePath()
+                    
+
+          console.log("line drawn")
 
           console.log("done zoom in")
       })
