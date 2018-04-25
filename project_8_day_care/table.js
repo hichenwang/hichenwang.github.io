@@ -120,6 +120,23 @@
              }
         })
 
+      // var log = d3.scaleLog()
+      //     .domain([ 0.1, 100, 1000 ])
+      //     .range(["rgb(46, 73, 123)", "rgb(71, 187, 94)"]);
+
+      // var svgTest = d3.select("#legend");
+
+      // svgTest.append("g")
+      //   .attr("class", "legendLog")
+      //   .attr("transform", "translate(20,20)");
+
+      // var logLegend = d3.legendColor()
+      //     .cells([0.1, 5, 10, 50, 100, 500, 1000])
+      //     .scale(log);
+
+      // svgTest.select(".legendLog")
+      //   .call(logLegend);
+
         
       }
 

@@ -13,9 +13,13 @@
 
   var context = canvas.node().getContext('2d')
 
-  var colorScale = d3.scaleLinear()
-    .domain([0, 30000, 60000, 90000, 120000, 444472])
-    .range(['#c6dbef','#9ecae1','#6baed6','#3182bd','#08519c'])
+  // var colorScale = d3.scaleLinear()
+  //   .domain([0, 20000, 40000, 60000, 80000, 444472])
+  //   .range(["white",'#eff3ff','#bdd7e7','#6baed6','#3182bd','black'])
+
+   var colorScale = d3.scaleLinear()
+    .domain([0, 50000, 444472])
+    .range(["white",'#fec44f','black'])
 
   /* 
     Create a new projection using Mercator (geoMercator)
@@ -45,6 +49,14 @@
   function ready(error, ontario, divisions, centres) {
     var ontarioData = topojson.feature(ontario, ontario.objects.out3).features
     var divisionsData = topojson.mesh(divisions, divisions.objects.Untitled)
+    
+
+    var max = d3.map(ontarioData, function(d) { 
+      return d.properties.MEAN
+    })
+
+    console.log(max, max.properties)
+
     var centresData = topojson.feature(centres, centres.objects.population_centres_84).features
 
     function draw_ontario() {
@@ -172,14 +184,22 @@
 
           // draw the population centres
           centresData.forEach(function(d) {
+            console.log(d.properties.CMANAME)
             context.beginPath()
             path(d)
             context.stroke()
+            // context.filltext(d.properties.CMANAME)
             context.strokeStyle = "#BF0603"
             context.lineWidth = 0.1
             context.fillStyle = "#BF0603"
             context.fill()
             context.closePath()
+            
+            context.font = "30px Comic Sans MS"
+            context.fillStyle = "red"
+            context.textAlign = "center"
+            context.fillText("HELLO", canvas.width/2, canvas.height/2)
+            console.log("yeah")
           })
 
           console.log("done")
