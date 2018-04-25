@@ -79,6 +79,7 @@ p.by {
   color: #fec44f;
   text-shadow: 0 0 3px #202020;
   padding: 10px 10px 20px 0px;
+  line-height: 30px;
 }
 
 #part_1 p {
@@ -131,12 +132,28 @@ p.by {
 }
 
 a:link, a:visited {
-  color: #2789D4;
+  color: black;
   text-decoration: none;
+  border-bottom: 1px solid #fec44f;
 }
 
 a:focus, a:hover, a:active {
-  text-decoration: underline;
+  text-decoration: none !important;
+  color: black !important;
+  /*text-shadow: 0px 0.1px 0px lightgrey;*/
+  background-color: #fec44f;
+  border-bottom: 0.5px solid #fec44f;
+  border-top: 0.5px solid #fec44f;
+/*  border-left: 0.5px solid #fec44f;
+  border-right: 0.5px solid #fec44f;*/
+}
+
+a.inblack:link, a.inblack:visited {
+  color: #F5F5F5;
+}
+
+a.inblack:focus, a.inblack:hover, a.inblack:active {
+  color: black;
 }
 
 #table th {
