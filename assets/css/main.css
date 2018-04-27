@@ -55,14 +55,27 @@ body {
     line-height: 25px;
 }
 
-a {
-    background-color: #ffffff;
-    border-bottom: 2px solid #b4e7f8 !important;
+a:link, a:visited {
+  color: black;
+  background-color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid #fec44f;
 }
 
-a:hover, a:active{
-    background-color: #b4e7f8;
-    border-bottom: 2px solid #b4e7f8 !important;
+a:focus, a:hover, a:active {
+  text-decoration: none !important;
+  color: black !important;
+  background-color: #b4e7f8 !important;
+  border-bottom: none;
+}
+
+a.no_undersocre:link, a.no_undersocre:visited {
+  border-bottom: none !important;
+}
+
+a.no_undersocre:focus, a.no_undersocre:hover, a.no_undersocre:active {
+  background-color: #ffffff !important;
+  border-bottom: 2px solid #fec44f !important;
 }
 
 #buttons {
