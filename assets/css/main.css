@@ -124,7 +124,15 @@ p.italic {
 	width: 348px;
 	height: 230px;
 	border: 1px solid #ccc;
+   /*-webkit-filter: grayscale(70%); *//* Safari 6.0 - 9.0 
+    filter: grayscale(70%);*/
 }
+
+/*.portfolio_pic:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1);
+}*/
 
 .page-header {
     font-family: 'Playfair Display', serif;
